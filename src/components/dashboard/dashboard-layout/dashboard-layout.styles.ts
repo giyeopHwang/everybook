@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const DashboardLayoutContainer = styled.div`
   display: flex;
+  overflow: hidden;
+  height: calc(100vh - 30px);
+  margin-bottom: 30px;
 `;
 
 export const DashboardContentContainer = styled.div`

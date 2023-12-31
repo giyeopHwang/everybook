@@ -9,7 +9,7 @@ export const NavBarContainer = styled.div<NavBarContainerProps>`
   display: ${({ $show }) => ($show ? 'flex' : 'none')};
   flex-direction: column;
   width: 220px;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: var(--theme-dark-background);
   color: var(--theme-dark-text);
 `;
