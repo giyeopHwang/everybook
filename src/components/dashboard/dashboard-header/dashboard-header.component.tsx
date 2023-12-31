@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
-import Button from '@/components/button/Button.component';
+import Button from '@/components/button/button.component';
 import {
   DashboardHeaderContainer,
   TitleGroup,
@@ -8,7 +8,7 @@ import {
   Tag,
   NavBarCollapseButton,
   NavBarExpandButton,
-} from './DashboardHeader.styles';
+} from './dashboard-header.styles';
 
 const DashboardHeader = () => {
   const [hideNavBar, setHideNavBar] = useState(false);

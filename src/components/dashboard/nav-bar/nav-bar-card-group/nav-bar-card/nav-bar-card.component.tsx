@@ -9,7 +9,7 @@ import {
   Title,
   DetailsContainer,
   DetailItemContainer,
-} from './NavBarCard.styles';
+} from './nav-bar-card.styles';
 
 type NavBarCardProps = {
   title: string;

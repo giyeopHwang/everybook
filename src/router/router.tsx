@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import Front from '@/components/front/Front.component';
-import DashboardLayout from '@/components/dashboard/dashboard-layout/DashboardLayout.compoent';
+import Front from '@/components/front/front.component';
+import DashboardLayout from '@/components/dashboard/dashboard-layout/dashboard-layout.compoent';
 
 export const router = createBrowserRouter([
   {

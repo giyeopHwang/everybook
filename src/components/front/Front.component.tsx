@@ -1,5 +1,5 @@
-import SignInForm from './sign-in/SignIn.component';
-import { FrontContainer, Title } from './Front.styles';
+import SignInForm from './sign-in-form/sign-in-form.component';
+import { FrontContainer, Title } from './front.styles';
 
 const Front = () => {
   return (

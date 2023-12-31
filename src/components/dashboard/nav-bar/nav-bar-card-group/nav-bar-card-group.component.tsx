@@ -1,6 +1,6 @@
 import { NavBarNet, NavBarPlus, NavBarMinus } from '@/data/types';
-import NavBarCard from './nav-bar-card/NavBarCard.component';
-import { NavBarCardGroupContainer } from './NavBarCardGroup.styles';
+import NavBarCard from './nav-bar-card/nav-bar-card.component';
+import { NavBarCardGroupContainer } from './nav-bar-card-group.styles';
 
 type NavBarCardGroupProps = {
   net: NavBarNet;

@@ -1,4 +1,4 @@
-import { StyledButton } from './Button.styles';
+import { StyledButton } from './button.styles';
 
 type ButtonProps = {
   children: React.ReactNode;

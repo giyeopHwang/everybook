@@ -6,7 +6,7 @@ import {
   TitleContainer,
   Title,
   SubTitle,
-} from './NavBarSection.styles';
+} from './nav-bar-section.styles';
 
 type NavBarSectionProps = {
   title: string;

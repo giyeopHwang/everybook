@@ -4,8 +4,8 @@ import {
   ChartPieIcon,
   WalletIcon,
 } from '@heroicons/react/24/outline';
-import NavBarMenuItem from './nav-bar-menu-item/NavBarMenuItem.component';
-import { NavBarMenuContainer } from './NavBarMenu.styles';
+import NavBarMenuItem from './nav-bar-menu-item/nav-bar-menu-item.component';
+import { NavBarMenuContainer } from './nav-bar-menu.styles';
 
 const iconStyle = {
   width: '1rem',

@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocation } from 'react-router-dom';
-import { NavBarMenuItemLink } from './NavBarMenuItem.styles';
+import { NavBarMenuItemLink } from './nav-bar-menu-item.styles';
 
 type NavBarMenuItemProps = {
   href: string;

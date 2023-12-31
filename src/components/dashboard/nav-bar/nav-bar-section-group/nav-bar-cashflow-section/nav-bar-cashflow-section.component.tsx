@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 import { NavBarNet, NavBarPlus, NavBarMinus } from '@/data/types';
 
-import NavBarSection from '../nav-bar-section/NavBarSection.component';
-import NavBarCardGroup from '../../nav-bar-card-group/NavBarCardGroup.component';
+import NavBarSection from '../nav-bar-section/nav-bar-section.component';
+import NavBarCardGroup from '../../nav-bar-card-group/nav-bar-card-group.component';
 
 const NavBarCashflowSection = () => {
   const [expanded, setExpanded] = useState(true);

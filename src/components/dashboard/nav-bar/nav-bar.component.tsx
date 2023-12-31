@@ -1,8 +1,8 @@
 import { BanknotesIcon } from '@heroicons/react/24/outline';
 
-import NavBarMenu from './nav-bar-menu/NavBarMenu.component';
-import NavBarSectionGroup from './nav-bar-section-group/NavBarSectionGroup.component';
-import { NavBarContainer, TitleLink } from './NavBar.styles';
+import NavBarMenu from './nav-bar-menu/nav-bar-menu.component';
+import NavBarSectionGroup from './nav-bar-section-group/nav-bar-section-group.component';
+import { NavBarContainer, TitleLink } from './nav-bar.styles';
 
 const NavBar = () => {
   return (
