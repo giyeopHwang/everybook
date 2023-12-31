@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-type TagProps = {
-  $hide: boolean;
-};
-
 export const DashboardHeaderContainer = styled.header`
   display: flex;
   align-items: center;
@@ -23,19 +19,6 @@ export const Title = styled.h2`
   font-weight: normal;
 `;
 
-export const Tag = styled.span<TagProps>`
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 2rem;
-  height: 1.2rem;
-  padding: 0.1rem;
-  color: white;
-  background-color: ${({ $hide }) =>
-    $hide ? 'var(--theme-light-text-highlight)' : 'var(--theme-light-border)'};
-  font-size: 0.8rem;
-`;
-
 const NavBarToggleButton = styled.button`
   position: relative;
   width: 0.75rem;
@@ -43,17 +26,25 @@ const NavBarToggleButton = styled.button`
 `;
 
 export const NavBarCollapseButton = styled(NavBarToggleButton)`
-  left: -1.5rem;
+  left: -1.25rem;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   background-color: var(--theme-dark-background);
-  color: white;
+  color: var(--theme-dark-text);
+
+  &:hover {
+    background-color: var(--theme-dark-text-highlight);
+  }
 `;
 
 export const NavBarExpandButton = styled(NavBarToggleButton)`
   left: -0.5rem;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  background-color: var(--theme-dark-background);
-  color: white;
+  background-color: var(--theme-light-background-dark);
+  color: var(--theme-light-text);
+
+  &:hover {
+    background-color: var(--theme-light-text-highlight);
+  }
 `;

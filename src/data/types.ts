@@ -1,3 +1,8 @@
+export enum TagTypes {
+  on,
+  off,
+}
+
 export type NavBarCardDetail = {
   name: string;
   amount: number;

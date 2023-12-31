@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import { DisplayOptionsProvider } from '@/data/context/display-options-context';
 import NavBar from '../nav-bar/nav-bar.component';
 import DashboardHeader from '../dashboard-header/dashboard-header.component';
 import {
@@ -9,11 +10,13 @@ import {
 const DashboardLayout = () => {
   return (
     <DashboardLayoutContainer>
-      <NavBar />
-      <DashboardContentContainer>
-        <DashboardHeader />
-        <Outlet />
-      </DashboardContentContainer>
+      <DisplayOptionsProvider>
+        <NavBar />
+        <DashboardContentContainer>
+          <DashboardHeader />
+          <Outlet />
+        </DashboardContentContainer>
+      </DisplayOptionsProvider>
     </DashboardLayoutContainer>
   );
 };

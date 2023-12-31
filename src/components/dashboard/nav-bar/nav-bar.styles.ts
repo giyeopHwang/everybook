@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const NavBarContainer = styled.div`
-  display: flex;
+type NavBarContainerProps = {
+  $show: boolean;
+};
+
+export const NavBarContainer = styled.div<NavBarContainerProps>`
+  display: ${({ $show }) => ($show ? 'flex' : 'none')};
   flex-direction: column;
   width: 220px;
   min-height: 100vh;

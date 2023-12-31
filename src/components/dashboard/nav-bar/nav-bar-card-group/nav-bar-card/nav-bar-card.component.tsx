@@ -1,4 +1,6 @@
 import { NavBarCardDetail } from '@/data/types';
+import { useDisplayOptions } from '@/data/context/display-options-context';
+
 import { Bars2Icon, PlusIcon, MinusIcon } from '@heroicons/react/24/outline';
 import {
   NavBarCardContainer,
@@ -19,6 +21,8 @@ type NavBarCardProps = {
   expanded?: boolean;
 };
 
+const amountPlaceholder = '*********';
+
 const NavBarCard = ({
   title,
   amount,
@@ -26,6 +30,8 @@ const NavBarCard = ({
   details = [],
   expanded = true,
 }: NavBarCardProps) => {
+  const { showAmount } = useDisplayOptions();
+
   const Header = {
     net: NormalHeader,
     plus: PositiveHeader,
@@ -50,14 +56,16 @@ const NavBarCard = ({
           />
           <Title>{title}</Title>
         </TitleGroup>
-        <span>{amount.toLocaleString()}</span>
+        <span>{showAmount ? amount.toLocaleString() : amountPlaceholder}</span>
       </Header>
       {expanded && details.length !== 90 && (
         <DetailsContainer>
           {details.map(({ name, amount }) => (
             <DetailItemContainer key={name}>
               <span>&#x2514; {name}</span>
-              <span>{amount.toLocaleString()}</span>
+              <span>
+                {showAmount ? amount.toLocaleString() : amountPlaceholder}
+              </span>
             </DetailItemContainer>
           ))}
         </DetailsContainer>

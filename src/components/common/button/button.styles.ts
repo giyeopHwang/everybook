@@ -9,7 +9,7 @@ export const StyledButton = styled.button`
   color: var(--theme-light-text-subsidary);
 
   &:hover {
-    border: 1px solid var(--theme-light-text-highlight);
+    border: 1px solid var(--theme-light-border-highlight);
     color: var(--theme-light-text);
   }
 `;

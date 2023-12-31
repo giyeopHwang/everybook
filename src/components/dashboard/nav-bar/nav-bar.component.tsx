@@ -1,12 +1,15 @@
-import { BanknotesIcon } from '@heroicons/react/24/outline';
+import { useDisplayOptions } from '@/data/context/display-options-context';
 
+import { BanknotesIcon } from '@heroicons/react/24/outline';
 import NavBarMenu from './nav-bar-menu/nav-bar-menu.component';
 import NavBarSectionGroup from './nav-bar-section-group/nav-bar-section-group.component';
 import { NavBarContainer, TitleLink } from './nav-bar.styles';
 
 const NavBar = () => {
+  const { showNavBar } = useDisplayOptions();
+
   return (
-    <NavBarContainer>
+    <NavBarContainer $show={showNavBar}>
       <TitleLink to="/dashboard">
         <BanknotesIcon style={{ width: '1.5rem', height: '1.5rem' }} />
         <span>모두의 가계부</span>

@@ -1,37 +1,43 @@
-import { useState } from 'react';
+import { useDisplayOptions } from '@/data/context/display-options-context';
+import { TagTypes } from '@/data/types';
+
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
-import Button from '@/components/button/button.component';
+import Button from '@/components/common/button/button.component';
+import Tag from '@/components/common/tag/tag.component';
 import {
   DashboardHeaderContainer,
   TitleGroup,
   Title,
-  Tag,
   NavBarCollapseButton,
   NavBarExpandButton,
 } from './dashboard-header.styles';
 
 const DashboardHeader = () => {
-  const [hideNavBar, setHideNavBar] = useState(false);
-  const [hideAmount, setHideAmount] = useState(false);
+  const { showNavBar, showAmount, setShowNavBar, setShowAmount } =
+    useDisplayOptions();
 
   const title = '가계부';
 
   return (
     <DashboardHeaderContainer>
-      {hideNavBar ? (
-        <NavBarExpandButton onClick={() => setHideNavBar(false)}>
-          <ChevronRightIcon />
-        </NavBarExpandButton>
-      ) : (
-        <NavBarCollapseButton onClick={() => setHideNavBar(true)}>
+      {showNavBar ? (
+        <NavBarCollapseButton onClick={() => setShowNavBar(false)}>
           <ChevronLeftIcon />
         </NavBarCollapseButton>
+      ) : (
+        <NavBarExpandButton onClick={() => setShowNavBar(true)}>
+          <ChevronRightIcon />
+        </NavBarExpandButton>
       )}
       <TitleGroup>
         <Title>{title}</Title>
-        <Button onClick={() => setHideAmount(!hideAmount)}>
+        <Button onClick={() => setShowAmount(!showAmount)}>
           <span>금액감추기</span>{' '}
-          <Tag $hide={hideAmount}>{hideAmount ? 'ON' : 'OFF'}</Tag>
+          {showAmount ? (
+            <Tag type={TagTypes.off}>OFF</Tag>
+          ) : (
+            <Tag type={TagTypes.on}>ON</Tag>
+          )}
         </Button>
       </TitleGroup>
     </DashboardHeaderContainer>
