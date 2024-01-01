@@ -1,12 +1,10 @@
-import { NavBarCardDetail } from '@/data/types';
+import { NavBarCardTypes, NavBarCardDetail } from '@/data/types';
 import { useDisplayOptions } from '@/data/context/display-options-context';
 
 import { Bars2Icon, PlusIcon, MinusIcon } from '@heroicons/react/24/outline';
 import {
   NavBarCardContainer,
-  NormalHeader,
-  PositiveHeader,
-  NegativeHeader,
+  Header,
   TitleGroup,
   Title,
   DetailsContainer,
@@ -16,7 +14,7 @@ import {
 type NavBarCardProps = {
   title: string;
   amount: number;
-  type: 'net' | 'plus' | 'minus';
+  type: NavBarCardTypes;
   details?: NavBarCardDetail[];
   expanded?: boolean;
 };
@@ -32,21 +30,15 @@ const NavBarCard = ({
 }: NavBarCardProps) => {
   const { showAmount } = useDisplayOptions();
 
-  const Header = {
-    net: NormalHeader,
-    plus: PositiveHeader,
-    minus: NegativeHeader,
-  }[type];
-
   const Icon = {
-    net: Bars2Icon,
-    plus: PlusIcon,
-    minus: MinusIcon,
+    [NavBarCardTypes.net]: Bars2Icon,
+    [NavBarCardTypes.plus]: PlusIcon,
+    [NavBarCardTypes.minus]: MinusIcon,
   }[type];
 
   return (
     <NavBarCardContainer>
-      <Header>
+      <Header $type={type}>
         <TitleGroup>
           <Icon
             style={{

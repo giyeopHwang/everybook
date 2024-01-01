@@ -3,6 +3,12 @@ export enum TagTypes {
   off,
 }
 
+export enum NavBarCardTypes {
+  net,
+  plus,
+  minus,
+}
+
 export type NavBarCardDetail = {
   name: string;
   amount: number;
@@ -12,19 +18,19 @@ export type NavBarCardDetail = {
 export type NavBarNet = {
   title: string;
   amount: number;
-  type: 'net';
+  type: NavBarCardTypes.net;
 };
 
 export type NavBarPlus = {
   title: string;
   amount: number;
-  type: 'plus';
+  type: NavBarCardTypes.plus;
   details: NavBarCardDetail[];
 };
 
 export type NavBarMinus = {
   title: string;
   amount: number;
-  type: 'minus';
+  type: NavBarCardTypes.minus;
   details: NavBarCardDetail[];
 };

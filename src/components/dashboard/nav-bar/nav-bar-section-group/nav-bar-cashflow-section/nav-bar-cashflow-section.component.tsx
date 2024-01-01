@@ -1,6 +1,11 @@
 import { useState } from 'react';
 
-import { NavBarNet, NavBarPlus, NavBarMinus } from '@/data/types';
+import {
+  NavBarCardTypes,
+  NavBarNet,
+  NavBarPlus,
+  NavBarMinus,
+} from '@/data/types';
 
 import NavBarSection from '../nav-bar-section/nav-bar-section.component';
 import NavBarCardGroup from '../../nav-bar-card-group/nav-bar-card-group.component';
@@ -11,13 +16,13 @@ const NavBarCashflowSection = () => {
   const netCashflow: NavBarNet = {
     title: '수입 - 지출',
     amount: 7_000_000,
-    type: 'net',
+    type: NavBarCardTypes.net,
   };
 
   const income: NavBarPlus = {
     title: '수입',
     amount: 10_000_000,
-    type: 'plus',
+    type: NavBarCardTypes.plus,
     details: [
       { name: '이달의 수입', amount: 8_000_000 },
       { name: '전월이월', amount: 2_000_000 },
@@ -27,7 +32,7 @@ const NavBarCashflowSection = () => {
   const expense: NavBarMinus = {
     title: '지출',
     amount: 3_000_000,
-    type: 'minus',
+    type: NavBarCardTypes.minus,
     details: [
       { name: '현금지출', amount: 1_000_000 },
       { name: '카드지출', amount: 2_000_000 },

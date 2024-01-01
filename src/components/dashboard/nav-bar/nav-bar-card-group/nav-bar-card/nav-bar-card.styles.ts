@@ -1,4 +1,9 @@
 import styled from 'styled-components';
+import { NavBarCardTypes } from '@/data/types';
+
+type NavBarHeaderProps = {
+  $type: NavBarCardTypes;
+};
 
 export const NavBarCardContainer = styled.div`
   display: flex;
@@ -10,18 +15,21 @@ export const NavBarCardContainer = styled.div`
   font-size: 0.8rem;
 `;
 
-export const NormalHeader = styled.header`
+export const Header = styled.header<NavBarHeaderProps>`
   display: flex;
   justify-content: space-between;
   width: 100%;
-`;
 
-export const PositiveHeader = styled(NormalHeader)`
-  color: var(--theme-dark-text-positive);
-`;
-
-export const NegativeHeader = styled(NormalHeader)`
-  color: var(--theme-dark-text-negative);
+  color: ${({ $type }) => {
+    switch ($type) {
+      case NavBarCardTypes.plus:
+        return 'var(--theme-dark-text-positive)';
+      case NavBarCardTypes.minus:
+        return 'var(--theme-dark-text-negative)';
+      default:
+        return 'var(--theme-dark-text)';
+    }
+  }};
 `;
 
 export const TitleGroup = styled.div`
