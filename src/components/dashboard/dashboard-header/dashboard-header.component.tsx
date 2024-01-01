@@ -1,5 +1,11 @@
-import { useDisplayOptions } from '@/data/context/display-options-context';
+import { useDispatch, useSelector } from 'react-redux';
 import { TagTypes } from '@/data/types';
+
+import {
+  selectDisplayOptions,
+  setShowAmount,
+  setShowNavBar,
+} from '@/store/display-options/display-options.slice';
 
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 import Button from '@/components/common/button/button.component';
@@ -12,32 +18,44 @@ import {
   NavBarExpandButton,
 } from './dashboard-header.styles';
 
+const ToggleButton = () => {
+  const dispatch = useDispatch();
+  const { showNavBar } = useSelector(selectDisplayOptions);
+
+  return showNavBar ? (
+    <NavBarCollapseButton onClick={() => dispatch(setShowNavBar(false))}>
+      <ChevronLeftIcon />
+    </NavBarCollapseButton>
+  ) : (
+    <NavBarExpandButton onClick={() => dispatch(setShowNavBar(true))}>
+      <ChevronRightIcon />
+    </NavBarExpandButton>
+  );
+};
+
+const HideAmountButtonTag = () => {
+  const { showAmount } = useSelector(selectDisplayOptions);
+  return showAmount ? (
+    <Tag type={TagTypes.off}>OFF</Tag>
+  ) : (
+    <Tag type={TagTypes.on}>ON</Tag>
+  );
+};
+
 const DashboardHeader = () => {
-  const { showNavBar, showAmount, setShowNavBar, setShowAmount } =
-    useDisplayOptions();
+  const dispatch = useDispatch();
+  const { showAmount } = useSelector(selectDisplayOptions);
 
   const title = '가계부';
 
   return (
     <DashboardHeaderContainer>
-      {showNavBar ? (
-        <NavBarCollapseButton onClick={() => setShowNavBar(false)}>
-          <ChevronLeftIcon />
-        </NavBarCollapseButton>
-      ) : (
-        <NavBarExpandButton onClick={() => setShowNavBar(true)}>
-          <ChevronRightIcon />
-        </NavBarExpandButton>
-      )}
+      <ToggleButton />
       <TitleGroup>
         <Title>{title}</Title>
-        <Button onClick={() => setShowAmount(!showAmount)}>
-          <span>금액감추기</span>{' '}
-          {showAmount ? (
-            <Tag type={TagTypes.off}>OFF</Tag>
-          ) : (
-            <Tag type={TagTypes.on}>ON</Tag>
-          )}
+        <Button onClick={() => dispatch(setShowAmount(!showAmount))}>
+          <span>금액감추기</span>
+          <HideAmountButtonTag />
         </Button>
       </TitleGroup>
     </DashboardHeaderContainer>

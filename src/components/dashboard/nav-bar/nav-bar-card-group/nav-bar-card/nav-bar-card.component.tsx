@@ -1,5 +1,7 @@
+import { useSelector } from 'react-redux';
 import { NavBarCardTypes, NavBarCardDetail } from '@/data/types';
-import { useDisplayOptions } from '@/data/context/display-options-context';
+import { selectDisplayOptions } from '@/store/display-options/display-options.slice';
+import { displayAmount } from '@/components/utils/utils';
 
 import { Bars2Icon, PlusIcon, MinusIcon } from '@heroicons/react/24/outline';
 import {
@@ -19,8 +21,6 @@ type NavBarCardProps = {
   expanded?: boolean;
 };
 
-const amountPlaceholder = '*********';
-
 const NavBarCard = ({
   title,
   amount,
@@ -28,7 +28,7 @@ const NavBarCard = ({
   details = [],
   expanded = true,
 }: NavBarCardProps) => {
-  const { showAmount } = useDisplayOptions();
+  const { showAmount } = useSelector(selectDisplayOptions);
 
   const Icon = {
     [NavBarCardTypes.net]: Bars2Icon,
@@ -48,16 +48,14 @@ const NavBarCard = ({
           />
           <Title>{title}</Title>
         </TitleGroup>
-        <span>{showAmount ? amount.toLocaleString() : amountPlaceholder}</span>
+        <span>{displayAmount(amount, showAmount)}</span>
       </Header>
       {expanded && details.length !== 90 && (
         <DetailsContainer>
           {details.map(({ name, amount }) => (
             <DetailItemContainer key={name}>
               <span>&#x2514; {name}</span>
-              <span>
-                {showAmount ? amount.toLocaleString() : amountPlaceholder}
-              </span>
+              <span>{displayAmount(amount, showAmount)}</span>
             </DetailItemContainer>
           ))}
         </DetailsContainer>

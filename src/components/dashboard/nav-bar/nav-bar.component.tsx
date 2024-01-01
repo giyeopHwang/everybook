@@ -1,4 +1,5 @@
-import { useDisplayOptions } from '@/data/context/display-options-context';
+import { useSelector } from 'react-redux';
+import { selectDisplayOptions } from '@/store/display-options/display-options.slice';
 
 import { BanknotesIcon } from '@heroicons/react/24/outline';
 import NavBarMenu from './nav-bar-menu/nav-bar-menu.component';
@@ -6,7 +7,7 @@ import NavBarSectionGroup from './nav-bar-section-group/nav-bar-section-group.co
 import { NavBarContainer, TitleLink } from './nav-bar.styles';
 
 const NavBar = () => {
-  const { showNavBar } = useDisplayOptions();
+  const { showNavBar } = useSelector(selectDisplayOptions);
 
   return (
     <NavBarContainer $show={showNavBar}>
