@@ -7,11 +7,6 @@ export type RootState = {
   displayOptions: DisplayOptionsState;
 };
 
-export enum TagTypes {
-  on,
-  off,
-}
-
 export enum NavBarCardTypes {
   net,
   plus,

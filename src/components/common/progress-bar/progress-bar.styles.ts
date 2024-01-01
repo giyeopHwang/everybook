@@ -1,6 +1,8 @@
 import styled from 'styled-components';
+import { ProgressTypes } from './progress-bar.const';
 
 type Progress = {
+  $type: ProgressTypes;
   $curr: number;
   $goal: number;
 };
@@ -19,8 +21,15 @@ export const Progress = styled.div<Progress>`
     $curr < $goal ? `${($curr / $goal) * 100}%` : '100%'};
   height: 4px;
   border-radius: 2px;
-  background-color: ${({ $curr, $goal }) =>
-    $curr < $goal
-      ? 'var(--theme-dark-text-positive)'
-      : 'var(--theme-dark-text-negative)'};
+  background-color: ${({ $type, $curr, $goal }) => {
+    switch ($type) {
+      case ProgressTypes.budget:
+        return $curr < $goal
+          ? 'var(--theme-dark-text-positive)'
+          : 'var(--theme-dark-text-negative)';
+      case ProgressTypes.normal:
+      default:
+        return 'var(--theme-dark-text-positive)';
+    }
+  }};
 `;

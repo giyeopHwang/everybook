@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { TagTypes } from '@/data/types';
+import { TagTypes } from './tag.const';
 
 type TagProps = {
   $type?: TagTypes;
@@ -18,6 +18,7 @@ export const StyledTag = styled.span<TagProps>`
       case TagTypes.on:
         return 'var(--theme-light-tag-highlight)';
       case TagTypes.off:
+      case TagTypes.normal:
       default:
         return 'var(--theme-light-tag-default)';
     }

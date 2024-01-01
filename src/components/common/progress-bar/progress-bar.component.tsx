@@ -1,14 +1,20 @@
+import { ProgressTypes } from './progress-bar.const';
 import { ProgressBarContainer, Progress } from './progress-bar.styles';
 
 type ProgressBarProps = {
   curr: number;
   goal: number;
+  type: ProgressTypes;
 };
 
-const ProgressBar = ({ curr, goal }: ProgressBarProps) => {
+const ProgressBar = ({
+  type = ProgressTypes.normal,
+  curr,
+  goal,
+}: ProgressBarProps) => {
   return (
     <ProgressBarContainer>
-      <Progress $curr={curr} $goal={goal} />
+      <Progress $type={type} $curr={curr} $goal={goal} />
     </ProgressBarContainer>
   );
 };

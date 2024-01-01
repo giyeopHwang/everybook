@@ -1,4 +1,4 @@
-import { TagTypes } from '@/data/types';
+import { TagTypes } from './tag.const';
 import { StyledTag } from './tag.styles';
 
 type TagProps = {
@@ -6,7 +6,7 @@ type TagProps = {
   type?: TagTypes;
 };
 
-const Tag = ({ children, type }: TagProps) => {
+const Tag = ({ children, type = TagTypes.normal }: TagProps) => {
   return <StyledTag $type={type}>{children}</StyledTag>;
 };
 

@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { TagTypes } from '@/data/types';
+
+import { TagTypes } from '@/components/common/tag/tag.const';
 
 import {
   selectDisplayOptions,
