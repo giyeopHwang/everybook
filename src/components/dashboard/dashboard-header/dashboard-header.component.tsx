@@ -24,11 +24,17 @@ const ToggleButton = () => {
   const { showNavBar } = useSelector(selectDisplayOptions);
 
   return showNavBar ? (
-    <NavBarCollapseButton onClick={() => dispatch(setShowNavBar(false))}>
+    <NavBarCollapseButton
+      data-testid="nav-bar-collapse-button"
+      onClick={() => dispatch(setShowNavBar(false))}
+    >
       <ChevronLeftIcon />
     </NavBarCollapseButton>
   ) : (
-    <NavBarExpandButton onClick={() => dispatch(setShowNavBar(true))}>
+    <NavBarExpandButton
+      data-testid="nav-bar-expand-button"
+      onClick={() => dispatch(setShowNavBar(true))}
+    >
       <ChevronRightIcon />
     </NavBarExpandButton>
   );

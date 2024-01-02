@@ -565,6 +565,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
           >
             <button
               class="sc-dIfA-dP sc-hHTZFM dOHcOe gnHgJR"
+              data-testid="nav-bar-collapse-button"
             >
               <svg
                 aria-hidden="true"
@@ -1198,6 +1199,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
         >
           <button
             class="sc-dIfA-dP sc-hHTZFM dOHcOe gnHgJR"
+            data-testid="nav-bar-collapse-button"
           >
             <svg
               aria-hidden="true"
@@ -1319,6 +1321,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
   "unmount": [Function],
 }
 `;

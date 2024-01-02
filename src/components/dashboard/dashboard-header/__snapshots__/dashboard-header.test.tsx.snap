@@ -10,6 +10,7 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
       >
         <button
           class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+          data-testid="nav-bar-collapse-button"
         >
           <svg
             aria-hidden="true"
@@ -57,6 +58,7 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
     >
       <button
         class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+        data-testid="nav-bar-collapse-button"
       >
         <svg
           aria-hidden="true"
@@ -147,6 +149,493 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`DashboardHeader > renders with hidden amount 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="sc-dkrGBB cxLidX"
+      >
+        <button
+          class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+          data-testid="nav-bar-collapse-button"
+        >
+          <svg
+            aria-hidden="true"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-hLBatu jaEZiI"
+        >
+          <h2
+            class="sc-eDvShL qslVI"
+          >
+            가계부
+          </h2>
+          <button
+            class="sc-bcXGCL hyeVjf"
+          >
+            <span>
+              금액감추기
+            </span>
+            <span
+              class="sc-gswONk iXnnXm"
+            >
+              ON
+            </span>
+          </button>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="sc-dkrGBB cxLidX"
+    >
+      <button
+        class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+        data-testid="nav-bar-collapse-button"
+      >
+        <svg
+          aria-hidden="true"
+          data-slot="icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.75 19.5 8.25 12l7.5-7.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <div
+        class="sc-hLBatu jaEZiI"
+      >
+        <h2
+          class="sc-eDvShL qslVI"
+        >
+          가계부
+        </h2>
+        <button
+          class="sc-bcXGCL hyeVjf"
+        >
+          <span>
+            금액감추기
+          </span>
+          <span
+            class="sc-gswONk iXnnXm"
+          >
+            ON
+          </span>
+        </button>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="sc-dkrGBB cxLidX"
+      >
+        <button
+          class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+          data-testid="nav-bar-expand-button"
+        >
+          <svg
+            aria-hidden="true"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-hLBatu jaEZiI"
+        >
+          <h2
+            class="sc-eDvShL qslVI"
+          >
+            가계부
+          </h2>
+          <button
+            class="sc-bcXGCL hyeVjf"
+          >
+            <span>
+              금액감추기
+            </span>
+            <span
+              class="sc-gswONk iXnnXm"
+            >
+              ON
+            </span>
+          </button>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="sc-dkrGBB cxLidX"
+    >
+      <button
+        class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+        data-testid="nav-bar-expand-button"
+      >
+        <svg
+          aria-hidden="true"
+          data-slot="icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <div
+        class="sc-hLBatu jaEZiI"
+      >
+        <h2
+          class="sc-eDvShL qslVI"
+        >
+          가계부
+        </h2>
+        <button
+          class="sc-bcXGCL hyeVjf"
+        >
+          <span>
+            금액감추기
+          </span>
+          <span
+            class="sc-gswONk iXnnXm"
+          >
+            ON
+          </span>
+        </button>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`DashboardHeader > renders with hidden nav bar 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="sc-dkrGBB cxLidX"
+      >
+        <button
+          class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+          data-testid="nav-bar-expand-button"
+        >
+          <svg
+            aria-hidden="true"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-hLBatu jaEZiI"
+        >
+          <h2
+            class="sc-eDvShL qslVI"
+          >
+            가계부
+          </h2>
+          <button
+            class="sc-bcXGCL hyeVjf"
+          >
+            <span>
+              금액감추기
+            </span>
+            <span
+              class="sc-gswONk fpXTel"
+            >
+              OFF
+            </span>
+          </button>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="sc-dkrGBB cxLidX"
+    >
+      <button
+        class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+        data-testid="nav-bar-expand-button"
+      >
+        <svg
+          aria-hidden="true"
+          data-slot="icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <div
+        class="sc-hLBatu jaEZiI"
+      >
+        <h2
+          class="sc-eDvShL qslVI"
+        >
+          가계부
+        </h2>
+        <button
+          class="sc-bcXGCL hyeVjf"
+        >
+          <span>
+            금액감추기
+          </span>
+          <span
+            class="sc-gswONk fpXTel"
+          >
+            OFF
+          </span>
+        </button>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
   "unmount": [Function],
 }
 `;

@@ -1,9 +1,15 @@
-import { configureStore } from '@reduxjs/toolkit';
-import { RootState } from '@/data/types';
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import displayOptionsReducer from './display-options/display-options-slice';
 
-export default configureStore<RootState>({
-  reducer: {
-    displayOptions: displayOptionsReducer,
-  },
+const rootReducer = combineReducers({
+  displayOptions: displayOptionsReducer,
 });
+
+export type RootState = ReturnType<typeof rootReducer>;
+
+export const setupStore = (preloadedState?: Partial<RootState>) => {
+  return configureStore({
+    reducer: rootReducer,
+    preloadedState,
+  });
+};

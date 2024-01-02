@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-
-import { RootState, DisplayOptionsState } from '@/data/types';
+import { RootState } from '../store';
+import { DisplayOptionsState } from './display-options-slice.const';
 
 const initialState: DisplayOptionsState = {
   showAmount: true,

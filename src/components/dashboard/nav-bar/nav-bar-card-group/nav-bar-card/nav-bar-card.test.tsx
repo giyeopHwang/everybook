@@ -1,6 +1,7 @@
 import { renderWithWrapper } from '@/test/test-utils';
-import NavBarCard from './nav-bar-card.component';
+import { RootState } from '@/store/store';
 import { mockNet, mockPlus } from '@/test/test-mock';
+import NavBarCard from './nav-bar-card.component';
 
 describe('NavBarCard', () => {
   describe('without details prop', () => {
@@ -8,6 +9,23 @@ describe('NavBarCard', () => {
       const { title, amount, type } = mockNet;
       const navBarCard = renderWithWrapper(
         <NavBarCard title={title} amount={amount} type={type} />
+      );
+
+      expect(navBarCard).toMatchSnapshot();
+    });
+
+    it('renders with hidden amount', () => {
+      const initialState: Partial<RootState> = {
+        displayOptions: {
+          showAmount: false,
+          showNavBar: true,
+        },
+      };
+
+      const { title, amount, type } = mockNet;
+      const navBarCard = renderWithWrapper(
+        <NavBarCard title={title} amount={amount} type={type} />,
+        { preloadedState: initialState }
       );
 
       expect(navBarCard).toMatchSnapshot();
@@ -38,6 +56,29 @@ describe('NavBarCard', () => {
           type={type}
           details={details}
         />
+      );
+
+      expect(navBarCard).toMatchSnapshot();
+    });
+
+    it('renders with hidden amount', () => {
+      const initialState: Partial<RootState> = {
+        displayOptions: {
+          showAmount: false,
+          showNavBar: true,
+        },
+      };
+
+      const { title, amount, type, details } = mockPlus;
+      const navBarCard = renderWithWrapper(
+        <NavBarCard
+          title={title}
+          amount={amount}
+          type={type}
+          details={details}
+          expanded={false}
+        />,
+        { preloadedState: initialState }
       );
 
       expect(navBarCard).toMatchSnapshot();
