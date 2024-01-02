@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { selectDisplayOptions } from '@/store/display-options/display-options.slice';
+import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
 
 import { BanknotesIcon } from '@heroicons/react/24/outline';
 import NavBarMenu from './nav-bar-menu/nav-bar-menu.component';

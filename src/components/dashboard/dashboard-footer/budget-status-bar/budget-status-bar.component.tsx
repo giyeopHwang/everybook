@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 
-import { selectDisplayOptions } from '@/store/display-options/display-options.slice';
-import { displayAmount } from '@/components/utils/utils';
+import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
+import { displayAmount } from '@/utils/utils';
 
 import { ProgressTypes } from '@/components/common/progress-bar/progress-bar.const';
 

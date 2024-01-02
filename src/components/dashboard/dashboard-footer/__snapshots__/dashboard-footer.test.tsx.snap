@@ -1,23 +1,71 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button > renders a Button component 1`] = `
+exports[`DashboardFooter > renders DashboardFooter component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="sc-bcXGCL hyeVjf"
+      <footer
+        class="sc-eDvShL EOmUY"
       >
-        foo
-      </button>
+        <div
+          class="sc-dkrGBB hWbfRc"
+        >
+          <span>
+            이달의예산
+          </span>
+          <div
+            class="sc-bcXGCL jXLNxY"
+          >
+            <div
+              class="sc-gswONk dIRKrZ"
+            />
+          </div>
+          <span
+            class="sc-hLBatu eQTfWq"
+          >
+            3,000,000
+          </span>
+          <span>
+            /
+          </span>
+          <span>
+            5,000,000
+          </span>
+        </div>
+      </footer>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="sc-bcXGCL hyeVjf"
+    <footer
+      class="sc-eDvShL EOmUY"
     >
-      foo
-    </button>
+      <div
+        class="sc-dkrGBB hWbfRc"
+      >
+        <span>
+          이달의예산
+        </span>
+        <div
+          class="sc-bcXGCL jXLNxY"
+        >
+          <div
+            class="sc-gswONk dIRKrZ"
+          />
+        </div>
+        <span
+          class="sc-hLBatu eQTfWq"
+        >
+          3,000,000
+        </span>
+        <span>
+          /
+        </span>
+        <span>
+          5,000,000
+        </span>
+      </div>
+    </footer>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

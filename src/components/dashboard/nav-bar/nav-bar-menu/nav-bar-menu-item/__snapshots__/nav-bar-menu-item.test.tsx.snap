@@ -1,23 +1,25 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button > renders a Button component 1`] = `
+exports[`NavBarMenuItem > renders NavBarMenuItem component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="sc-bcXGCL hyeVjf"
+      <a
+        class="sc-bcXGCL fUoTo"
+        href="/"
       >
-        foo
-      </button>
+        ITEM
+      </a>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="sc-bcXGCL hyeVjf"
+    <a
+      class="sc-bcXGCL fUoTo"
+      href="/"
     >
-      foo
-    </button>
+      ITEM
+    </a>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

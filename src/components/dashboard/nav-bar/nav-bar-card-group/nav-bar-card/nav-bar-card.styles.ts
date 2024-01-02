@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { NavBarCardTypes } from '@/data/types';
+import { NavBarCardTypes } from './nav-bar-card.const';
 
 type NavBarHeaderProps = {
   $type: NavBarCardTypes;

@@ -1,23 +1,43 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button > renders a Button component 1`] = `
+exports[`Front > renders Front component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="sc-bcXGCL hyeVjf"
+      <div
+        class="sc-gswONk ipmPgq"
       >
-        foo
-      </button>
+        <div
+          class="sc-dkrGBB fObUoU"
+        >
+          모두의 가계부
+        </div>
+        <a
+          class="sc-bcXGCL bpFrMd"
+          href="/dashboard"
+        >
+          입장하기
+        </a>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="sc-bcXGCL hyeVjf"
+    <div
+      class="sc-gswONk ipmPgq"
     >
-      foo
-    </button>
+      <div
+        class="sc-dkrGBB fObUoU"
+      >
+        모두의 가계부
+      </div>
+      <a
+        class="sc-bcXGCL bpFrMd"
+        href="/dashboard"
+      >
+        입장하기
+      </a>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,5 +1,4 @@
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom';
 import Tag from './tag.component';
 import { TagTypes } from './tag.const';
 

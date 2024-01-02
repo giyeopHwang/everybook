@@ -6,7 +6,7 @@ import {
   selectDisplayOptions,
   setShowAmount,
   setShowNavBar,
-} from '@/store/display-options/display-options.slice';
+} from '@/store/display-options/display-options-slice';
 
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 import Button from '@/components/common/button/button.component';

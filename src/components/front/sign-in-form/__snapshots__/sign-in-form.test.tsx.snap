@@ -1,23 +1,25 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Button > renders a Button component 1`] = `
+exports[`SignInForm > renders SignInForm component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <button
-        class="sc-bcXGCL hyeVjf"
+      <a
+        class="sc-bcXGCL bpFrMd"
+        href="/dashboard"
       >
-        foo
-      </button>
+        입장하기
+      </a>
     </div>
   </body>,
   "container": <div>
-    <button
-      class="sc-bcXGCL hyeVjf"
+    <a
+      class="sc-bcXGCL bpFrMd"
+      href="/dashboard"
     >
-      foo
-    </button>
+      입장하기
+    </a>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,24 +1,19 @@
 import { render, fireEvent, screen } from '@testing-library/react';
-import '@testing-library/jest-dom';
 import Button from './button.component';
 
 describe('Button', () => {
-  const mock = vi.fn();
-
-  beforeEach(() => {
-    render(<Button onClick={mock}>foo</Button>);
-  });
-
-  afterEach(() => {
-    vi.restoreAllMocks();
-  });
-
   it('renders a Button component', async () => {
-    const button = screen.getByText('foo');
+    const button = render(<Button>foo</Button>);
     expect(button).toMatchSnapshot();
+
+    const buttonByText = screen.getByText('foo');
+    expect(buttonByText).toBeInTheDocument();
   });
 
   it('fires callback when clicked', async () => {
+    const mock = vi.fn();
+    render(<Button onClick={mock}>foo</Button>);
+
     const button = screen.getByText('foo');
     fireEvent.click(button);
     expect(mock).toHaveBeenCalledOnce();

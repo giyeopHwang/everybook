@@ -5,7 +5,7 @@ import {
   NavBarNet,
   NavBarPlus,
   NavBarMinus,
-} from '@/data/types';
+} from '../../nav-bar-card-group/nav-bar-card/nav-bar-card.const';
 
 import NavBarSection from '../nav-bar-section/nav-bar-section.component';
 import NavBarCardGroup from '../../nav-bar-card-group/nav-bar-card-group.component';

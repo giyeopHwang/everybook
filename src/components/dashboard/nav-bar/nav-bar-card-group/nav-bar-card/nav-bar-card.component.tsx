@@ -1,7 +1,8 @@
 import { useSelector } from 'react-redux';
-import { NavBarCardTypes, NavBarCardDetail } from '@/data/types';
-import { selectDisplayOptions } from '@/store/display-options/display-options.slice';
-import { displayAmount } from '@/components/utils/utils';
+import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
+import { displayAmount } from '@/utils/utils';
+
+import { NavBarCardTypes, NavBarCardDetail } from './nav-bar-card.const';
 
 import { Bars2Icon, PlusIcon, MinusIcon } from '@heroicons/react/24/outline';
 import {

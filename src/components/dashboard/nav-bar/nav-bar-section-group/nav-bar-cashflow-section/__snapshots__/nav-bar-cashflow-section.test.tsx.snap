@@ -1,0 +1,474 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="sc-bcXGCL bcHZdm"
+      >
+        <header
+          class="sc-gswONk bbyusk"
+        >
+          <div
+            class="sc-dkrGBB coUJWn"
+          >
+            <svg
+              aria-hidden="true"
+              data-slot="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              style="width: 1rem; height: 1rem;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m4.5 15.75 7.5-7.5 7.5 7.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h2
+              class="sc-hLBatu daYlFY"
+            >
+              이달의 가계
+            </h2>
+          </div>
+          <h3
+            class="sc-eDvShL iDUudY"
+          >
+            2024.01.01 ~ 2024.01.31
+          </h3>
+        </header>
+        <div
+          class="sc-kDvuXt fQAIJM"
+        >
+          <div
+            class="sc-jSVask izIFLB"
+          >
+            <header
+              class="sc-gKPSgB ccYFjP"
+            >
+              <div
+                class="sc-iBYPxa gSwoSn"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-slot="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  style="width: 0.9rem; height: 0.9rem;"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.75 9h16.5m-16.5 6.75h16.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <h4
+                  class="sc-ftTHlr gMzVij"
+                >
+                  수입 - 지출
+                </h4>
+              </div>
+              <span>
+                7,000,000
+              </span>
+            </header>
+            <section
+              class="sc-pyeOL epDYye"
+            />
+          </div>
+          <div
+            class="sc-jSVask izIFLB"
+          >
+            <header
+              class="sc-gKPSgB diYNzh"
+            >
+              <div
+                class="sc-iBYPxa gSwoSn"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-slot="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  style="width: 0.9rem; height: 0.9rem;"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.5v15m7.5-7.5h-15"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <h4
+                  class="sc-ftTHlr gMzVij"
+                >
+                  수입
+                </h4>
+              </div>
+              <span>
+                10,000,000
+              </span>
+            </header>
+            <section
+              class="sc-pyeOL epDYye"
+            >
+              <div
+                class="sc-jrcSHq iuMjoo"
+              >
+                <span>
+                  └ 
+                  이달의 수입
+                </span>
+                <span>
+                  8,000,000
+                </span>
+              </div>
+              <div
+                class="sc-jrcSHq iuMjoo"
+              >
+                <span>
+                  └ 
+                  전월이월
+                </span>
+                <span>
+                  2,000,000
+                </span>
+              </div>
+            </section>
+          </div>
+          <div
+            class="sc-jSVask izIFLB"
+          >
+            <header
+              class="sc-gKPSgB gwRqIB"
+            >
+              <div
+                class="sc-iBYPxa gSwoSn"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-slot="icon"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  style="width: 0.9rem; height: 0.9rem;"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 12h14"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <h4
+                  class="sc-ftTHlr gMzVij"
+                >
+                  지출
+                </h4>
+              </div>
+              <span>
+                3,000,000
+              </span>
+            </header>
+            <section
+              class="sc-pyeOL epDYye"
+            >
+              <div
+                class="sc-jrcSHq iuMjoo"
+              >
+                <span>
+                  └ 
+                  현금지출
+                </span>
+                <span>
+                  1,000,000
+                </span>
+              </div>
+              <div
+                class="sc-jrcSHq iuMjoo"
+              >
+                <span>
+                  └ 
+                  카드지출
+                </span>
+                <span>
+                  2,000,000
+                </span>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="sc-bcXGCL bcHZdm"
+    >
+      <header
+        class="sc-gswONk bbyusk"
+      >
+        <div
+          class="sc-dkrGBB coUJWn"
+        >
+          <svg
+            aria-hidden="true"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            style="width: 1rem; height: 1rem;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m4.5 15.75 7.5-7.5 7.5 7.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <h2
+            class="sc-hLBatu daYlFY"
+          >
+            이달의 가계
+          </h2>
+        </div>
+        <h3
+          class="sc-eDvShL iDUudY"
+        >
+          2024.01.01 ~ 2024.01.31
+        </h3>
+      </header>
+      <div
+        class="sc-kDvuXt fQAIJM"
+      >
+        <div
+          class="sc-jSVask izIFLB"
+        >
+          <header
+            class="sc-gKPSgB ccYFjP"
+          >
+            <div
+              class="sc-iBYPxa gSwoSn"
+            >
+              <svg
+                aria-hidden="true"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                style="width: 0.9rem; height: 0.9rem;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.75 9h16.5m-16.5 6.75h16.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <h4
+                class="sc-ftTHlr gMzVij"
+              >
+                수입 - 지출
+              </h4>
+            </div>
+            <span>
+              7,000,000
+            </span>
+          </header>
+          <section
+            class="sc-pyeOL epDYye"
+          />
+        </div>
+        <div
+          class="sc-jSVask izIFLB"
+        >
+          <header
+            class="sc-gKPSgB diYNzh"
+          >
+            <div
+              class="sc-iBYPxa gSwoSn"
+            >
+              <svg
+                aria-hidden="true"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                style="width: 0.9rem; height: 0.9rem;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 4.5v15m7.5-7.5h-15"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <h4
+                class="sc-ftTHlr gMzVij"
+              >
+                수입
+              </h4>
+            </div>
+            <span>
+              10,000,000
+            </span>
+          </header>
+          <section
+            class="sc-pyeOL epDYye"
+          >
+            <div
+              class="sc-jrcSHq iuMjoo"
+            >
+              <span>
+                └ 
+                이달의 수입
+              </span>
+              <span>
+                8,000,000
+              </span>
+            </div>
+            <div
+              class="sc-jrcSHq iuMjoo"
+            >
+              <span>
+                └ 
+                전월이월
+              </span>
+              <span>
+                2,000,000
+              </span>
+            </div>
+          </section>
+        </div>
+        <div
+          class="sc-jSVask izIFLB"
+        >
+          <header
+            class="sc-gKPSgB gwRqIB"
+          >
+            <div
+              class="sc-iBYPxa gSwoSn"
+            >
+              <svg
+                aria-hidden="true"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                style="width: 0.9rem; height: 0.9rem;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12h14"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <h4
+                class="sc-ftTHlr gMzVij"
+              >
+                지출
+              </h4>
+            </div>
+            <span>
+              3,000,000
+            </span>
+          </header>
+          <section
+            class="sc-pyeOL epDYye"
+          >
+            <div
+              class="sc-jrcSHq iuMjoo"
+            >
+              <span>
+                └ 
+                현금지출
+              </span>
+              <span>
+                1,000,000
+              </span>
+            </div>
+            <div
+              class="sc-jrcSHq iuMjoo"
+            >
+              <span>
+                └ 
+                카드지출
+              </span>
+              <span>
+                2,000,000
+              </span>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
