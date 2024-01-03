@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 
 import Front from '@/components/front/front.component';
 import DashboardLayout from '@/components/dashboard/dashboard-layout/dashboard-layout.compoent';
+import Worksheet from '@/components/worksheet/worksheet.component';
 
 export const router = createBrowserRouter([
   {
@@ -13,8 +14,8 @@ export const router = createBrowserRouter([
     element: <DashboardLayout />,
     children: [
       {
-        path: '',
-        element: <div>가계부</div>,
+        index: true,
+        element: <Worksheet />,
       },
       {
         path: 'report',

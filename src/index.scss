@@ -26,6 +26,10 @@ button {
   cursor:pointer;
 }
 
+input {
+  all: unset;
+}
+
 :root {
   --theme-dark-background: #41444e;
   --theme-dark-background-light: #575a67;
@@ -39,9 +43,11 @@ button {
   --theme-light-background-dark: #c6c6c6;
   --theme-light-text: #000000;
   --theme-light-text-highlight: #03c75a;
-  --theme-light-text-subsidary: #333333;
+  --theme-light-text-subsidary: #797979;
+  --theme-light-text-button: #333333;
   --theme-light-border: #c6c6c6;
   --theme-light-border-highlight: #03c75a;
+  --theme-light-border-error: #c71703;
   --theme-light-tag-default: #c6c6c6;
   --theme-light-tag-highlight: #03c75a;
 }

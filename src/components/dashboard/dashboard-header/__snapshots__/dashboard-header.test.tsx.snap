@@ -37,7 +37,7 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
             가계부
           </h2>
           <button
-            class="sc-bcXGCL hyeVjf"
+            class="sc-bcXGCL fWyeip"
           >
             <span>
               금액감추기
@@ -85,7 +85,7 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
           가계부
         </h2>
         <button
-          class="sc-bcXGCL hyeVjf"
+          class="sc-bcXGCL fWyeip"
         >
           <span>
             금액감추기
@@ -197,7 +197,7 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
             가계부
           </h2>
           <button
-            class="sc-bcXGCL hyeVjf"
+            class="sc-bcXGCL fWyeip"
           >
             <span>
               금액감추기
@@ -245,7 +245,7 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
           가계부
         </h2>
         <button
-          class="sc-bcXGCL hyeVjf"
+          class="sc-bcXGCL fWyeip"
         >
           <span>
             금액감추기
@@ -357,7 +357,7 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
             가계부
           </h2>
           <button
-            class="sc-bcXGCL hyeVjf"
+            class="sc-bcXGCL fWyeip"
           >
             <span>
               금액감추기
@@ -405,7 +405,7 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
           가계부
         </h2>
         <button
-          class="sc-bcXGCL hyeVjf"
+          class="sc-bcXGCL fWyeip"
         >
           <span>
             금액감추기
@@ -517,7 +517,7 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
             가계부
           </h2>
           <button
-            class="sc-bcXGCL hyeVjf"
+            class="sc-bcXGCL fWyeip"
           >
             <span>
               금액감추기
@@ -565,7 +565,7 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
           가계부
         </h2>
         <button
-          class="sc-bcXGCL hyeVjf"
+          class="sc-bcXGCL fWyeip"
         >
           <span>
             금액감추기

@@ -592,7 +592,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 가계부
               </h2>
               <button
-                class="sc-hBxdun iUcezH"
+                class="sc-hBxdun fmBiQl"
               >
                 <span>
                   금액감추기
@@ -1226,7 +1226,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
               가계부
             </h2>
             <button
-              class="sc-hBxdun iUcezH"
+              class="sc-hBxdun fmBiQl"
             >
               <span>
                 금액감추기

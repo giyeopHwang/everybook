@@ -6,7 +6,7 @@ export const StyledButton = styled.button`
   column-gap: 0.25rem;
   border: 1px solid var(--theme-light-border);
   padding: 0.25rem 0.5rem;
-  color: var(--theme-light-text-subsidary);
+  color: var(--theme-light-text-button);
 
   &:hover {
     border: 1px solid var(--theme-light-border-highlight);
