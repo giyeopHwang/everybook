@@ -12,7 +12,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
           class="sc-eDVOW eLKTTN"
         >
           <a
-            class="sc-bqWyeZ cRJDzP"
+            class="sc-bqWyeZ kBzXuY"
             href="/dashboard"
           >
             <svg
@@ -608,7 +608,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
         </div>
       </div>
       <footer
-        class="sc-cwSeNB iCFtSe"
+        class="sc-cwSeNB cOzkvk"
       >
         <div
           class="sc-bBACfQ iIOBZv"
@@ -646,7 +646,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
         class="sc-eDVOW eLKTTN"
       >
         <a
-          class="sc-bqWyeZ cRJDzP"
+          class="sc-bqWyeZ kBzXuY"
           href="/dashboard"
         >
           <svg
@@ -1242,7 +1242,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
       </div>
     </div>
     <footer
-      class="sc-cwSeNB iCFtSe"
+      class="sc-cwSeNB cOzkvk"
     >
       <div
         class="sc-bBACfQ iIOBZv"

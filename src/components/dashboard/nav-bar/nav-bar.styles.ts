@@ -23,6 +23,7 @@ export const TitleLink = styled(Link)`
   height: 100px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   background-color: var(--theme-dark-background-light);
+  font-family: 'Gowun Batang', serif;
   font-size: 1.2rem;
 
   &:hover {

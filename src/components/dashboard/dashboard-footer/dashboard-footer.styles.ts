@@ -11,6 +11,5 @@ export const DashboardFooterContainer = styled.footer`
   height: 30px;
   background-color: var(--theme-dark-background-dark);
   color: var(--theme-dark-text-subsidary);
-  font-family: sans-serif;
   font-size: 0.8rem;
 `;

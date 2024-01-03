@@ -12,5 +12,7 @@ export const FrontContainer = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 5rem;
+  font-family: 'Gowun Batang', serif;
+  font-weight: 300;
+  font-size: 2rem;
 `;

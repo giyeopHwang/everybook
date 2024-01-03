@@ -9,7 +9,7 @@ exports[`Front > renders Front component 1`] = `
         class="sc-gswONk ipmPgq"
       >
         <div
-          class="sc-dkrGBB fObUoU"
+          class="sc-dkrGBB emOOsq"
         >
           모두의 가계부
         </div>
@@ -27,7 +27,7 @@ exports[`Front > renders Front component 1`] = `
       class="sc-gswONk ipmPgq"
     >
       <div
-        class="sc-dkrGBB fObUoU"
+        class="sc-dkrGBB emOOsq"
       >
         모두의 가계부
       </div>

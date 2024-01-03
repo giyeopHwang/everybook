@@ -6,7 +6,7 @@ exports[`DashboardFooter > renders DashboardFooter component 1`] = `
   "baseElement": <body>
     <div>
       <footer
-        class="sc-eDvShL EOmUY"
+        class="sc-eDvShL ellwLC"
       >
         <div
           class="sc-dkrGBB hWbfRc"
@@ -38,7 +38,7 @@ exports[`DashboardFooter > renders DashboardFooter component 1`] = `
   </body>,
   "container": <div>
     <footer
-      class="sc-eDvShL EOmUY"
+      class="sc-eDvShL ellwLC"
     >
       <div
         class="sc-dkrGBB hWbfRc"

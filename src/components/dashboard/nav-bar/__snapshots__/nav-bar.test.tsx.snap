@@ -9,7 +9,7 @@ exports[`NavBar > hides NavBar component when specified 1`] = `
         class="sc-eDVOW fqgoNA"
       >
         <a
-          class="sc-bqWyeZ cRJDzP"
+          class="sc-bqWyeZ kBzXuY"
           href="/dashboard"
         >
           <svg
@@ -561,7 +561,7 @@ exports[`NavBar > hides NavBar component when specified 1`] = `
       class="sc-eDVOW fqgoNA"
     >
       <a
-        class="sc-bqWyeZ cRJDzP"
+        class="sc-bqWyeZ kBzXuY"
         href="/dashboard"
       >
         <svg
@@ -1177,7 +1177,7 @@ exports[`NavBar > renders NavBar component 1`] = `
         class="sc-eDVOW eLKTTN"
       >
         <a
-          class="sc-bqWyeZ cRJDzP"
+          class="sc-bqWyeZ kBzXuY"
           href="/dashboard"
         >
           <svg
@@ -1729,7 +1729,7 @@ exports[`NavBar > renders NavBar component 1`] = `
       class="sc-eDVOW eLKTTN"
     >
       <a
-        class="sc-bqWyeZ cRJDzP"
+        class="sc-bqWyeZ kBzXuY"
         href="/dashboard"
       >
         <svg
