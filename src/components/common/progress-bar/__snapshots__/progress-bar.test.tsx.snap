@@ -6,20 +6,20 @@ exports[`ProgressBar > renders a negative budget-typed ProgressBar component 1`]
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL jXLNxY"
+        class="css-1sz5t5j"
       >
         <div
-          class="sc-gswONk gaBBXu"
+          class="css-e0l49s"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL jXLNxY"
+      class="css-1sz5t5j"
     >
       <div
-        class="sc-gswONk gaBBXu"
+        class="css-e0l49s"
       />
     </div>
   </div>,
@@ -83,20 +83,20 @@ exports[`ProgressBar > renders a normal-typed ProgressBar component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL jXLNxY"
+        class="css-1sz5t5j"
       >
         <div
-          class="sc-gswONk ghxvNi"
+          class="css-1umh7ku"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL jXLNxY"
+      class="css-1sz5t5j"
     >
       <div
-        class="sc-gswONk ghxvNi"
+        class="css-1umh7ku"
       />
     </div>
   </div>,
@@ -160,20 +160,20 @@ exports[`ProgressBar > renders a positive budget-typed ProgressBar component 1`]
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL jXLNxY"
+        class="css-1sz5t5j"
       >
         <div
-          class="sc-gswONk ghxvNi"
+          class="css-1umh7ku"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL jXLNxY"
+      class="css-1sz5t5j"
     >
       <div
-        class="sc-gswONk ghxvNi"
+        class="css-1umh7ku"
       />
     </div>
   </div>,

@@ -6,10 +6,10 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
   "baseElement": <body>
     <div>
       <nav
-        class="sc-gswONk eqXaZh"
+        class="css-1djzm1k"
       >
         <a
-          class="sc-bcXGCL bDMnRW"
+          class="css-grrdwo"
           href="/dashboard"
         >
           <svg
@@ -33,7 +33,7 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
           </span>
         </a>
         <a
-          class="sc-bcXGCL bDMnRW"
+          class="css-grrdwo"
           href="/dashboard/report"
         >
           <svg
@@ -57,7 +57,7 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
           </span>
         </a>
         <a
-          class="sc-bcXGCL bDMnRW"
+          class="css-grrdwo"
           href="/dashboard/budget"
         >
           <svg
@@ -86,7 +86,7 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
           </span>
         </a>
         <a
-          class="sc-bcXGCL bDMnRW"
+          class="css-grrdwo"
           href="/dashboard/account"
         >
           <svg
@@ -114,10 +114,10 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
   </body>,
   "container": <div>
     <nav
-      class="sc-gswONk eqXaZh"
+      class="css-1djzm1k"
     >
       <a
-        class="sc-bcXGCL bDMnRW"
+        class="css-grrdwo"
         href="/dashboard"
       >
         <svg
@@ -141,7 +141,7 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
         </span>
       </a>
       <a
-        class="sc-bcXGCL bDMnRW"
+        class="css-grrdwo"
         href="/dashboard/report"
       >
         <svg
@@ -165,7 +165,7 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
         </span>
       </a>
       <a
-        class="sc-bcXGCL bDMnRW"
+        class="css-grrdwo"
         href="/dashboard/budget"
       >
         <svg
@@ -194,7 +194,7 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
         </span>
       </a>
       <a
-        class="sc-bcXGCL bDMnRW"
+        class="css-grrdwo"
         href="/dashboard/account"
       >
         <svg

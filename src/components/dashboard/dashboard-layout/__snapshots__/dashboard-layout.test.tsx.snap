@@ -6,13 +6,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-lllnCg ixudWJ"
+        class="css-bq3f98"
       >
         <div
-          class="sc-eDVOW eLKTTN"
+          class="css-5tru4f"
         >
           <a
-            class="sc-bqWyeZ kBzXuY"
+            class="css-ad54sp"
             href="/dashboard"
           >
             <svg
@@ -36,10 +36,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             </span>
           </a>
           <nav
-            class="sc-gswONk eqXaZh"
+            class="css-1djzm1k"
           >
             <a
-              class="sc-bcXGCL bDMnRW"
+              class="css-grrdwo"
               href="/dashboard"
             >
               <svg
@@ -63,7 +63,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
               </span>
             </a>
             <a
-              class="sc-bcXGCL bDMnRW"
+              class="css-grrdwo"
               href="/dashboard/report"
             >
               <svg
@@ -87,7 +87,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
               </span>
             </a>
             <a
-              class="sc-bcXGCL bDMnRW"
+              class="css-grrdwo"
               href="/dashboard/budget"
             >
               <svg
@@ -116,7 +116,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
               </span>
             </a>
             <a
-              class="sc-bcXGCL bDMnRW"
+              class="css-grrdwo"
               href="/dashboard/account"
             >
               <svg
@@ -141,13 +141,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             </a>
           </nav>
           <section
-            class="sc-dkrGBB kFyVSt"
+            class="css-14chwgd"
           >
             <header
-              class="sc-hLBatu iqXjlr"
+              class="css-kympkc"
             >
               <div
-                class="sc-eDvShL imkFcV"
+                class="css-359auk"
               >
                 <svg
                   aria-hidden="true"
@@ -166,23 +166,23 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   />
                 </svg>
                 <h2
-                  class="sc-jSVask hYDWqE"
+                  class="css-1bt39ed"
                 >
                   이달의 자산현황
                 </h2>
               </div>
             </header>
             <div
-              class="sc-csuRvn elnQsf"
+              class="css-7ttcrf"
             >
               <div
-                class="sc-iBYPxa dVyzGs"
+                class="css-135bpbl"
               >
                 <header
-                  class="sc-ftTHlr ejvCSh"
+                  class="css-kvjl0w"
                 >
                   <div
-                    class="sc-pyeOL jnudmj"
+                    class="css-vmk80s"
                   >
                     <svg
                       aria-hidden="true"
@@ -201,7 +201,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                       />
                     </svg>
                     <h4
-                      class="sc-jrcSHq hvgScW"
+                      class="css-pqtvky"
                     >
                       순자산
                     </h4>
@@ -211,17 +211,17 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </header>
                 <section
-                  class="sc-kDvuXt eYRUMZ"
+                  class="css-1r2jysi"
                 />
               </div>
               <div
-                class="sc-iBYPxa dVyzGs"
+                class="css-135bpbl"
               >
                 <header
-                  class="sc-ftTHlr vMdur"
+                  class="css-1r6e9a4"
                 >
                   <div
-                    class="sc-pyeOL jnudmj"
+                    class="css-vmk80s"
                   >
                     <svg
                       aria-hidden="true"
@@ -240,7 +240,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                       />
                     </svg>
                     <h4
-                      class="sc-jrcSHq hvgScW"
+                      class="css-pqtvky"
                     >
                       자산
                     </h4>
@@ -250,10 +250,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </header>
                 <section
-                  class="sc-kDvuXt eYRUMZ"
+                  class="css-1r2jysi"
                 >
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -264,7 +264,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -275,7 +275,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -288,13 +288,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </section>
               </div>
               <div
-                class="sc-iBYPxa dVyzGs"
+                class="css-135bpbl"
               >
                 <header
-                  class="sc-ftTHlr eZiHrv"
+                  class="css-1i1w77g"
                 >
                   <div
-                    class="sc-pyeOL jnudmj"
+                    class="css-vmk80s"
                   >
                     <svg
                       aria-hidden="true"
@@ -313,7 +313,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                       />
                     </svg>
                     <h4
-                      class="sc-jrcSHq hvgScW"
+                      class="css-pqtvky"
                     >
                       부채
                     </h4>
@@ -323,10 +323,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </header>
                 <section
-                  class="sc-kDvuXt eYRUMZ"
+                  class="css-1r2jysi"
                 >
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -337,7 +337,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -352,13 +352,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             </div>
           </section>
           <section
-            class="sc-dkrGBB kFyVSt"
+            class="css-14chwgd"
           >
             <header
-              class="sc-hLBatu iqXjlr"
+              class="css-kympkc"
             >
               <div
-                class="sc-eDvShL imkFcV"
+                class="css-359auk"
               >
                 <svg
                   aria-hidden="true"
@@ -377,28 +377,28 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   />
                 </svg>
                 <h2
-                  class="sc-jSVask hYDWqE"
+                  class="css-1bt39ed"
                 >
                   이달의 가계
                 </h2>
               </div>
               <h3
-                class="sc-gKPSgB bKaCwm"
+                class="css-1puzo0z"
               >
                 2024.01.01 ~ 2024.01.31
               </h3>
             </header>
             <div
-              class="sc-csuRvn elnQsf"
+              class="css-7ttcrf"
             >
               <div
-                class="sc-iBYPxa dVyzGs"
+                class="css-135bpbl"
               >
                 <header
-                  class="sc-ftTHlr ejvCSh"
+                  class="css-kvjl0w"
                 >
                   <div
-                    class="sc-pyeOL jnudmj"
+                    class="css-vmk80s"
                   >
                     <svg
                       aria-hidden="true"
@@ -417,7 +417,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                       />
                     </svg>
                     <h4
-                      class="sc-jrcSHq hvgScW"
+                      class="css-pqtvky"
                     >
                       수입 - 지출
                     </h4>
@@ -427,17 +427,17 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </header>
                 <section
-                  class="sc-kDvuXt eYRUMZ"
+                  class="css-1r2jysi"
                 />
               </div>
               <div
-                class="sc-iBYPxa dVyzGs"
+                class="css-135bpbl"
               >
                 <header
-                  class="sc-ftTHlr vMdur"
+                  class="css-1r6e9a4"
                 >
                   <div
-                    class="sc-pyeOL jnudmj"
+                    class="css-vmk80s"
                   >
                     <svg
                       aria-hidden="true"
@@ -456,7 +456,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                       />
                     </svg>
                     <h4
-                      class="sc-jrcSHq hvgScW"
+                      class="css-pqtvky"
                     >
                       수입
                     </h4>
@@ -466,10 +466,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </header>
                 <section
-                  class="sc-kDvuXt eYRUMZ"
+                  class="css-1r2jysi"
                 >
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -480,7 +480,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -493,13 +493,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </section>
               </div>
               <div
-                class="sc-iBYPxa dVyzGs"
+                class="css-135bpbl"
               >
                 <header
-                  class="sc-ftTHlr eZiHrv"
+                  class="css-1i1w77g"
                 >
                   <div
-                    class="sc-pyeOL jnudmj"
+                    class="css-vmk80s"
                   >
                     <svg
                       aria-hidden="true"
@@ -518,7 +518,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                       />
                     </svg>
                     <h4
-                      class="sc-jrcSHq hvgScW"
+                      class="css-pqtvky"
                     >
                       지출
                     </h4>
@@ -528,10 +528,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </header>
                 <section
-                  class="sc-kDvuXt eYRUMZ"
+                  class="css-1r2jysi"
                 >
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -542,7 +542,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     </span>
                   </div>
                   <div
-                    class="sc-ipEzrc lhhzte"
+                    class="css-uf1ume"
                   >
                     <span>
                       └ 
@@ -558,13 +558,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
           </section>
         </div>
         <div
-          class="sc-iJnacD fNRElf"
+          class="css-1rfq2pv"
         >
           <header
-            class="sc-fEXmZk efweIO"
+            class="css-5whm5h"
           >
             <button
-              class="sc-dIfA-dP sc-hHTZFM dOHcOe gnHgJR"
+              class="css-iwi5cf"
               data-testid="nav-bar-collapse-button"
             >
               <svg
@@ -584,21 +584,21 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
               </svg>
             </button>
             <div
-              class="sc-bjfHPd lfVijs"
+              class="css-jh5a00"
             >
               <h2
-                class="sc-idXfnW ekPnPq"
+                class="css-uzu4z8"
               >
                 가계부
               </h2>
               <button
-                class="sc-hBxdun fmBiQl"
+                class="css-wieti"
               >
                 <span>
                   금액감추기
                 </span>
                 <span
-                  class="sc-fnGhNW bNZexW"
+                  class="css-101dbv1"
                 >
                   OFF
                 </span>
@@ -608,23 +608,23 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
         </div>
       </div>
       <footer
-        class="sc-cwSeNB cOzkvk"
+        class="css-1psyufs"
       >
         <div
-          class="sc-bBACfQ iIOBZv"
+          class="css-jh5a00"
         >
           <span>
             이달의예산
           </span>
           <div
-            class="sc-kgTRUy dGQxjv"
+            class="css-1sz5t5j"
           >
             <div
-              class="sc-fLcmKr cTFbGJ"
+              class="css-1dv1ys6"
             />
           </div>
           <span
-            class="sc-iveGuF beUUUq"
+            class="css-md2hjx"
           >
             3,000,000
           </span>
@@ -640,13 +640,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-lllnCg ixudWJ"
+      class="css-bq3f98"
     >
       <div
-        class="sc-eDVOW eLKTTN"
+        class="css-5tru4f"
       >
         <a
-          class="sc-bqWyeZ kBzXuY"
+          class="css-ad54sp"
           href="/dashboard"
         >
           <svg
@@ -670,10 +670,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
           </span>
         </a>
         <nav
-          class="sc-gswONk eqXaZh"
+          class="css-1djzm1k"
         >
           <a
-            class="sc-bcXGCL bDMnRW"
+            class="css-grrdwo"
             href="/dashboard"
           >
             <svg
@@ -697,7 +697,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             </span>
           </a>
           <a
-            class="sc-bcXGCL bDMnRW"
+            class="css-grrdwo"
             href="/dashboard/report"
           >
             <svg
@@ -721,7 +721,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             </span>
           </a>
           <a
-            class="sc-bcXGCL bDMnRW"
+            class="css-grrdwo"
             href="/dashboard/budget"
           >
             <svg
@@ -750,7 +750,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             </span>
           </a>
           <a
-            class="sc-bcXGCL bDMnRW"
+            class="css-grrdwo"
             href="/dashboard/account"
           >
             <svg
@@ -775,13 +775,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
           </a>
         </nav>
         <section
-          class="sc-dkrGBB kFyVSt"
+          class="css-14chwgd"
         >
           <header
-            class="sc-hLBatu iqXjlr"
+            class="css-kympkc"
           >
             <div
-              class="sc-eDvShL imkFcV"
+              class="css-359auk"
             >
               <svg
                 aria-hidden="true"
@@ -800,23 +800,23 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 />
               </svg>
               <h2
-                class="sc-jSVask hYDWqE"
+                class="css-1bt39ed"
               >
                 이달의 자산현황
               </h2>
             </div>
           </header>
           <div
-            class="sc-csuRvn elnQsf"
+            class="css-7ttcrf"
           >
             <div
-              class="sc-iBYPxa dVyzGs"
+              class="css-135bpbl"
             >
               <header
-                class="sc-ftTHlr ejvCSh"
+                class="css-kvjl0w"
               >
                 <div
-                  class="sc-pyeOL jnudmj"
+                  class="css-vmk80s"
                 >
                   <svg
                     aria-hidden="true"
@@ -835,7 +835,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     />
                   </svg>
                   <h4
-                    class="sc-jrcSHq hvgScW"
+                    class="css-pqtvky"
                   >
                     순자산
                   </h4>
@@ -845,17 +845,17 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </span>
               </header>
               <section
-                class="sc-kDvuXt eYRUMZ"
+                class="css-1r2jysi"
               />
             </div>
             <div
-              class="sc-iBYPxa dVyzGs"
+              class="css-135bpbl"
             >
               <header
-                class="sc-ftTHlr vMdur"
+                class="css-1r6e9a4"
               >
                 <div
-                  class="sc-pyeOL jnudmj"
+                  class="css-vmk80s"
                 >
                   <svg
                     aria-hidden="true"
@@ -874,7 +874,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     />
                   </svg>
                   <h4
-                    class="sc-jrcSHq hvgScW"
+                    class="css-pqtvky"
                   >
                     자산
                   </h4>
@@ -884,10 +884,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </span>
               </header>
               <section
-                class="sc-kDvuXt eYRUMZ"
+                class="css-1r2jysi"
               >
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -898,7 +898,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -909,7 +909,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -922,13 +922,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
               </section>
             </div>
             <div
-              class="sc-iBYPxa dVyzGs"
+              class="css-135bpbl"
             >
               <header
-                class="sc-ftTHlr eZiHrv"
+                class="css-1i1w77g"
               >
                 <div
-                  class="sc-pyeOL jnudmj"
+                  class="css-vmk80s"
                 >
                   <svg
                     aria-hidden="true"
@@ -947,7 +947,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     />
                   </svg>
                   <h4
-                    class="sc-jrcSHq hvgScW"
+                    class="css-pqtvky"
                   >
                     부채
                   </h4>
@@ -957,10 +957,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </span>
               </header>
               <section
-                class="sc-kDvuXt eYRUMZ"
+                class="css-1r2jysi"
               >
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -971,7 +971,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -986,13 +986,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
           </div>
         </section>
         <section
-          class="sc-dkrGBB kFyVSt"
+          class="css-14chwgd"
         >
           <header
-            class="sc-hLBatu iqXjlr"
+            class="css-kympkc"
           >
             <div
-              class="sc-eDvShL imkFcV"
+              class="css-359auk"
             >
               <svg
                 aria-hidden="true"
@@ -1011,28 +1011,28 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 />
               </svg>
               <h2
-                class="sc-jSVask hYDWqE"
+                class="css-1bt39ed"
               >
                 이달의 가계
               </h2>
             </div>
             <h3
-              class="sc-gKPSgB bKaCwm"
+              class="css-1puzo0z"
             >
               2024.01.01 ~ 2024.01.31
             </h3>
           </header>
           <div
-            class="sc-csuRvn elnQsf"
+            class="css-7ttcrf"
           >
             <div
-              class="sc-iBYPxa dVyzGs"
+              class="css-135bpbl"
             >
               <header
-                class="sc-ftTHlr ejvCSh"
+                class="css-kvjl0w"
               >
                 <div
-                  class="sc-pyeOL jnudmj"
+                  class="css-vmk80s"
                 >
                   <svg
                     aria-hidden="true"
@@ -1051,7 +1051,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     />
                   </svg>
                   <h4
-                    class="sc-jrcSHq hvgScW"
+                    class="css-pqtvky"
                   >
                     수입 - 지출
                   </h4>
@@ -1061,17 +1061,17 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </span>
               </header>
               <section
-                class="sc-kDvuXt eYRUMZ"
+                class="css-1r2jysi"
               />
             </div>
             <div
-              class="sc-iBYPxa dVyzGs"
+              class="css-135bpbl"
             >
               <header
-                class="sc-ftTHlr vMdur"
+                class="css-1r6e9a4"
               >
                 <div
-                  class="sc-pyeOL jnudmj"
+                  class="css-vmk80s"
                 >
                   <svg
                     aria-hidden="true"
@@ -1090,7 +1090,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     />
                   </svg>
                   <h4
-                    class="sc-jrcSHq hvgScW"
+                    class="css-pqtvky"
                   >
                     수입
                   </h4>
@@ -1100,10 +1100,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </span>
               </header>
               <section
-                class="sc-kDvuXt eYRUMZ"
+                class="css-1r2jysi"
               >
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -1114,7 +1114,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -1127,13 +1127,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
               </section>
             </div>
             <div
-              class="sc-iBYPxa dVyzGs"
+              class="css-135bpbl"
             >
               <header
-                class="sc-ftTHlr eZiHrv"
+                class="css-1i1w77g"
               >
                 <div
-                  class="sc-pyeOL jnudmj"
+                  class="css-vmk80s"
                 >
                   <svg
                     aria-hidden="true"
@@ -1152,7 +1152,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                     />
                   </svg>
                   <h4
-                    class="sc-jrcSHq hvgScW"
+                    class="css-pqtvky"
                   >
                     지출
                   </h4>
@@ -1162,10 +1162,10 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                 </span>
               </header>
               <section
-                class="sc-kDvuXt eYRUMZ"
+                class="css-1r2jysi"
               >
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -1176,7 +1176,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
                   </span>
                 </div>
                 <div
-                  class="sc-ipEzrc lhhzte"
+                  class="css-uf1ume"
                 >
                   <span>
                     └ 
@@ -1192,13 +1192,13 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
         </section>
       </div>
       <div
-        class="sc-iJnacD fNRElf"
+        class="css-1rfq2pv"
       >
         <header
-          class="sc-fEXmZk efweIO"
+          class="css-5whm5h"
         >
           <button
-            class="sc-dIfA-dP sc-hHTZFM dOHcOe gnHgJR"
+            class="css-iwi5cf"
             data-testid="nav-bar-collapse-button"
           >
             <svg
@@ -1218,21 +1218,21 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             </svg>
           </button>
           <div
-            class="sc-bjfHPd lfVijs"
+            class="css-jh5a00"
           >
             <h2
-              class="sc-idXfnW ekPnPq"
+              class="css-uzu4z8"
             >
               가계부
             </h2>
             <button
-              class="sc-hBxdun fmBiQl"
+              class="css-wieti"
             >
               <span>
                 금액감추기
               </span>
               <span
-                class="sc-fnGhNW bNZexW"
+                class="css-101dbv1"
               >
                 OFF
               </span>
@@ -1242,23 +1242,23 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
       </div>
     </div>
     <footer
-      class="sc-cwSeNB cOzkvk"
+      class="css-1psyufs"
     >
       <div
-        class="sc-bBACfQ iIOBZv"
+        class="css-jh5a00"
       >
         <span>
           이달의예산
         </span>
         <div
-          class="sc-kgTRUy dGQxjv"
+          class="css-1sz5t5j"
         >
           <div
-            class="sc-fLcmKr cTFbGJ"
+            class="css-1dv1ys6"
           />
         </div>
         <span
-          class="sc-iveGuF beUUUq"
+          class="css-md2hjx"
         >
           3,000,000
         </span>

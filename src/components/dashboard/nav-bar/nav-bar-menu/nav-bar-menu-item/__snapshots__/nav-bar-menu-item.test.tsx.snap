@@ -6,7 +6,7 @@ exports[`NavBarMenuItem > renders NavBarMenuItem component 1`] = `
   "baseElement": <body>
     <div>
       <a
-        class="sc-bcXGCL fUoTo"
+        class="css-1abmkb"
         href="/"
       >
         ITEM
@@ -15,7 +15,7 @@ exports[`NavBarMenuItem > renders NavBarMenuItem component 1`] = `
   </body>,
   "container": <div>
     <a
-      class="sc-bcXGCL fUoTo"
+      class="css-1abmkb"
       href="/"
     >
       ITEM

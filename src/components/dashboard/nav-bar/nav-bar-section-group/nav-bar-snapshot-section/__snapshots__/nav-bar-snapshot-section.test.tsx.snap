@@ -6,13 +6,13 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
   "baseElement": <body>
     <div>
       <section
-        class="sc-bcXGCL bcHZdm"
+        class="css-14chwgd"
       >
         <header
-          class="sc-gswONk bbyusk"
+          class="css-kympkc"
         >
           <div
-            class="sc-dkrGBB coUJWn"
+            class="css-359auk"
           >
             <svg
               aria-hidden="true"
@@ -31,23 +31,23 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
               />
             </svg>
             <h2
-              class="sc-hLBatu daYlFY"
+              class="css-1bt39ed"
             >
               이달의 자산현황
             </h2>
           </div>
         </header>
         <div
-          class="sc-kDvuXt fQAIJM"
+          class="css-7ttcrf"
         >
           <div
-            class="sc-jSVask izIFLB"
+            class="css-135bpbl"
           >
             <header
-              class="sc-gKPSgB ccYFjP"
+              class="css-kvjl0w"
             >
               <div
-                class="sc-iBYPxa gSwoSn"
+                class="css-vmk80s"
               >
                 <svg
                   aria-hidden="true"
@@ -66,7 +66,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                   />
                 </svg>
                 <h4
-                  class="sc-ftTHlr gMzVij"
+                  class="css-pqtvky"
                 >
                   순자산
                 </h4>
@@ -76,17 +76,17 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
               </span>
             </header>
             <section
-              class="sc-pyeOL epDYye"
+              class="css-1r2jysi"
             />
           </div>
           <div
-            class="sc-jSVask izIFLB"
+            class="css-135bpbl"
           >
             <header
-              class="sc-gKPSgB diYNzh"
+              class="css-1r6e9a4"
             >
               <div
-                class="sc-iBYPxa gSwoSn"
+                class="css-vmk80s"
               >
                 <svg
                   aria-hidden="true"
@@ -105,7 +105,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                   />
                 </svg>
                 <h4
-                  class="sc-ftTHlr gMzVij"
+                  class="css-pqtvky"
                 >
                   자산
                 </h4>
@@ -115,10 +115,10 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
               </span>
             </header>
             <section
-              class="sc-pyeOL epDYye"
+              class="css-1r2jysi"
             >
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -129,7 +129,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                 </span>
               </div>
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -140,7 +140,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                 </span>
               </div>
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -153,13 +153,13 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
             </section>
           </div>
           <div
-            class="sc-jSVask izIFLB"
+            class="css-135bpbl"
           >
             <header
-              class="sc-gKPSgB gwRqIB"
+              class="css-1i1w77g"
             >
               <div
-                class="sc-iBYPxa gSwoSn"
+                class="css-vmk80s"
               >
                 <svg
                   aria-hidden="true"
@@ -178,7 +178,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                   />
                 </svg>
                 <h4
-                  class="sc-ftTHlr gMzVij"
+                  class="css-pqtvky"
                 >
                   부채
                 </h4>
@@ -188,10 +188,10 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
               </span>
             </header>
             <section
-              class="sc-pyeOL epDYye"
+              class="css-1r2jysi"
             >
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -202,7 +202,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                 </span>
               </div>
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -220,13 +220,13 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
   </body>,
   "container": <div>
     <section
-      class="sc-bcXGCL bcHZdm"
+      class="css-14chwgd"
     >
       <header
-        class="sc-gswONk bbyusk"
+        class="css-kympkc"
       >
         <div
-          class="sc-dkrGBB coUJWn"
+          class="css-359auk"
         >
           <svg
             aria-hidden="true"
@@ -245,23 +245,23 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
             />
           </svg>
           <h2
-            class="sc-hLBatu daYlFY"
+            class="css-1bt39ed"
           >
             이달의 자산현황
           </h2>
         </div>
       </header>
       <div
-        class="sc-kDvuXt fQAIJM"
+        class="css-7ttcrf"
       >
         <div
-          class="sc-jSVask izIFLB"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gKPSgB ccYFjP"
+            class="css-kvjl0w"
           >
             <div
-              class="sc-iBYPxa gSwoSn"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -280,7 +280,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-ftTHlr gMzVij"
+                class="css-pqtvky"
               >
                 순자산
               </h4>
@@ -290,17 +290,17 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
             </span>
           </header>
           <section
-            class="sc-pyeOL epDYye"
+            class="css-1r2jysi"
           />
         </div>
         <div
-          class="sc-jSVask izIFLB"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gKPSgB diYNzh"
+            class="css-1r6e9a4"
           >
             <div
-              class="sc-iBYPxa gSwoSn"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -319,7 +319,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-ftTHlr gMzVij"
+                class="css-pqtvky"
               >
                 자산
               </h4>
@@ -329,10 +329,10 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
             </span>
           </header>
           <section
-            class="sc-pyeOL epDYye"
+            class="css-1r2jysi"
           >
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -343,7 +343,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
               </span>
             </div>
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -354,7 +354,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
               </span>
             </div>
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -367,13 +367,13 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
           </section>
         </div>
         <div
-          class="sc-jSVask izIFLB"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gKPSgB gwRqIB"
+            class="css-1i1w77g"
           >
             <div
-              class="sc-iBYPxa gSwoSn"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -392,7 +392,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-ftTHlr gMzVij"
+                class="css-pqtvky"
               >
                 부채
               </h4>
@@ -402,10 +402,10 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
             </span>
           </header>
           <section
-            class="sc-pyeOL epDYye"
+            class="css-1r2jysi"
           >
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -416,7 +416,7 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
               </span>
             </div>
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 

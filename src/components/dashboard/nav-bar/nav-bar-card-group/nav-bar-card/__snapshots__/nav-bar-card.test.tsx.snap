@@ -6,13 +6,13 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk leTtYq"
+          class="css-1r6e9a4"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -31,7 +31,7 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               PLUS
             </h4>
@@ -41,10 +41,10 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
           </span>
         </header>
         <section
-          class="sc-eDvShL csiknN"
+          class="css-1r2jysi"
         >
           <div
-            class="sc-jSVask cBFElv"
+            class="css-uf1ume"
           >
             <span>
               └ 
@@ -55,7 +55,7 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
             </span>
           </div>
           <div
-            class="sc-jSVask cBFElv"
+            class="css-uf1ume"
           >
             <span>
               └ 
@@ -71,13 +71,13 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL trdFS"
+      class="css-135bpbl"
     >
       <header
-        class="sc-gswONk leTtYq"
+        class="css-1r6e9a4"
       >
         <div
-          class="sc-dkrGBB iqQKfy"
+          class="css-vmk80s"
         >
           <svg
             aria-hidden="true"
@@ -96,7 +96,7 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
             />
           </svg>
           <h4
-            class="sc-hLBatu gvZIpJ"
+            class="css-pqtvky"
           >
             PLUS
           </h4>
@@ -106,10 +106,10 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
         </span>
       </header>
       <section
-        class="sc-eDvShL csiknN"
+        class="css-1r2jysi"
       >
         <div
-          class="sc-jSVask cBFElv"
+          class="css-uf1ume"
         >
           <span>
             └ 
@@ -120,7 +120,7 @@ exports[`NavBarCard > with details prop > renders NavBarCard component 1`] = `
           </span>
         </div>
         <div
-          class="sc-jSVask cBFElv"
+          class="css-uf1ume"
         >
           <span>
             └ 
@@ -200,13 +200,13 @@ exports[`NavBarCard > with details prop > renders collapsed when specified 1`] =
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk leTtYq"
+          class="css-1r6e9a4"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -225,7 +225,7 @@ exports[`NavBarCard > with details prop > renders collapsed when specified 1`] =
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               PLUS
             </h4>
@@ -239,13 +239,13 @@ exports[`NavBarCard > with details prop > renders collapsed when specified 1`] =
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL trdFS"
+      class="css-135bpbl"
     >
       <header
-        class="sc-gswONk leTtYq"
+        class="css-1r6e9a4"
       >
         <div
-          class="sc-dkrGBB iqQKfy"
+          class="css-vmk80s"
         >
           <svg
             aria-hidden="true"
@@ -264,7 +264,7 @@ exports[`NavBarCard > with details prop > renders collapsed when specified 1`] =
             />
           </svg>
           <h4
-            class="sc-hLBatu gvZIpJ"
+            class="css-pqtvky"
           >
             PLUS
           </h4>
@@ -342,13 +342,13 @@ exports[`NavBarCard > with details prop > renders with hidden amount 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk leTtYq"
+          class="css-1r6e9a4"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -367,7 +367,7 @@ exports[`NavBarCard > with details prop > renders with hidden amount 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               PLUS
             </h4>
@@ -381,13 +381,13 @@ exports[`NavBarCard > with details prop > renders with hidden amount 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL trdFS"
+      class="css-135bpbl"
     >
       <header
-        class="sc-gswONk leTtYq"
+        class="css-1r6e9a4"
       >
         <div
-          class="sc-dkrGBB iqQKfy"
+          class="css-vmk80s"
         >
           <svg
             aria-hidden="true"
@@ -406,7 +406,7 @@ exports[`NavBarCard > with details prop > renders with hidden amount 1`] = `
             />
           </svg>
           <h4
-            class="sc-hLBatu gvZIpJ"
+            class="css-pqtvky"
           >
             PLUS
           </h4>
@@ -484,13 +484,13 @@ exports[`NavBarCard > without details prop > renders NavBarCard component 1`] = 
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk cgVUIM"
+          class="css-kvjl0w"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -509,7 +509,7 @@ exports[`NavBarCard > without details prop > renders NavBarCard component 1`] = 
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               NET
             </h4>
@@ -519,20 +519,20 @@ exports[`NavBarCard > without details prop > renders NavBarCard component 1`] = 
           </span>
         </header>
         <section
-          class="sc-eDvShL csiknN"
+          class="css-1r2jysi"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL trdFS"
+      class="css-135bpbl"
     >
       <header
-        class="sc-gswONk cgVUIM"
+        class="css-kvjl0w"
       >
         <div
-          class="sc-dkrGBB iqQKfy"
+          class="css-vmk80s"
         >
           <svg
             aria-hidden="true"
@@ -551,7 +551,7 @@ exports[`NavBarCard > without details prop > renders NavBarCard component 1`] = 
             />
           </svg>
           <h4
-            class="sc-hLBatu gvZIpJ"
+            class="css-pqtvky"
           >
             NET
           </h4>
@@ -561,7 +561,7 @@ exports[`NavBarCard > without details prop > renders NavBarCard component 1`] = 
         </span>
       </header>
       <section
-        class="sc-eDvShL csiknN"
+        class="css-1r2jysi"
       />
     </div>
   </div>,
@@ -632,13 +632,13 @@ exports[`NavBarCard > without details prop > renders collapsed when specified 1`
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk cgVUIM"
+          class="css-kvjl0w"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -657,7 +657,7 @@ exports[`NavBarCard > without details prop > renders collapsed when specified 1`
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               NET
             </h4>
@@ -671,13 +671,13 @@ exports[`NavBarCard > without details prop > renders collapsed when specified 1`
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL trdFS"
+      class="css-135bpbl"
     >
       <header
-        class="sc-gswONk cgVUIM"
+        class="css-kvjl0w"
       >
         <div
-          class="sc-dkrGBB iqQKfy"
+          class="css-vmk80s"
         >
           <svg
             aria-hidden="true"
@@ -696,7 +696,7 @@ exports[`NavBarCard > without details prop > renders collapsed when specified 1`
             />
           </svg>
           <h4
-            class="sc-hLBatu gvZIpJ"
+            class="css-pqtvky"
           >
             NET
           </h4>
@@ -774,13 +774,13 @@ exports[`NavBarCard > without details prop > renders with hidden amount 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk cgVUIM"
+          class="css-kvjl0w"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -799,7 +799,7 @@ exports[`NavBarCard > without details prop > renders with hidden amount 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               NET
             </h4>
@@ -809,20 +809,20 @@ exports[`NavBarCard > without details prop > renders with hidden amount 1`] = `
           </span>
         </header>
         <section
-          class="sc-eDvShL csiknN"
+          class="css-1r2jysi"
         />
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bcXGCL trdFS"
+      class="css-135bpbl"
     >
       <header
-        class="sc-gswONk cgVUIM"
+        class="css-kvjl0w"
       >
         <div
-          class="sc-dkrGBB iqQKfy"
+          class="css-vmk80s"
         >
           <svg
             aria-hidden="true"
@@ -841,7 +841,7 @@ exports[`NavBarCard > without details prop > renders with hidden amount 1`] = `
             />
           </svg>
           <h4
-            class="sc-hLBatu gvZIpJ"
+            class="css-pqtvky"
           >
             NET
           </h4>
@@ -851,7 +851,7 @@ exports[`NavBarCard > without details prop > renders with hidden amount 1`] = `
         </span>
       </header>
       <section
-        class="sc-eDvShL csiknN"
+        class="css-1r2jysi"
       />
     </div>
   </div>,

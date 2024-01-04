@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import { NavBarCardTypes } from './nav-bar-card.const';
 
 type NavBarHeaderProps = {

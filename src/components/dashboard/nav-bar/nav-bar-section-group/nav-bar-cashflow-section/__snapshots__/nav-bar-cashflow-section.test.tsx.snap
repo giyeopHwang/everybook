@@ -6,13 +6,13 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
   "baseElement": <body>
     <div>
       <section
-        class="sc-bcXGCL bcHZdm"
+        class="css-14chwgd"
       >
         <header
-          class="sc-gswONk bbyusk"
+          class="css-kympkc"
         >
           <div
-            class="sc-dkrGBB coUJWn"
+            class="css-359auk"
           >
             <svg
               aria-hidden="true"
@@ -31,28 +31,28 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
               />
             </svg>
             <h2
-              class="sc-hLBatu daYlFY"
+              class="css-1bt39ed"
             >
               이달의 가계
             </h2>
           </div>
           <h3
-            class="sc-eDvShL iDUudY"
+            class="css-1puzo0z"
           >
             2024.01.01 ~ 2024.01.31
           </h3>
         </header>
         <div
-          class="sc-kDvuXt fQAIJM"
+          class="css-7ttcrf"
         >
           <div
-            class="sc-jSVask izIFLB"
+            class="css-135bpbl"
           >
             <header
-              class="sc-gKPSgB ccYFjP"
+              class="css-kvjl0w"
             >
               <div
-                class="sc-iBYPxa gSwoSn"
+                class="css-vmk80s"
               >
                 <svg
                   aria-hidden="true"
@@ -71,7 +71,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                   />
                 </svg>
                 <h4
-                  class="sc-ftTHlr gMzVij"
+                  class="css-pqtvky"
                 >
                   수입 - 지출
                 </h4>
@@ -81,17 +81,17 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
               </span>
             </header>
             <section
-              class="sc-pyeOL epDYye"
+              class="css-1r2jysi"
             />
           </div>
           <div
-            class="sc-jSVask izIFLB"
+            class="css-135bpbl"
           >
             <header
-              class="sc-gKPSgB diYNzh"
+              class="css-1r6e9a4"
             >
               <div
-                class="sc-iBYPxa gSwoSn"
+                class="css-vmk80s"
               >
                 <svg
                   aria-hidden="true"
@@ -110,7 +110,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                   />
                 </svg>
                 <h4
-                  class="sc-ftTHlr gMzVij"
+                  class="css-pqtvky"
                 >
                   수입
                 </h4>
@@ -120,10 +120,10 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
               </span>
             </header>
             <section
-              class="sc-pyeOL epDYye"
+              class="css-1r2jysi"
             >
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -134,7 +134,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                 </span>
               </div>
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -147,13 +147,13 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
             </section>
           </div>
           <div
-            class="sc-jSVask izIFLB"
+            class="css-135bpbl"
           >
             <header
-              class="sc-gKPSgB gwRqIB"
+              class="css-1i1w77g"
             >
               <div
-                class="sc-iBYPxa gSwoSn"
+                class="css-vmk80s"
               >
                 <svg
                   aria-hidden="true"
@@ -172,7 +172,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                   />
                 </svg>
                 <h4
-                  class="sc-ftTHlr gMzVij"
+                  class="css-pqtvky"
                 >
                   지출
                 </h4>
@@ -182,10 +182,10 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
               </span>
             </header>
             <section
-              class="sc-pyeOL epDYye"
+              class="css-1r2jysi"
             >
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -196,7 +196,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                 </span>
               </div>
               <div
-                class="sc-jrcSHq iuMjoo"
+                class="css-uf1ume"
               >
                 <span>
                   └ 
@@ -214,13 +214,13 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
   </body>,
   "container": <div>
     <section
-      class="sc-bcXGCL bcHZdm"
+      class="css-14chwgd"
     >
       <header
-        class="sc-gswONk bbyusk"
+        class="css-kympkc"
       >
         <div
-          class="sc-dkrGBB coUJWn"
+          class="css-359auk"
         >
           <svg
             aria-hidden="true"
@@ -239,28 +239,28 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
             />
           </svg>
           <h2
-            class="sc-hLBatu daYlFY"
+            class="css-1bt39ed"
           >
             이달의 가계
           </h2>
         </div>
         <h3
-          class="sc-eDvShL iDUudY"
+          class="css-1puzo0z"
         >
           2024.01.01 ~ 2024.01.31
         </h3>
       </header>
       <div
-        class="sc-kDvuXt fQAIJM"
+        class="css-7ttcrf"
       >
         <div
-          class="sc-jSVask izIFLB"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gKPSgB ccYFjP"
+            class="css-kvjl0w"
           >
             <div
-              class="sc-iBYPxa gSwoSn"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -279,7 +279,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-ftTHlr gMzVij"
+                class="css-pqtvky"
               >
                 수입 - 지출
               </h4>
@@ -289,17 +289,17 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
             </span>
           </header>
           <section
-            class="sc-pyeOL epDYye"
+            class="css-1r2jysi"
           />
         </div>
         <div
-          class="sc-jSVask izIFLB"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gKPSgB diYNzh"
+            class="css-1r6e9a4"
           >
             <div
-              class="sc-iBYPxa gSwoSn"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -318,7 +318,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-ftTHlr gMzVij"
+                class="css-pqtvky"
               >
                 수입
               </h4>
@@ -328,10 +328,10 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
             </span>
           </header>
           <section
-            class="sc-pyeOL epDYye"
+            class="css-1r2jysi"
           >
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -342,7 +342,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
               </span>
             </div>
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -355,13 +355,13 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
           </section>
         </div>
         <div
-          class="sc-jSVask izIFLB"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gKPSgB gwRqIB"
+            class="css-1i1w77g"
           >
             <div
-              class="sc-iBYPxa gSwoSn"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -380,7 +380,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-ftTHlr gMzVij"
+                class="css-pqtvky"
               >
                 지출
               </h4>
@@ -390,10 +390,10 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
             </span>
           </header>
           <section
-            class="sc-pyeOL epDYye"
+            class="css-1r2jysi"
           >
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -404,7 +404,7 @@ exports[`NavBarCashFlowSection > renders NavBarCashFlowSection component 1`] = `
               </span>
             </div>
             <div
-              class="sc-jrcSHq iuMjoo"
+              class="css-uf1ume"
             >
               <span>
                 └ 

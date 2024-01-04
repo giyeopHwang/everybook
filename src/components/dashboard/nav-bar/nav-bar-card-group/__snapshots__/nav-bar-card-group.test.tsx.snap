@@ -6,16 +6,16 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gKPSgB eRwCyO"
+        class="css-7ttcrf"
       >
         <div
-          class="sc-bcXGCL trdFS"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gswONk cgVUIM"
+            class="css-kvjl0w"
           >
             <div
-              class="sc-dkrGBB iqQKfy"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -34,7 +34,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-hLBatu gvZIpJ"
+                class="css-pqtvky"
               >
                 NET
               </h4>
@@ -44,17 +44,17 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
             </span>
           </header>
           <section
-            class="sc-eDvShL csiknN"
+            class="css-1r2jysi"
           />
         </div>
         <div
-          class="sc-bcXGCL trdFS"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gswONk leTtYq"
+            class="css-1r6e9a4"
           >
             <div
-              class="sc-dkrGBB iqQKfy"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -73,7 +73,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-hLBatu gvZIpJ"
+                class="css-pqtvky"
               >
                 PLUS
               </h4>
@@ -83,10 +83,10 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
             </span>
           </header>
           <section
-            class="sc-eDvShL csiknN"
+            class="css-1r2jysi"
           >
             <div
-              class="sc-jSVask cBFElv"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -97,7 +97,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
               </span>
             </div>
             <div
-              class="sc-jSVask cBFElv"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -110,13 +110,13 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
           </section>
         </div>
         <div
-          class="sc-bcXGCL trdFS"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gswONk goXqVu"
+            class="css-1i1w77g"
           >
             <div
-              class="sc-dkrGBB iqQKfy"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -135,7 +135,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
                 />
               </svg>
               <h4
-                class="sc-hLBatu gvZIpJ"
+                class="css-pqtvky"
               >
                 MINUS
               </h4>
@@ -145,10 +145,10 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
             </span>
           </header>
           <section
-            class="sc-eDvShL csiknN"
+            class="css-1r2jysi"
           >
             <div
-              class="sc-jSVask cBFElv"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -159,7 +159,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
               </span>
             </div>
             <div
-              class="sc-jSVask cBFElv"
+              class="css-uf1ume"
             >
               <span>
                 └ 
@@ -176,16 +176,16 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gKPSgB eRwCyO"
+      class="css-7ttcrf"
     >
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk cgVUIM"
+          class="css-kvjl0w"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -204,7 +204,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               NET
             </h4>
@@ -214,17 +214,17 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
           </span>
         </header>
         <section
-          class="sc-eDvShL csiknN"
+          class="css-1r2jysi"
         />
       </div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk leTtYq"
+          class="css-1r6e9a4"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -243,7 +243,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               PLUS
             </h4>
@@ -253,10 +253,10 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
           </span>
         </header>
         <section
-          class="sc-eDvShL csiknN"
+          class="css-1r2jysi"
         >
           <div
-            class="sc-jSVask cBFElv"
+            class="css-uf1ume"
           >
             <span>
               └ 
@@ -267,7 +267,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
             </span>
           </div>
           <div
-            class="sc-jSVask cBFElv"
+            class="css-uf1ume"
           >
             <span>
               └ 
@@ -280,13 +280,13 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
         </section>
       </div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk goXqVu"
+          class="css-1i1w77g"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -305,7 +305,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               MINUS
             </h4>
@@ -315,10 +315,10 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
           </span>
         </header>
         <section
-          class="sc-eDvShL csiknN"
+          class="css-1r2jysi"
         >
           <div
-            class="sc-jSVask cBFElv"
+            class="css-uf1ume"
           >
             <span>
               └ 
@@ -329,7 +329,7 @@ exports[`NavBarCardGroup > renders NavBarCardGroup component 1`] = `
             </span>
           </div>
           <div
-            class="sc-jSVask cBFElv"
+            class="css-uf1ume"
           >
             <span>
               └ 
@@ -410,16 +410,16 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gKPSgB eRwCyO"
+        class="css-7ttcrf"
       >
         <div
-          class="sc-bcXGCL trdFS"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gswONk cgVUIM"
+            class="css-kvjl0w"
           >
             <div
-              class="sc-dkrGBB iqQKfy"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -438,7 +438,7 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
                 />
               </svg>
               <h4
-                class="sc-hLBatu gvZIpJ"
+                class="css-pqtvky"
               >
                 NET
               </h4>
@@ -449,13 +449,13 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
           </header>
         </div>
         <div
-          class="sc-bcXGCL trdFS"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gswONk leTtYq"
+            class="css-1r6e9a4"
           >
             <div
-              class="sc-dkrGBB iqQKfy"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -474,7 +474,7 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
                 />
               </svg>
               <h4
-                class="sc-hLBatu gvZIpJ"
+                class="css-pqtvky"
               >
                 PLUS
               </h4>
@@ -485,13 +485,13 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
           </header>
         </div>
         <div
-          class="sc-bcXGCL trdFS"
+          class="css-135bpbl"
         >
           <header
-            class="sc-gswONk goXqVu"
+            class="css-1i1w77g"
           >
             <div
-              class="sc-dkrGBB iqQKfy"
+              class="css-vmk80s"
             >
               <svg
                 aria-hidden="true"
@@ -510,7 +510,7 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
                 />
               </svg>
               <h4
-                class="sc-hLBatu gvZIpJ"
+                class="css-pqtvky"
               >
                 MINUS
               </h4>
@@ -525,16 +525,16 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gKPSgB eRwCyO"
+      class="css-7ttcrf"
     >
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk cgVUIM"
+          class="css-kvjl0w"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -553,7 +553,7 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               NET
             </h4>
@@ -564,13 +564,13 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
         </header>
       </div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk leTtYq"
+          class="css-1r6e9a4"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -589,7 +589,7 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               PLUS
             </h4>
@@ -600,13 +600,13 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
         </header>
       </div>
       <div
-        class="sc-bcXGCL trdFS"
+        class="css-135bpbl"
       >
         <header
-          class="sc-gswONk goXqVu"
+          class="css-1i1w77g"
         >
           <div
-            class="sc-dkrGBB iqQKfy"
+            class="css-vmk80s"
           >
             <svg
               aria-hidden="true"
@@ -625,7 +625,7 @@ exports[`NavBarCardGroup > renders collapsed when specified 1`] = `
               />
             </svg>
             <h4
-              class="sc-hLBatu gvZIpJ"
+              class="css-pqtvky"
             >
               MINUS
             </h4>

@@ -6,7 +6,7 @@ exports[`SignInForm > renders SignInForm component 1`] = `
   "baseElement": <body>
     <div>
       <a
-        class="sc-bcXGCL bpFrMd"
+        class="css-1mrfowa"
         href="/dashboard"
       >
         입장하기
@@ -15,7 +15,7 @@ exports[`SignInForm > renders SignInForm component 1`] = `
   </body>,
   "container": <div>
     <a
-      class="sc-bcXGCL bpFrMd"
+      class="css-1mrfowa"
       href="/dashboard"
     >
       입장하기

@@ -6,13 +6,13 @@ exports[`NavBarSection > fires callback when title clicked 1`] = `
   "baseElement": <body>
     <div>
       <section
-        class="sc-bcXGCL bcHZdm"
+        class="css-14chwgd"
       >
         <header
-          class="sc-gswONk bbyusk"
+          class="css-kympkc"
         >
           <div
-            class="sc-dkrGBB coUJWn"
+            class="css-359auk"
           >
             <svg
               aria-hidden="true"
@@ -31,7 +31,7 @@ exports[`NavBarSection > fires callback when title clicked 1`] = `
               />
             </svg>
             <h2
-              class="sc-hLBatu daYlFY"
+              class="css-1bt39ed"
             >
               TITLE
             </h2>
@@ -43,13 +43,13 @@ exports[`NavBarSection > fires callback when title clicked 1`] = `
   </body>,
   "container": <div>
     <section
-      class="sc-bcXGCL bcHZdm"
+      class="css-14chwgd"
     >
       <header
-        class="sc-gswONk bbyusk"
+        class="css-kympkc"
       >
         <div
-          class="sc-dkrGBB coUJWn"
+          class="css-359auk"
         >
           <svg
             aria-hidden="true"
@@ -68,7 +68,7 @@ exports[`NavBarSection > fires callback when title clicked 1`] = `
             />
           </svg>
           <h2
-            class="sc-hLBatu daYlFY"
+            class="css-1bt39ed"
           >
             TITLE
           </h2>
@@ -137,13 +137,13 @@ exports[`NavBarSection > renders NavBarSection component 1`] = `
   "baseElement": <body>
     <div>
       <section
-        class="sc-bcXGCL bcHZdm"
+        class="css-14chwgd"
       >
         <header
-          class="sc-gswONk bbyusk"
+          class="css-kympkc"
         >
           <div
-            class="sc-dkrGBB coUJWn"
+            class="css-359auk"
           >
             <svg
               aria-hidden="true"
@@ -162,7 +162,7 @@ exports[`NavBarSection > renders NavBarSection component 1`] = `
               />
             </svg>
             <h2
-              class="sc-hLBatu daYlFY"
+              class="css-1bt39ed"
             >
               TITLE
             </h2>
@@ -174,13 +174,13 @@ exports[`NavBarSection > renders NavBarSection component 1`] = `
   </body>,
   "container": <div>
     <section
-      class="sc-bcXGCL bcHZdm"
+      class="css-14chwgd"
     >
       <header
-        class="sc-gswONk bbyusk"
+        class="css-kympkc"
       >
         <div
-          class="sc-dkrGBB coUJWn"
+          class="css-359auk"
         >
           <svg
             aria-hidden="true"
@@ -199,7 +199,7 @@ exports[`NavBarSection > renders NavBarSection component 1`] = `
             />
           </svg>
           <h2
-            class="sc-hLBatu daYlFY"
+            class="css-1bt39ed"
           >
             TITLE
           </h2>
@@ -268,13 +268,13 @@ exports[`NavBarSection > renders collapsed when specified 1`] = `
   "baseElement": <body>
     <div>
       <section
-        class="sc-bcXGCL bcHZdm"
+        class="css-14chwgd"
       >
         <header
-          class="sc-gswONk bbyusk"
+          class="css-kympkc"
         >
           <div
-            class="sc-dkrGBB coUJWn"
+            class="css-359auk"
           >
             <svg
               aria-hidden="true"
@@ -293,7 +293,7 @@ exports[`NavBarSection > renders collapsed when specified 1`] = `
               />
             </svg>
             <h2
-              class="sc-hLBatu daYlFY"
+              class="css-1bt39ed"
             >
               TITLE
             </h2>
@@ -305,13 +305,13 @@ exports[`NavBarSection > renders collapsed when specified 1`] = `
   </body>,
   "container": <div>
     <section
-      class="sc-bcXGCL bcHZdm"
+      class="css-14chwgd"
     >
       <header
-        class="sc-gswONk bbyusk"
+        class="css-kympkc"
       >
         <div
-          class="sc-dkrGBB coUJWn"
+          class="css-359auk"
         >
           <svg
             aria-hidden="true"
@@ -330,7 +330,7 @@ exports[`NavBarSection > renders collapsed when specified 1`] = `
             />
           </svg>
           <h2
-            class="sc-hLBatu daYlFY"
+            class="css-1bt39ed"
           >
             TITLE
           </h2>
@@ -399,13 +399,13 @@ exports[`NavBarSection > renders with subTitle when specified 1`] = `
   "baseElement": <body>
     <div>
       <section
-        class="sc-bcXGCL bcHZdm"
+        class="css-14chwgd"
       >
         <header
-          class="sc-gswONk bbyusk"
+          class="css-kympkc"
         >
           <div
-            class="sc-dkrGBB coUJWn"
+            class="css-359auk"
           >
             <svg
               aria-hidden="true"
@@ -424,13 +424,13 @@ exports[`NavBarSection > renders with subTitle when specified 1`] = `
               />
             </svg>
             <h2
-              class="sc-hLBatu daYlFY"
+              class="css-1bt39ed"
             >
               TITLE
             </h2>
           </div>
           <h3
-            class="sc-eDvShL iDUudY"
+            class="css-1puzo0z"
           >
             SUBTITLE
           </h3>
@@ -441,13 +441,13 @@ exports[`NavBarSection > renders with subTitle when specified 1`] = `
   </body>,
   "container": <div>
     <section
-      class="sc-bcXGCL bcHZdm"
+      class="css-14chwgd"
     >
       <header
-        class="sc-gswONk bbyusk"
+        class="css-kympkc"
       >
         <div
-          class="sc-dkrGBB coUJWn"
+          class="css-359auk"
         >
           <svg
             aria-hidden="true"
@@ -466,13 +466,13 @@ exports[`NavBarSection > renders with subTitle when specified 1`] = `
             />
           </svg>
           <h2
-            class="sc-hLBatu daYlFY"
+            class="css-1bt39ed"
           >
             TITLE
           </h2>
         </div>
         <h3
-          class="sc-eDvShL iDUudY"
+          class="css-1puzo0z"
         >
           SUBTITLE
         </h3>

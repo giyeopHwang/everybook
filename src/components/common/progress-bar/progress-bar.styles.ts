@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import { ProgressTypes } from './progress-bar.const';
 
 type Progress = {

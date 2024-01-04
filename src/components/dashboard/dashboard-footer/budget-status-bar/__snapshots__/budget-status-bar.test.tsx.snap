@@ -6,20 +6,20 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dkrGBB hWbfRc"
+        class="css-jh5a00"
       >
         <span>
           이달의예산
         </span>
         <div
-          class="sc-bcXGCL jXLNxY"
+          class="css-1sz5t5j"
         >
           <div
-            class="sc-gswONk dIRKrZ"
+            class="css-1dv1ys6"
           />
         </div>
         <span
-          class="sc-hLBatu eQTfWq"
+          class="css-md2hjx"
         >
           3,000,000
         </span>
@@ -34,20 +34,20 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dkrGBB hWbfRc"
+      class="css-jh5a00"
     >
       <span>
         이달의예산
       </span>
       <div
-        class="sc-bcXGCL jXLNxY"
+        class="css-1sz5t5j"
       >
         <div
-          class="sc-gswONk dIRKrZ"
+          class="css-1dv1ys6"
         />
       </div>
       <span
-        class="sc-hLBatu eQTfWq"
+        class="css-md2hjx"
       >
         3,000,000
       </span>
@@ -126,20 +126,20 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-dkrGBB hWbfRc"
+        class="css-jh5a00"
       >
         <span>
           이달의예산
         </span>
         <div
-          class="sc-bcXGCL jXLNxY"
+          class="css-1sz5t5j"
         >
           <div
-            class="sc-gswONk dIRKrZ"
+            class="css-1dv1ys6"
           />
         </div>
         <span
-          class="sc-hLBatu eQTfWq"
+          class="css-md2hjx"
         >
           *********
         </span>
@@ -154,20 +154,20 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-dkrGBB hWbfRc"
+      class="css-jh5a00"
     >
       <span>
         이달의예산
       </span>
       <div
-        class="sc-bcXGCL jXLNxY"
+        class="css-1sz5t5j"
       >
         <div
-          class="sc-gswONk dIRKrZ"
+          class="css-1dv1ys6"
         />
       </div>
       <span
-        class="sc-hLBatu eQTfWq"
+        class="css-md2hjx"
       >
         *********
       </span>

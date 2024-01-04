@@ -6,13 +6,13 @@ exports[`DatePicker > renders DatePicker component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gswONk eVNhdR"
+        class="css-1gzecui"
       >
         <div
-          class="sc-dkrGBB fDAwti"
+          class="css-1gzecui"
         >
           <input
-            class="sc-hLBatu icGHot"
+            class="css-166c21b"
             data-testid="date-picker-year"
             max="2100"
             min="1900"
@@ -27,7 +27,7 @@ exports[`DatePicker > renders DatePicker component 1`] = `
             년
           </label>
           <input
-            class="sc-hLBatu icGHot"
+            class="css-166c21b"
             data-testid="date-picker-month"
             max="12"
             min="1"
@@ -42,7 +42,7 @@ exports[`DatePicker > renders DatePicker component 1`] = `
             월
           </label>
           <button
-            class="sc-bcXGCL fWyeip"
+            class="css-wieti"
           >
             초기화
           </button>
@@ -52,13 +52,13 @@ exports[`DatePicker > renders DatePicker component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gswONk eVNhdR"
+      class="css-1gzecui"
     >
       <div
-        class="sc-dkrGBB fDAwti"
+        class="css-1gzecui"
       >
         <input
-          class="sc-hLBatu icGHot"
+          class="css-166c21b"
           data-testid="date-picker-year"
           max="2100"
           min="1900"
@@ -73,7 +73,7 @@ exports[`DatePicker > renders DatePicker component 1`] = `
           년
         </label>
         <input
-          class="sc-hLBatu icGHot"
+          class="css-166c21b"
           data-testid="date-picker-month"
           max="12"
           min="1"
@@ -88,7 +88,7 @@ exports[`DatePicker > renders DatePicker component 1`] = `
           월
         </label>
         <button
-          class="sc-bcXGCL fWyeip"
+          class="css-wieti"
         >
           초기화
         </button>
@@ -155,13 +155,13 @@ exports[`DatePicker > renders with specified date 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gswONk eVNhdR"
+        class="css-1gzecui"
       >
         <div
-          class="sc-dkrGBB fDAwti"
+          class="css-1gzecui"
         >
           <input
-            class="sc-hLBatu icGHot"
+            class="css-166c21b"
             data-testid="date-picker-year"
             max="2100"
             min="1900"
@@ -176,7 +176,7 @@ exports[`DatePicker > renders with specified date 1`] = `
             년
           </label>
           <input
-            class="sc-hLBatu icGHot"
+            class="css-166c21b"
             data-testid="date-picker-month"
             max="12"
             min="1"
@@ -191,7 +191,7 @@ exports[`DatePicker > renders with specified date 1`] = `
             월
           </label>
           <button
-            class="sc-bcXGCL fWyeip"
+            class="css-wieti"
           >
             초기화
           </button>
@@ -201,13 +201,13 @@ exports[`DatePicker > renders with specified date 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gswONk eVNhdR"
+      class="css-1gzecui"
     >
       <div
-        class="sc-dkrGBB fDAwti"
+        class="css-1gzecui"
       >
         <input
-          class="sc-hLBatu icGHot"
+          class="css-166c21b"
           data-testid="date-picker-year"
           max="2100"
           min="1900"
@@ -222,7 +222,7 @@ exports[`DatePicker > renders with specified date 1`] = `
           년
         </label>
         <input
-          class="sc-hLBatu icGHot"
+          class="css-166c21b"
           data-testid="date-picker-month"
           max="12"
           min="1"
@@ -237,7 +237,7 @@ exports[`DatePicker > renders with specified date 1`] = `
           월
         </label>
         <button
-          class="sc-bcXGCL fWyeip"
+          class="css-wieti"
         >
           초기화
         </button>

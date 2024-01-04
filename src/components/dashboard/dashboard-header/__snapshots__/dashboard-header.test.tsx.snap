@@ -6,10 +6,10 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="sc-dkrGBB cxLidX"
+        class="css-5whm5h"
       >
         <button
-          class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+          class="css-iwi5cf"
           data-testid="nav-bar-collapse-button"
         >
           <svg
@@ -29,21 +29,21 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
           </svg>
         </button>
         <div
-          class="sc-hLBatu jaEZiI"
+          class="css-jh5a00"
         >
           <h2
-            class="sc-eDvShL qslVI"
+            class="css-uzu4z8"
           >
             가계부
           </h2>
           <button
-            class="sc-bcXGCL fWyeip"
+            class="css-wieti"
           >
             <span>
               금액감추기
             </span>
             <span
-              class="sc-gswONk fpXTel"
+              class="css-101dbv1"
             >
               OFF
             </span>
@@ -54,10 +54,10 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
   </body>,
   "container": <div>
     <header
-      class="sc-dkrGBB cxLidX"
+      class="css-5whm5h"
     >
       <button
-        class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+        class="css-iwi5cf"
         data-testid="nav-bar-collapse-button"
       >
         <svg
@@ -77,21 +77,21 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
         </svg>
       </button>
       <div
-        class="sc-hLBatu jaEZiI"
+        class="css-jh5a00"
       >
         <h2
-          class="sc-eDvShL qslVI"
+          class="css-uzu4z8"
         >
           가계부
         </h2>
         <button
-          class="sc-bcXGCL fWyeip"
+          class="css-wieti"
         >
           <span>
             금액감추기
           </span>
           <span
-            class="sc-gswONk fpXTel"
+            class="css-101dbv1"
           >
             OFF
           </span>
@@ -166,10 +166,10 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="sc-dkrGBB cxLidX"
+        class="css-5whm5h"
       >
         <button
-          class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+          class="css-iwi5cf"
           data-testid="nav-bar-collapse-button"
         >
           <svg
@@ -189,21 +189,21 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
           </svg>
         </button>
         <div
-          class="sc-hLBatu jaEZiI"
+          class="css-jh5a00"
         >
           <h2
-            class="sc-eDvShL qslVI"
+            class="css-uzu4z8"
           >
             가계부
           </h2>
           <button
-            class="sc-bcXGCL fWyeip"
+            class="css-wieti"
           >
             <span>
               금액감추기
             </span>
             <span
-              class="sc-gswONk iXnnXm"
+              class="css-vt22gx"
             >
               ON
             </span>
@@ -214,10 +214,10 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
   </body>,
   "container": <div>
     <header
-      class="sc-dkrGBB cxLidX"
+      class="css-5whm5h"
     >
       <button
-        class="sc-jSVask sc-gKPSgB hQcKFv gXYbJC"
+        class="css-iwi5cf"
         data-testid="nav-bar-collapse-button"
       >
         <svg
@@ -237,21 +237,21 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
         </svg>
       </button>
       <div
-        class="sc-hLBatu jaEZiI"
+        class="css-jh5a00"
       >
         <h2
-          class="sc-eDvShL qslVI"
+          class="css-uzu4z8"
         >
           가계부
         </h2>
         <button
-          class="sc-bcXGCL fWyeip"
+          class="css-wieti"
         >
           <span>
             금액감추기
           </span>
           <span
-            class="sc-gswONk iXnnXm"
+            class="css-vt22gx"
           >
             ON
           </span>
@@ -326,10 +326,10 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="sc-dkrGBB cxLidX"
+        class="css-5whm5h"
       >
         <button
-          class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+          class="css-19677jm"
           data-testid="nav-bar-expand-button"
         >
           <svg
@@ -349,21 +349,21 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
           </svg>
         </button>
         <div
-          class="sc-hLBatu jaEZiI"
+          class="css-jh5a00"
         >
           <h2
-            class="sc-eDvShL qslVI"
+            class="css-uzu4z8"
           >
             가계부
           </h2>
           <button
-            class="sc-bcXGCL fWyeip"
+            class="css-wieti"
           >
             <span>
               금액감추기
             </span>
             <span
-              class="sc-gswONk iXnnXm"
+              class="css-vt22gx"
             >
               ON
             </span>
@@ -374,10 +374,10 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
   </body>,
   "container": <div>
     <header
-      class="sc-dkrGBB cxLidX"
+      class="css-5whm5h"
     >
       <button
-        class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+        class="css-19677jm"
         data-testid="nav-bar-expand-button"
       >
         <svg
@@ -397,21 +397,21 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
         </svg>
       </button>
       <div
-        class="sc-hLBatu jaEZiI"
+        class="css-jh5a00"
       >
         <h2
-          class="sc-eDvShL qslVI"
+          class="css-uzu4z8"
         >
           가계부
         </h2>
         <button
-          class="sc-bcXGCL fWyeip"
+          class="css-wieti"
         >
           <span>
             금액감추기
           </span>
           <span
-            class="sc-gswONk iXnnXm"
+            class="css-vt22gx"
           >
             ON
           </span>
@@ -486,10 +486,10 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="sc-dkrGBB cxLidX"
+        class="css-5whm5h"
       >
         <button
-          class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+          class="css-19677jm"
           data-testid="nav-bar-expand-button"
         >
           <svg
@@ -509,21 +509,21 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
           </svg>
         </button>
         <div
-          class="sc-hLBatu jaEZiI"
+          class="css-jh5a00"
         >
           <h2
-            class="sc-eDvShL qslVI"
+            class="css-uzu4z8"
           >
             가계부
           </h2>
           <button
-            class="sc-bcXGCL fWyeip"
+            class="css-wieti"
           >
             <span>
               금액감추기
             </span>
             <span
-              class="sc-gswONk fpXTel"
+              class="css-101dbv1"
             >
               OFF
             </span>
@@ -534,10 +534,10 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
   </body>,
   "container": <div>
     <header
-      class="sc-dkrGBB cxLidX"
+      class="css-5whm5h"
     >
       <button
-        class="sc-jSVask sc-iBYPxa hQcKFv iWcZtn"
+        class="css-19677jm"
         data-testid="nav-bar-expand-button"
       >
         <svg
@@ -557,21 +557,21 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
         </svg>
       </button>
       <div
-        class="sc-hLBatu jaEZiI"
+        class="css-jh5a00"
       >
         <h2
-          class="sc-eDvShL qslVI"
+          class="css-uzu4z8"
         >
           가계부
         </h2>
         <button
-          class="sc-bcXGCL fWyeip"
+          class="css-wieti"
         >
           <span>
             금액감추기
           </span>
           <span
-            class="sc-gswONk fpXTel"
+            class="css-101dbv1"
           >
             OFF
           </span>

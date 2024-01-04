@@ -6,15 +6,15 @@ exports[`Front > renders Front component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="sc-gswONk ipmPgq"
+        class="css-gjpjdc"
       >
         <div
-          class="sc-dkrGBB emOOsq"
+          class="css-11b936g"
         >
           모두의 가계부
         </div>
         <a
-          class="sc-bcXGCL bpFrMd"
+          class="css-1mrfowa"
           href="/dashboard"
         >
           입장하기
@@ -24,15 +24,15 @@ exports[`Front > renders Front component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="sc-gswONk ipmPgq"
+      class="css-gjpjdc"
     >
       <div
-        class="sc-dkrGBB emOOsq"
+        class="css-11b936g"
       >
         모두의 가계부
       </div>
       <a
-        class="sc-bcXGCL bpFrMd"
+        class="css-1mrfowa"
         href="/dashboard"
       >
         입장하기
