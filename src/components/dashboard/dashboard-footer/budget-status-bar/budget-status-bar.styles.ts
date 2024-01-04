@@ -1,20 +1,17 @@
 import styled from '@emotion/styled';
+import { Box, LinearProgress, Typography } from '@mui/material';
 
-type ExpenseProps = {
-  $onTrack: boolean;
-};
-
-export const BudgetStatusBarContainer = styled.div`
+export const BudgetStatusBarContainer = styled(Box)`
   display: flex;
   align-items: center;
-  column-gap: 0.5rem;
+  column-gap: 0.4rem;
 `;
 
-export const Expense = styled.span<ExpenseProps>`
+export const ProgressBar = styled(LinearProgress)`
+  width: 65px;
+  height: 4px;
+`;
+
+export const Expense = styled(Typography)`
   font-weight: bold;
-  color: ${({ $onTrack }) => {
-    return $onTrack
-      ? 'var(--theme-dark-text-positive)'
-      : 'var(--theme-dark-text-negative)';
-  }};
 `;

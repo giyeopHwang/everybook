@@ -1,16 +1,18 @@
+import { MouseEventHandler } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-
-import { TagTypes } from '@/components/common/tag/tag.const';
-
 import {
   selectDisplayOptions,
   setShowAmount,
   setShowNavBar,
 } from '@/store/display-options/display-options-slice';
 
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
-import Button from '@/components/common/button/button.component';
-import Tag from '@/components/common/tag/tag.component';
+import { Button, Typography } from '@mui/material';
+import {
+  ArrowLeft,
+  ArrowRight,
+  ToggleOn,
+  ToggleOff,
+} from '@mui/icons-material';
 import {
   DashboardHeaderContainer,
   TitleGroup,
@@ -25,27 +27,24 @@ const ToggleButton = () => {
 
   return showNavBar ? (
     <NavBarCollapseButton
-      data-testid="nav-bar-collapse-button"
+      variant="contained"
+      disableElevation
+      color="inherit"
       onClick={() => dispatch(setShowNavBar(false))}
+      data-testid="nav-bar-collapse-button"
     >
-      <ChevronLeftIcon />
+      <ArrowLeft />
     </NavBarCollapseButton>
   ) : (
     <NavBarExpandButton
-      data-testid="nav-bar-expand-button"
+      variant="contained"
+      disableElevation
+      color="primary"
       onClick={() => dispatch(setShowNavBar(true))}
+      data-testid="nav-bar-expand-button"
     >
-      <ChevronRightIcon />
+      <ArrowRight />
     </NavBarExpandButton>
-  );
-};
-
-const HideAmountButtonTag = () => {
-  const { showAmount } = useSelector(selectDisplayOptions);
-  return showAmount ? (
-    <Tag type={TagTypes.off}>OFF</Tag>
-  ) : (
-    <Tag type={TagTypes.on}>ON</Tag>
   );
 };
 
@@ -55,14 +54,24 @@ const DashboardHeader = () => {
 
   const title = '가계부';
 
+  const handleHideAmountClick: MouseEventHandler = (event) => {
+    event.stopPropagation();
+    dispatch(setShowAmount(!showAmount));
+  };
+
   return (
-    <DashboardHeaderContainer>
+    <DashboardHeaderContainer component="header">
       <ToggleButton />
       <TitleGroup>
-        <Title>{title}</Title>
-        <Button onClick={() => dispatch(setShowAmount(!showAmount))}>
-          <span>금액감추기</span>
-          <HideAmountButtonTag />
+        <Title color="text.primary">{title}</Title>
+        <Button
+          variant="outlined"
+          size="small"
+          color={showAmount ? undefined : 'secondary'}
+          endIcon={showAmount ? <ToggleOff /> : <ToggleOn />}
+          onClick={handleHideAmountClick}
+        >
+          <Typography variant="caption">금액감추기</Typography>
         </Button>
       </TitleGroup>
     </DashboardHeaderContainer>

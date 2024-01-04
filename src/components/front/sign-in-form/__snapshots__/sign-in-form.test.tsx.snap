@@ -6,19 +6,27 @@ exports[`SignInForm > renders SignInForm component 1`] = `
   "baseElement": <body>
     <div>
       <a
-        class="css-1mrfowa"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium css-kjirbw-MuiButtonBase-root-MuiButton-root"
         href="/dashboard"
+        tabindex="0"
       >
         입장하기
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
       </a>
     </div>
   </body>,
   "container": <div>
     <a
-      class="css-1mrfowa"
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium css-kjirbw-MuiButtonBase-root-MuiButton-root"
       href="/dashboard"
+      tabindex="0"
     >
       입장하기
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
     </a>
   </div>,
   "debug": [Function],

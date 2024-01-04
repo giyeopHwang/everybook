@@ -31,6 +31,15 @@ input {
 }
 
 :root {
+  --theme-light-primary-main: #41444E;
+  --theme-light-secondary-main: #02C75A;
+  --theme-light-success-main: #02C75A;
+  --theme-light-info-main: #608CEF;
+  --theme-light-error-main: #FF5557;
+  --theme-light-background-paper: #F9F9F9;
+  --theme-light-text-primary: #FFFFFF;
+  --theme-light-divider: rgba(0, 0, 0, 0.12);
+
   --theme-dark-background: #41444e;
   --theme-dark-background-light: #575a67;
   --theme-dark-background-dark: #31323a;

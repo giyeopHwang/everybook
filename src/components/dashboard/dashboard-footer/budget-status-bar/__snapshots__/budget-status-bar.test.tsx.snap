@@ -6,27 +6,38 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="css-jh5a00"
+        class="css-1mrw3dz MuiBox-root css-0"
       >
-        <span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        >
           이달의예산
         </span>
-        <div
-          class="css-1sz5t5j"
-        >
-          <div
-            class="css-1dv1ys6"
-          />
-        </div>
         <span
-          class="css-md2hjx"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="60"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-1d5h4r2 css-1hxt08m-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-h8g9t7-MuiLinearProgress-bar1"
+            style="transform: translateX(-40%);"
+          />
+        </span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-1xxe9l9 css-122s7qa-MuiTypography-root"
         >
           3,000,000
         </span>
-        <span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        >
           /
         </span>
-        <span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        >
           5,000,000
         </span>
       </div>
@@ -34,27 +45,38 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="css-jh5a00"
+      class="css-1mrw3dz MuiBox-root css-0"
     >
-      <span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+      >
         이달의예산
       </span>
-      <div
-        class="css-1sz5t5j"
-      >
-        <div
-          class="css-1dv1ys6"
-        />
-      </div>
       <span
-        class="css-md2hjx"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="60"
+        class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-1d5h4r2 css-1hxt08m-MuiLinearProgress-root"
+        role="progressbar"
+      >
+        <span
+          class="MuiLinearProgress-bar MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-h8g9t7-MuiLinearProgress-bar1"
+          style="transform: translateX(-40%);"
+        />
+      </span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-1xxe9l9 css-122s7qa-MuiTypography-root"
       >
         3,000,000
       </span>
-      <span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+      >
         /
       </span>
-      <span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+      >
         5,000,000
       </span>
     </div>
@@ -126,27 +148,38 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="css-jh5a00"
+        class="css-1mrw3dz MuiBox-root css-0"
       >
-        <span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        >
           이달의예산
         </span>
-        <div
-          class="css-1sz5t5j"
-        >
-          <div
-            class="css-1dv1ys6"
-          />
-        </div>
         <span
-          class="css-md2hjx"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="60"
+          class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-1d5h4r2 css-1hxt08m-MuiLinearProgress-root"
+          role="progressbar"
+        >
+          <span
+            class="MuiLinearProgress-bar MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-h8g9t7-MuiLinearProgress-bar1"
+            style="transform: translateX(-40%);"
+          />
+        </span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-1xxe9l9 css-122s7qa-MuiTypography-root"
         >
           *********
         </span>
-        <span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        >
           /
         </span>
-        <span>
+        <span
+          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        >
           *********
         </span>
       </div>
@@ -154,27 +187,38 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
   </body>,
   "container": <div>
     <div
-      class="css-jh5a00"
+      class="css-1mrw3dz MuiBox-root css-0"
     >
-      <span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+      >
         이달의예산
       </span>
-      <div
-        class="css-1sz5t5j"
-      >
-        <div
-          class="css-1dv1ys6"
-        />
-      </div>
       <span
-        class="css-md2hjx"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="60"
+        class="MuiLinearProgress-root MuiLinearProgress-colorSuccess MuiLinearProgress-determinate css-1d5h4r2 css-1hxt08m-MuiLinearProgress-root"
+        role="progressbar"
+      >
+        <span
+          class="MuiLinearProgress-bar MuiLinearProgress-barColorSuccess MuiLinearProgress-bar1Determinate css-h8g9t7-MuiLinearProgress-bar1"
+          style="transform: translateX(-40%);"
+        />
+      </span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-1xxe9l9 css-122s7qa-MuiTypography-root"
       >
         *********
       </span>
-      <span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+      >
         /
       </span>
-      <span>
+      <span
+        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+      >
         *********
       </span>
     </div>

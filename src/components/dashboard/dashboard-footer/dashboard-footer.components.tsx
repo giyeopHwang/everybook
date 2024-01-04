@@ -3,7 +3,13 @@ import { DashboardFooterContainer } from './dashboard-footer.styles';
 
 const DashboardFooter = () => {
   return (
-    <DashboardFooterContainer>
+    <DashboardFooterContainer
+      component="footer"
+      bgcolor="primary.dark"
+      color="primary.contrastText"
+      borderTop={1}
+      borderColor="divider"
+    >
       <BudgetStatusBar />
     </DashboardFooterContainer>
   );

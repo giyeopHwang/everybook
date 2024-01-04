@@ -6,47 +6,65 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-5whm5h"
+        class="css-13svyc9 MuiBox-root css-0"
       >
         <button
-          class="css-iwi5cf"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
           data-testid="nav-bar-collapse-button"
+          tabindex="0"
+          type="button"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowLeftIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M15.75 19.5 8.25 12l7.5-7.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="m14 7-5 5 5 5V7z"
             />
           </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
         <div
-          class="css-jh5a00"
+          class="css-176l83b MuiBox-root css-0"
         >
-          <h2
-            class="css-uzu4z8"
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
           >
             가계부
-          </h2>
+          </p>
           <button
-            class="css-wieti"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-1k23hlb-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
           >
-            <span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+            >
               금액감추기
             </span>
             <span
-              class="css-101dbv1"
+              class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
             >
-              OFF
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ToggleOffIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zM7 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+                />
+              </svg>
             </span>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
           </button>
         </div>
       </header>
@@ -54,47 +72,65 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-5whm5h"
+      class="css-13svyc9 MuiBox-root css-0"
     >
       <button
-        class="css-iwi5cf"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
         data-testid="nav-bar-collapse-button"
+        tabindex="0"
+        type="button"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowLeftIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M15.75 19.5 8.25 12l7.5-7.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="m14 7-5 5 5 5V7z"
           />
         </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
       </button>
       <div
-        class="css-jh5a00"
+        class="css-176l83b MuiBox-root css-0"
       >
-        <h2
-          class="css-uzu4z8"
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
         >
           가계부
-        </h2>
+        </p>
         <button
-          class="css-wieti"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-1k23hlb-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
         >
-          <span>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+          >
             금액감추기
           </span>
           <span
-            class="css-101dbv1"
+            class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
           >
-            OFF
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ToggleOffIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zM7 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+              />
+            </svg>
           </span>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
       </div>
     </header>
@@ -166,47 +202,65 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-5whm5h"
+        class="css-13svyc9 MuiBox-root css-0"
       >
         <button
-          class="css-iwi5cf"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
           data-testid="nav-bar-collapse-button"
+          tabindex="0"
+          type="button"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowLeftIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M15.75 19.5 8.25 12l7.5-7.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="m14 7-5 5 5 5V7z"
             />
           </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
         <div
-          class="css-jh5a00"
+          class="css-176l83b MuiBox-root css-0"
         >
-          <h2
-            class="css-uzu4z8"
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
           >
             가계부
-          </h2>
+          </p>
           <button
-            class="css-wieti"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-ssd6ke-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
           >
-            <span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+            >
               금액감추기
             </span>
             <span
-              class="css-vt22gx"
+              class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
             >
-              ON
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ToggleOnIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+                />
+              </svg>
             </span>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
           </button>
         </div>
       </header>
@@ -214,47 +268,65 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-5whm5h"
+      class="css-13svyc9 MuiBox-root css-0"
     >
       <button
-        class="css-iwi5cf"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
         data-testid="nav-bar-collapse-button"
+        tabindex="0"
+        type="button"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowLeftIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M15.75 19.5 8.25 12l7.5-7.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="m14 7-5 5 5 5V7z"
           />
         </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
       </button>
       <div
-        class="css-jh5a00"
+        class="css-176l83b MuiBox-root css-0"
       >
-        <h2
-          class="css-uzu4z8"
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
         >
           가계부
-        </h2>
+        </p>
         <button
-          class="css-wieti"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-ssd6ke-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
         >
-          <span>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+          >
             금액감추기
           </span>
           <span
-            class="css-vt22gx"
+            class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
           >
-            ON
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ToggleOnIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+              />
+            </svg>
           </span>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
       </div>
     </header>
@@ -326,47 +398,65 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-5whm5h"
+        class="css-13svyc9 MuiBox-root css-0"
       >
         <button
-          class="css-19677jm"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"
           data-testid="nav-bar-expand-button"
+          tabindex="0"
+          type="button"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowRightIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="m10 17 5-5-5-5v10z"
             />
           </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
         <div
-          class="css-jh5a00"
+          class="css-176l83b MuiBox-root css-0"
         >
-          <h2
-            class="css-uzu4z8"
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
           >
             가계부
-          </h2>
+          </p>
           <button
-            class="css-wieti"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-ssd6ke-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
           >
-            <span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+            >
               금액감추기
             </span>
             <span
-              class="css-vt22gx"
+              class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
             >
-              ON
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ToggleOnIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+                />
+              </svg>
             </span>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
           </button>
         </div>
       </header>
@@ -374,47 +464,65 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-5whm5h"
+      class="css-13svyc9 MuiBox-root css-0"
     >
       <button
-        class="css-19677jm"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"
         data-testid="nav-bar-expand-button"
+        tabindex="0"
+        type="button"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowRightIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="m8.25 4.5 7.5 7.5-7.5 7.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="m10 17 5-5-5-5v10z"
           />
         </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
       </button>
       <div
-        class="css-jh5a00"
+        class="css-176l83b MuiBox-root css-0"
       >
-        <h2
-          class="css-uzu4z8"
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
         >
           가계부
-        </h2>
+        </p>
         <button
-          class="css-wieti"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-ssd6ke-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
         >
-          <span>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+          >
             금액감추기
           </span>
           <span
-            class="css-vt22gx"
+            class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
           >
-            ON
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ToggleOnIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+              />
+            </svg>
           </span>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
       </div>
     </header>
@@ -486,47 +594,65 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-5whm5h"
+        class="css-13svyc9 MuiBox-root css-0"
       >
         <button
-          class="css-19677jm"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"
           data-testid="nav-bar-expand-button"
+          tabindex="0"
+          type="button"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowRightIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="m8.25 4.5 7.5 7.5-7.5 7.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="m10 17 5-5-5-5v10z"
             />
           </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
         <div
-          class="css-jh5a00"
+          class="css-176l83b MuiBox-root css-0"
         >
-          <h2
-            class="css-uzu4z8"
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
           >
             가계부
-          </h2>
+          </p>
           <button
-            class="css-wieti"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-1k23hlb-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
           >
-            <span>
+            <span
+              class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+            >
               금액감추기
             </span>
             <span
-              class="css-101dbv1"
+              class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
             >
-              OFF
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="ToggleOffIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zM7 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+                />
+              </svg>
             </span>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
           </button>
         </div>
       </header>
@@ -534,47 +660,65 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-5whm5h"
+      class="css-13svyc9 MuiBox-root css-0"
     >
       <button
-        class="css-19677jm"
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"
         data-testid="nav-bar-expand-button"
+        tabindex="0"
+        type="button"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowRightIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="m8.25 4.5 7.5 7.5-7.5 7.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="m10 17 5-5-5-5v10z"
           />
         </svg>
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
       </button>
       <div
-        class="css-jh5a00"
+        class="css-176l83b MuiBox-root css-0"
       >
-        <h2
-          class="css-uzu4z8"
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-uzu4z8 css-1gqyz35-MuiTypography-root"
         >
           가계부
-        </h2>
+        </p>
         <button
-          class="css-wieti"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeSmall MuiButton-outlinedSizeSmall css-1k23hlb-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
         >
-          <span>
+          <span
+            class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+          >
             금액감추기
           </span>
           <span
-            class="css-101dbv1"
+            class="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
           >
-            OFF
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ToggleOffIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17 7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h10c2.76 0 5-2.24 5-5s-2.24-5-5-5zM7 15c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+              />
+            </svg>
           </span>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
         </button>
       </div>
     </header>

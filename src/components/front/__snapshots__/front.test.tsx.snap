@@ -6,37 +6,53 @@ exports[`Front > renders Front component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="css-gjpjdc"
+        class="MuiContainer-root MuiContainer-disableGutters css-idqxm-MuiContainer-root"
       >
         <div
-          class="css-11b936g"
+          class="css-1vuifwd MuiBox-root css-uolrcl"
         >
-          모두의 가계부
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-11b936g css-4peds9-MuiTypography-root"
+          >
+            모두의 가계부
+          </p>
+          <a
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium css-kjirbw-MuiButtonBase-root-MuiButton-root"
+            href="/dashboard"
+            tabindex="0"
+          >
+            입장하기
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </a>
         </div>
-        <a
-          class="css-1mrfowa"
-          href="/dashboard"
-        >
-          입장하기
-        </a>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="css-gjpjdc"
+      class="MuiContainer-root MuiContainer-disableGutters css-idqxm-MuiContainer-root"
     >
       <div
-        class="css-11b936g"
+        class="css-1vuifwd MuiBox-root css-uolrcl"
       >
-        모두의 가계부
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-11b936g css-4peds9-MuiTypography-root"
+        >
+          모두의 가계부
+        </p>
+        <a
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedInfo MuiButton-sizeMedium MuiButton-containedSizeMedium css-kjirbw-MuiButtonBase-root-MuiButton-root"
+          href="/dashboard"
+          tabindex="0"
+        >
+          입장하기
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </a>
       </div>
-      <a
-        class="css-1mrfowa"
-        href="/dashboard"
-      >
-        입장하기
-      </a>
     </div>
   </div>,
   "debug": [Function],
