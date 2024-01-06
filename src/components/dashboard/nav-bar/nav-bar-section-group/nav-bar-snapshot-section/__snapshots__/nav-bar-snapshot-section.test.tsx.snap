@@ -6,209 +6,282 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
   "baseElement": <body>
     <div>
       <section
-        class="css-14chwgd"
+        class="css-14chwgd MuiBox-root css-0"
       >
         <header
-          class="css-kympkc"
+          class="css-kympkc MuiBox-root css-0"
         >
           <div
-            class="css-359auk"
+            class="css-1giup9e MuiBox-root css-0"
           >
             <svg
               aria-hidden="true"
-              data-slot="icon"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="1.5"
-              style="width: 1rem; height: 1rem;"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="KeyboardArrowUpIcon"
+              focusable="false"
               viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="m4.5 15.75 7.5-7.5 7.5 7.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
               />
             </svg>
-            <h2
-              class="css-1bt39ed"
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
             >
               이달의 자산현황
-            </h2>
+            </p>
           </div>
         </header>
         <div
-          class="css-7ttcrf"
+          class="css-7ttcrf MuiBox-root css-0"
         >
           <div
-            class="css-135bpbl"
+            class="css-1xqftfh MuiBox-root css-12y2hfg"
           >
-            <header
-              class="css-kvjl0w"
+            <div
+              class="css-pe6vce MuiBox-root css-16qv2i2"
             >
               <div
-                class="css-vmk80s"
+                class="css-44nm6q MuiBox-root css-0"
               >
                 <svg
                   aria-hidden="true"
-                  data-slot="icon"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  style="width: 0.9rem; height: 0.9rem;"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+                  data-testid="TollIcon"
+                  focusable="false"
                   viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M3.75 9h16.5m-16.5 6.75h16.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    d="M15 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zM3 12c0-2.61 1.67-4.83 4-5.65V4.26C3.55 5.15 1 8.27 1 12s2.55 6.85 6 7.74v-2.09c-2.33-.82-4-3.04-4-5.65z"
                   />
                 </svg>
-                <h4
-                  class="css-pqtvky"
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
                 >
                   순자산
-                </h4>
+                </p>
               </div>
-              <span>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+              >
                 500,000,000
-              </span>
-            </header>
-            <section
-              class="css-1r2jysi"
-            />
+              </p>
+            </div>
           </div>
           <div
-            class="css-135bpbl"
+            class="css-1xqftfh MuiBox-root css-12y2hfg"
           >
-            <header
-              class="css-1r6e9a4"
+            <div
+              class="css-pe6vce MuiBox-root css-c1a362"
             >
               <div
-                class="css-vmk80s"
+                class="css-44nm6q MuiBox-root css-0"
               >
                 <svg
                   aria-hidden="true"
-                  data-slot="icon"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  style="width: 0.9rem; height: 0.9rem;"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+                  data-testid="AddIcon"
+                  focusable="false"
                   viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M12 4.5v15m7.5-7.5h-15"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
                   />
                 </svg>
-                <h4
-                  class="css-pqtvky"
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
                 >
                   자산
-                </h4>
+                </p>
               </div>
-              <span>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+              >
                 500,000,000
-              </span>
-            </header>
+              </p>
+            </div>
             <section
-              class="css-1r2jysi"
+              class="css-1r2jysi MuiBox-root css-0"
             >
               <div
-                class="css-uf1ume"
+                class="css-uf1ume MuiBox-root css-0"
               >
-                <span>
-                  └ 
-                  현금잔액
-                </span>
-                <span>
+                <div
+                  class="css-44nm6q MuiBox-root css-0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                    data-testid="SubdirectoryArrowRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                  >
+                    현금잔액
+                  </span>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
                   100,000,000
                 </span>
               </div>
               <div
-                class="css-uf1ume"
+                class="css-uf1ume MuiBox-root css-0"
               >
-                <span>
-                  └ 
-                  투자자산
-                </span>
-                <span>
+                <div
+                  class="css-44nm6q MuiBox-root css-0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                    data-testid="SubdirectoryArrowRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                  >
+                    투자자산
+                  </span>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
                   350,000,000
                 </span>
               </div>
               <div
-                class="css-uf1ume"
+                class="css-uf1ume MuiBox-root css-0"
               >
-                <span>
-                  └ 
-                  기타자산
-                </span>
-                <span>
+                <div
+                  class="css-44nm6q MuiBox-root css-0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                    data-testid="SubdirectoryArrowRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                  >
+                    기타자산
+                  </span>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
                   50,000,000
                 </span>
               </div>
             </section>
           </div>
           <div
-            class="css-135bpbl"
+            class="css-1xqftfh MuiBox-root css-12y2hfg"
           >
-            <header
-              class="css-1i1w77g"
+            <div
+              class="css-pe6vce MuiBox-root css-1y16nxq"
             >
               <div
-                class="css-vmk80s"
+                class="css-44nm6q MuiBox-root css-0"
               >
                 <svg
                   aria-hidden="true"
-                  data-slot="icon"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  style="width: 0.9rem; height: 0.9rem;"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+                  data-testid="RemoveIcon"
+                  focusable="false"
                   viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M5 12h14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    d="M19 13H5v-2h14v2z"
                   />
                 </svg>
-                <h4
-                  class="css-pqtvky"
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
                 >
                   부채
-                </h4>
+                </p>
               </div>
-              <span>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+              >
                 100,000,000
-              </span>
-            </header>
+              </p>
+            </div>
             <section
-              class="css-1r2jysi"
+              class="css-1r2jysi MuiBox-root css-0"
             >
               <div
-                class="css-uf1ume"
+                class="css-uf1ume MuiBox-root css-0"
               >
-                <span>
-                  └ 
-                  대출
-                </span>
-                <span>
+                <div
+                  class="css-44nm6q MuiBox-root css-0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                    data-testid="SubdirectoryArrowRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                  >
+                    대출
+                  </span>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
                   75,000,000
                 </span>
               </div>
               <div
-                class="css-uf1ume"
+                class="css-uf1ume MuiBox-root css-0"
               >
-                <span>
-                  └ 
-                  기타부채
-                </span>
-                <span>
+                <div
+                  class="css-44nm6q MuiBox-root css-0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                    data-testid="SubdirectoryArrowRightIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                  >
+                    기타부채
+                  </span>
+                </div>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
                   25,000,000
                 </span>
               </div>
@@ -220,209 +293,282 @@ exports[`NavBarSnapshotSection > renders NavBarSnapshotSection component 1`] = `
   </body>,
   "container": <div>
     <section
-      class="css-14chwgd"
+      class="css-14chwgd MuiBox-root css-0"
     >
       <header
-        class="css-kympkc"
+        class="css-kympkc MuiBox-root css-0"
       >
         <div
-          class="css-359auk"
+          class="css-1giup9e MuiBox-root css-0"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
-            style="width: 1rem; height: 1rem;"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="KeyboardArrowUpIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="m4.5 15.75 7.5-7.5 7.5 7.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
             />
           </svg>
-          <h2
-            class="css-1bt39ed"
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
           >
             이달의 자산현황
-          </h2>
+          </p>
         </div>
       </header>
       <div
-        class="css-7ttcrf"
+        class="css-7ttcrf MuiBox-root css-0"
       >
         <div
-          class="css-135bpbl"
+          class="css-1xqftfh MuiBox-root css-12y2hfg"
         >
-          <header
-            class="css-kvjl0w"
+          <div
+            class="css-pe6vce MuiBox-root css-16qv2i2"
           >
             <div
-              class="css-vmk80s"
+              class="css-44nm6q MuiBox-root css-0"
             >
               <svg
                 aria-hidden="true"
-                data-slot="icon"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-                style="width: 0.9rem; height: 0.9rem;"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+                data-testid="TollIcon"
+                focusable="false"
                 viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M3.75 9h16.5m-16.5 6.75h16.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  d="M15 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zM3 12c0-2.61 1.67-4.83 4-5.65V4.26C3.55 5.15 1 8.27 1 12s2.55 6.85 6 7.74v-2.09c-2.33-.82-4-3.04-4-5.65z"
                 />
               </svg>
-              <h4
-                class="css-pqtvky"
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
               >
                 순자산
-              </h4>
+              </p>
             </div>
-            <span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+            >
               500,000,000
-            </span>
-          </header>
-          <section
-            class="css-1r2jysi"
-          />
+            </p>
+          </div>
         </div>
         <div
-          class="css-135bpbl"
+          class="css-1xqftfh MuiBox-root css-12y2hfg"
         >
-          <header
-            class="css-1r6e9a4"
+          <div
+            class="css-pe6vce MuiBox-root css-c1a362"
           >
             <div
-              class="css-vmk80s"
+              class="css-44nm6q MuiBox-root css-0"
             >
               <svg
                 aria-hidden="true"
-                data-slot="icon"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-                style="width: 0.9rem; height: 0.9rem;"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+                data-testid="AddIcon"
+                focusable="false"
                 viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M12 4.5v15m7.5-7.5h-15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
                 />
               </svg>
-              <h4
-                class="css-pqtvky"
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
               >
                 자산
-              </h4>
+              </p>
             </div>
-            <span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+            >
               500,000,000
-            </span>
-          </header>
+            </p>
+          </div>
           <section
-            class="css-1r2jysi"
+            class="css-1r2jysi MuiBox-root css-0"
           >
             <div
-              class="css-uf1ume"
+              class="css-uf1ume MuiBox-root css-0"
             >
-              <span>
-                └ 
-                현금잔액
-              </span>
-              <span>
+              <div
+                class="css-44nm6q MuiBox-root css-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                  data-testid="SubdirectoryArrowRightIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                  />
+                </svg>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
+                  현금잔액
+                </span>
+              </div>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+              >
                 100,000,000
               </span>
             </div>
             <div
-              class="css-uf1ume"
+              class="css-uf1ume MuiBox-root css-0"
             >
-              <span>
-                └ 
-                투자자산
-              </span>
-              <span>
+              <div
+                class="css-44nm6q MuiBox-root css-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                  data-testid="SubdirectoryArrowRightIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                  />
+                </svg>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
+                  투자자산
+                </span>
+              </div>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+              >
                 350,000,000
               </span>
             </div>
             <div
-              class="css-uf1ume"
+              class="css-uf1ume MuiBox-root css-0"
             >
-              <span>
-                └ 
-                기타자산
-              </span>
-              <span>
+              <div
+                class="css-44nm6q MuiBox-root css-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                  data-testid="SubdirectoryArrowRightIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                  />
+                </svg>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
+                  기타자산
+                </span>
+              </div>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+              >
                 50,000,000
               </span>
             </div>
           </section>
         </div>
         <div
-          class="css-135bpbl"
+          class="css-1xqftfh MuiBox-root css-12y2hfg"
         >
-          <header
-            class="css-1i1w77g"
+          <div
+            class="css-pe6vce MuiBox-root css-1y16nxq"
           >
             <div
-              class="css-vmk80s"
+              class="css-44nm6q MuiBox-root css-0"
             >
               <svg
                 aria-hidden="true"
-                data-slot="icon"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-                style="width: 0.9rem; height: 0.9rem;"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+                data-testid="RemoveIcon"
+                focusable="false"
                 viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M5 12h14"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  d="M19 13H5v-2h14v2z"
                 />
               </svg>
-              <h4
-                class="css-pqtvky"
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
               >
                 부채
-              </h4>
+              </p>
             </div>
-            <span>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+            >
               100,000,000
-            </span>
-          </header>
+            </p>
+          </div>
           <section
-            class="css-1r2jysi"
+            class="css-1r2jysi MuiBox-root css-0"
           >
             <div
-              class="css-uf1ume"
+              class="css-uf1ume MuiBox-root css-0"
             >
-              <span>
-                └ 
-                대출
-              </span>
-              <span>
+              <div
+                class="css-44nm6q MuiBox-root css-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                  data-testid="SubdirectoryArrowRightIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                  />
+                </svg>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
+                  대출
+                </span>
+              </div>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+              >
                 75,000,000
               </span>
             </div>
             <div
-              class="css-uf1ume"
+              class="css-uf1ume MuiBox-root css-0"
             >
-              <span>
-                └ 
-                기타부채
-              </span>
-              <span>
+              <div
+                class="css-44nm6q MuiBox-root css-0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-r6guz9-MuiSvgIcon-root"
+                  data-testid="SubdirectoryArrowRightIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m19 15-6 6-1.42-1.42L15.17 16H4V4h2v10h9.17l-3.59-3.58L13 9l6 6z"
+                  />
+                </svg>
+                <span
+                  class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+                >
+                  기타부채
+                </span>
+              </div>
+              <span
+                class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
+              >
                 25,000,000
               </span>
             </div>

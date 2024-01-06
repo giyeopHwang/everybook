@@ -1,40 +1,26 @@
-import { Link } from 'react-router-dom';
 import styled from '@emotion/styled';
+import { Box, Link, Typography } from '@mui/material';
 
-type NavBarContainerProps = {
-  $show: boolean;
-};
-
-export const NavBarContainer = styled.div<NavBarContainerProps>`
-  display: ${({ $show }) => ($show ? 'flex' : 'none')};
+export const NavBarContainer = styled(Box)`
   flex-direction: column;
-  width: 220px;
-  min-height: 100%;
-  background-color: var(--theme-dark-background);
-  color: var(--theme-dark-text);
+  min-width: 220px;
+  height: 100%;
 `;
 
-export const TitleLink = styled(Link)`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 0.3rem;
-  height: 100px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-  background-color: var(--theme-dark-background-light);
+export const TitleLink = styled(Link)({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  rowGap: '0.25rem',
+  height: '100px',
+
+  '&:hover': {
+    color: 'var(--theme-light-secondary-main)',
+  },
+}) as typeof Link;
+
+export const Title = styled(Typography)`
   font-family: 'Gowun Batang', serif;
   font-size: 1.2rem;
-
-  &:hover {
-    cursor: pointer;
-    color: var(--theme-dark-text-highlight);
-  }
-`;
-
-export const LogoContainer = styled.div`
-  * {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
 `;

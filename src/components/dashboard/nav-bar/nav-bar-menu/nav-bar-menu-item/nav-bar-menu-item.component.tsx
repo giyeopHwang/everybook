@@ -1,6 +1,6 @@
 'use client';
 
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { NavBarMenuItemLink } from './nav-bar-menu-item.styles';
 
 type NavBarMenuItemProps = {
@@ -10,9 +10,16 @@ type NavBarMenuItemProps = {
 
 const NavBarMenuItem = ({ href, children }: NavBarMenuItemProps) => {
   const { pathname } = useLocation();
+  const isSelected = href === pathname;
 
   return (
-    <NavBarMenuItemLink to={href} $selected={pathname === href}>
+    <NavBarMenuItemLink
+      component={Link}
+      to={href}
+      underline="none"
+      color="primary.contrastText"
+      bgcolor={isSelected ? 'primary.main' : 'primary.light'}
+    >
       {children}
     </NavBarMenuItemLink>
   );

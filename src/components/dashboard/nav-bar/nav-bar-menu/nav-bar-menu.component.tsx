@@ -1,9 +1,5 @@
-import {
-  PencilSquareIcon,
-  DocumentChartBarIcon,
-  ChartPieIcon,
-  WalletIcon,
-} from '@heroicons/react/24/outline';
+import { Edit, BarChart, PieChart, Category } from '@mui/icons-material';
+import { Typography } from '@mui/material';
 import NavBarMenuItem from './nav-bar-menu-item/nav-bar-menu-item.component';
 import { NavBarMenuContainer } from './nav-bar-menu.styles';
 
@@ -14,22 +10,27 @@ const iconStyle = {
 
 const NavBarMenu = () => {
   return (
-    <NavBarMenuContainer>
+    <NavBarMenuContainer
+      component="nav"
+      bgcolor="primary.light"
+      borderBottom={1}
+      borderColor="divider"
+    >
       <NavBarMenuItem href="/dashboard">
-        <PencilSquareIcon style={iconStyle} />
-        <span>가계부</span>
+        <Edit sx={iconStyle} />
+        <Typography variant="body2">가계부</Typography>
       </NavBarMenuItem>
       <NavBarMenuItem href="/dashboard/report">
-        <DocumentChartBarIcon style={iconStyle} />
-        <span>보고서</span>
+        <BarChart sx={iconStyle} />
+        <Typography variant="body2">보고서</Typography>
       </NavBarMenuItem>
       <NavBarMenuItem href="/dashboard/budget">
-        <ChartPieIcon style={iconStyle} />
-        <span>예산 관리</span>
+        <PieChart sx={iconStyle} />
+        <Typography variant="body2">예산 관리</Typography>
       </NavBarMenuItem>
       <NavBarMenuItem href="/dashboard/account">
-        <WalletIcon style={iconStyle} />
-        <span>분류 관리</span>
+        <Category sx={iconStyle} />
+        <Typography variant="body2">분류 관리</Typography>
       </NavBarMenuItem>
     </NavBarMenuContainer>
   );

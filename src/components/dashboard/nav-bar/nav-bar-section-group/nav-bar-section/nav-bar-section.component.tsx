@@ -1,10 +1,10 @@
-import { ChevronUpIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
+import { KeyboardArrowUp, KeyboardArrowDown } from '@mui/icons-material';
 
+import { Typography } from '@mui/material';
 import {
   NavBarSectionContainer,
   HeaderContainer,
   TitleContainer,
-  Title,
   SubTitle,
 } from './nav-bar-section.styles';
 
@@ -24,17 +24,13 @@ const NavBarSection = ({
   children,
 }: NavBarSectionProps) => {
   return (
-    <NavBarSectionContainer>
-      <HeaderContainer>
+    <NavBarSectionContainer component="section">
+      <HeaderContainer component="header">
         <TitleContainer onClick={onToggle}>
-          {expanded ? (
-            <ChevronUpIcon style={{ width: '1rem', height: '1rem' }} />
-          ) : (
-            <ChevronDownIcon style={{ width: '1rem', height: '1rem' }} />
-          )}
-          <Title>{title}</Title>
+          {expanded ? <KeyboardArrowUp /> : <KeyboardArrowDown />}
+          <Typography variant="body2">{title}</Typography>
         </TitleContainer>
-        {!!subTitle && <SubTitle>{subTitle}</SubTitle>}
+        {!!subTitle && <SubTitle variant="caption">{subTitle}</SubTitle>}
       </HeaderContainer>
       {children}
     </NavBarSectionContainer>

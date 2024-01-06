@@ -6,7 +6,7 @@ exports[`NavBarMenuItem > renders NavBarMenuItem component 1`] = `
   "baseElement": <body>
     <div>
       <a
-        class="css-1abmkb"
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-1lgn1kj-MuiTypography-root-MuiLink-root"
         href="/"
       >
         ITEM
@@ -15,7 +15,7 @@ exports[`NavBarMenuItem > renders NavBarMenuItem component 1`] = `
   </body>,
   "container": <div>
     <a
-      class="css-1abmkb"
+      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-1lgn1kj-MuiTypography-root-MuiLink-root"
       href="/"
     >
       ITEM

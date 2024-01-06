@@ -1,55 +1,42 @@
 import styled from '@emotion/styled';
-import { NavBarCardTypes } from './nav-bar-card.const';
+import { Box } from '@mui/material';
 
-type NavBarHeaderProps = {
-  $type: NavBarCardTypes;
-};
-
-export const NavBarCardContainer = styled.div`
+export const NavBarCardContainer = styled(Box)`
   display: flex;
   flex-direction: column;
   row-gap: 0.25rem;
   width: 100%;
   padding: 10px;
-  background-color: var(--theme-dark-background-light);
-  font-size: 0.8rem;
 `;
 
-export const Header = styled.header<NavBarHeaderProps>`
+export const Header = styled(Box)`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-
-  color: ${({ $type }) => {
-    switch ($type) {
-      case NavBarCardTypes.plus:
-        return 'var(--theme-dark-text-positive)';
-      case NavBarCardTypes.minus:
-        return 'var(--theme-dark-text-negative)';
-      default:
-        return 'var(--theme-dark-text)';
-    }
-  }};
 `;
 
-export const TitleGroup = styled.div`
+export const TitleGroup = styled(Box)`
   display: flex;
   align-items: center;
-  column-gap: 0.25rem;
+  column-gap: 0.3rem;
+  font-size: 0.9rem;
 `;
 
-export const Title = styled.h4`
-  font-size: 0.8rem;
-  font-weight: normal;
-`;
-
-export const DetailsContainer = styled.section`
+export const DetailsContainer = styled(Box)`
   display: flex;
   flex-direction: column;
   row-gap: 0.2rem;
 `;
 
-export const DetailItemContainer = styled.div`
+export const DetailItemContainer = styled(Box)`
   display: flex;
   justify-content: space-between;
+`;
+
+export const SubTitleGroup = styled(Box)`
+  display: flex;
+  align-items: center;
+  column-gap: 0.3rem;
+  font-size: 0.9rem;
 `;

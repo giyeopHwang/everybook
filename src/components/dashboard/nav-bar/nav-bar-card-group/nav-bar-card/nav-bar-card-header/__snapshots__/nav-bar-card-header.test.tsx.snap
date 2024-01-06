@@ -1,71 +1,71 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`NavBarSection > fires callback when title clicked 1`] = `
+exports[`NavBarCardHeader > renders minus-typed NavBarCardHeader component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="css-14chwgd MuiBox-root css-0"
-      >
-        <header
-          class="css-kympkc MuiBox-root css-0"
-        >
-          <div
-            class="css-1giup9e MuiBox-root css-0"
-          >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-              data-testid="KeyboardArrowUpIcon"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
-              />
-            </svg>
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
-            >
-              TITLE
-            </p>
-          </div>
-        </header>
-        CHILDREN
-      </section>
-    </div>
-  </body>,
-  "container": <div>
-    <section
-      class="css-14chwgd MuiBox-root css-0"
-    >
-      <header
-        class="css-kympkc MuiBox-root css-0"
+      <div
+        class="css-pe6vce MuiBox-root css-1y16nxq"
       >
         <div
-          class="css-1giup9e MuiBox-root css-0"
+          class="css-44nm6q MuiBox-root css-0"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-            data-testid="KeyboardArrowUpIcon"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+            data-testid="RemoveIcon"
             focusable="false"
             viewBox="0 0 24 24"
           >
             <path
-              d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+              d="M19 13H5v-2h14v2z"
             />
           </svg>
           <p
-            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
           >
-            TITLE
+            MINUS
           </p>
         </div>
-      </header>
-      CHILDREN
-    </section>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+        >
+          200
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="css-pe6vce MuiBox-root css-1y16nxq"
+    >
+      <div
+        class="css-44nm6q MuiBox-root css-0"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+          data-testid="RemoveIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13H5v-2h14v2z"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+        >
+          MINUS
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+      >
+        200
+      </p>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -117,76 +117,83 @@ exports[`NavBarSection > fires callback when title clicked 1`] = `
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
   "unmount": [Function],
 }
 `;
 
-exports[`NavBarSection > renders NavBarSection component 1`] = `
+exports[`NavBarCardHeader > renders net-typed NavBarCardHeader component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="css-14chwgd MuiBox-root css-0"
-      >
-        <header
-          class="css-kympkc MuiBox-root css-0"
-        >
-          <div
-            class="css-1giup9e MuiBox-root css-0"
-          >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-              data-testid="KeyboardArrowUpIcon"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
-              />
-            </svg>
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
-            >
-              TITLE
-            </p>
-          </div>
-        </header>
-        CHILDREN
-      </section>
-    </div>
-  </body>,
-  "container": <div>
-    <section
-      class="css-14chwgd MuiBox-root css-0"
-    >
-      <header
-        class="css-kympkc MuiBox-root css-0"
+      <div
+        class="css-pe6vce MuiBox-root css-16qv2i2"
       >
         <div
-          class="css-1giup9e MuiBox-root css-0"
+          class="css-44nm6q MuiBox-root css-0"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-            data-testid="KeyboardArrowUpIcon"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+            data-testid="TollIcon"
             focusable="false"
             viewBox="0 0 24 24"
           >
             <path
-              d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+              d="M15 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zM3 12c0-2.61 1.67-4.83 4-5.65V4.26C3.55 5.15 1 8.27 1 12s2.55 6.85 6 7.74v-2.09c-2.33-.82-4-3.04-4-5.65z"
             />
           </svg>
           <p
-            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
           >
-            TITLE
+            NET
           </p>
         </div>
-      </header>
-      CHILDREN
-    </section>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+        >
+          100
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="css-pe6vce MuiBox-root css-16qv2i2"
+    >
+      <div
+        class="css-44nm6q MuiBox-root css-0"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+          data-testid="TollIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zM3 12c0-2.61 1.67-4.83 4-5.65V4.26C3.55 5.15 1 8.27 1 12s2.55 6.85 6 7.74v-2.09c-2.33-.82-4-3.04-4-5.65z"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+        >
+          NET
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+      >
+        100
+      </p>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -238,76 +245,83 @@ exports[`NavBarSection > renders NavBarSection component 1`] = `
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
   "unmount": [Function],
 }
 `;
 
-exports[`NavBarSection > renders collapsed when specified 1`] = `
+exports[`NavBarCardHeader > renders plus-typed NavBarCardHeader component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="css-14chwgd MuiBox-root css-0"
-      >
-        <header
-          class="css-kympkc MuiBox-root css-0"
-        >
-          <div
-            class="css-1giup9e MuiBox-root css-0"
-          >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-              data-testid="KeyboardArrowDownIcon"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
-              />
-            </svg>
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
-            >
-              TITLE
-            </p>
-          </div>
-        </header>
-        CHILDREN
-      </section>
-    </div>
-  </body>,
-  "container": <div>
-    <section
-      class="css-14chwgd MuiBox-root css-0"
-    >
-      <header
-        class="css-kympkc MuiBox-root css-0"
+      <div
+        class="css-pe6vce MuiBox-root css-c1a362"
       >
         <div
-          class="css-1giup9e MuiBox-root css-0"
+          class="css-44nm6q MuiBox-root css-0"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-            data-testid="KeyboardArrowDownIcon"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+            data-testid="AddIcon"
             focusable="false"
             viewBox="0 0 24 24"
           >
             <path
-              d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
             />
           </svg>
           <p
-            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
           >
-            TITLE
+            PLUS
           </p>
         </div>
-      </header>
-      CHILDREN
-    </section>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+        >
+          300
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="css-pe6vce MuiBox-root css-c1a362"
+    >
+      <div
+        class="css-44nm6q MuiBox-root css-0"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+          data-testid="AddIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+        >
+          PLUS
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+      >
+        300
+      </p>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -359,86 +373,83 @@ exports[`NavBarSection > renders collapsed when specified 1`] = `
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
   "unmount": [Function],
 }
 `;
 
-exports[`NavBarSection > renders with subTitle when specified 1`] = `
+exports[`NavBarCardHeader > renders with hidden amount 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="css-14chwgd MuiBox-root css-0"
-      >
-        <header
-          class="css-kympkc MuiBox-root css-0"
-        >
-          <div
-            class="css-1giup9e MuiBox-root css-0"
-          >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-              data-testid="KeyboardArrowUpIcon"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
-              />
-            </svg>
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
-            >
-              TITLE
-            </p>
-          </div>
-          <span
-            class="MuiTypography-root MuiTypography-caption css-2jhrtr css-1sn4lm3-MuiTypography-root"
-          >
-            SUBTITLE
-          </span>
-        </header>
-        CHILDREN
-      </section>
-    </div>
-  </body>,
-  "container": <div>
-    <section
-      class="css-14chwgd MuiBox-root css-0"
-    >
-      <header
-        class="css-kympkc MuiBox-root css-0"
+      <div
+        class="css-pe6vce MuiBox-root css-16qv2i2"
       >
         <div
-          class="css-1giup9e MuiBox-root css-0"
+          class="css-44nm6q MuiBox-root css-0"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-            data-testid="KeyboardArrowUpIcon"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+            data-testid="TollIcon"
             focusable="false"
             viewBox="0 0 24 24"
           >
             <path
-              d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"
+              d="M15 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zM3 12c0-2.61 1.67-4.83 4-5.65V4.26C3.55 5.15 1 8.27 1 12s2.55 6.85 6 7.74v-2.09c-2.33-.82-4-3.04-4-5.65z"
             />
           </svg>
           <p
-            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
           >
-            TITLE
+            NET
           </p>
         </div>
-        <span
-          class="MuiTypography-root MuiTypography-caption css-2jhrtr css-1sn4lm3-MuiTypography-root"
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
         >
-          SUBTITLE
-        </span>
-      </header>
-      CHILDREN
-    </section>
+          *********
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="css-pe6vce MuiBox-root css-16qv2i2"
+    >
+      <div
+        class="css-44nm6q MuiBox-root css-0"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1u2zctn-MuiSvgIcon-root"
+          data-testid="TollIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zM3 12c0-2.61 1.67-4.83 4-5.65V4.26C3.55 5.15 1 8.27 1 12s2.55 6.85 6 7.74v-2.09c-2.33-.82-4-3.04-4-5.65z"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+        >
+          NET
+        </p>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 css-1d3njat-MuiTypography-root"
+      >
+        *********
+      </p>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -490,6 +501,13 @@ exports[`NavBarSection > renders with subTitle when specified 1`] = `
   "queryByText": [Function],
   "queryByTitle": [Function],
   "rerender": [Function],
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
   "unmount": [Function],
 }
 `;

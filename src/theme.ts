@@ -4,19 +4,21 @@ const themeOptions: ThemeOptions = {
   palette: {
     mode: 'light',
     primary: {
-      main: '#41444E',
+      main: '#41444F',
+      light: '#575A67',
+      dark: '#32323A',
     },
     secondary: {
-      main: '#02C75A',
+      main: '#FFF3AD',
     },
     success: {
-      main: '#02C75A',
+      main: '#04C75B',
     },
     info: {
       main: '#608CEF',
     },
     error: {
-      main: '#FF5557',
+      main: '#FF5658',
     },
     background: {
       paper: '#F9F9F9',

@@ -1,3 +1,5 @@
+import dayjs from 'dayjs';
+
 export const displayAmount = (
   amount: number,
   showAmount: boolean = true,
@@ -7,9 +9,6 @@ export const displayAmount = (
 };
 
 export const formatDate = (date: Date = new Date()) => {
-  const days = ['일', '월', '화', '수', '목', '금', '토'];
-
-  return `${new Intl.DateTimeFormat('ko-KR', {
-    dateStyle: 'long',
-  }).format(date)} (${days[date.getDay()]})`;
+  const day = ['일', '월', '화', '수', '목', '금', '토'][dayjs(date).day()];
+  return dayjs(date).format(`YYYY년 M월 D일 (${day})`);
 };

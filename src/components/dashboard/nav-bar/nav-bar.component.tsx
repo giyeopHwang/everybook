@@ -1,19 +1,36 @@
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
 
-import { BanknotesIcon } from '@heroicons/react/24/outline';
+import { Savings } from '@mui/icons-material';
 import NavBarMenu from './nav-bar-menu/nav-bar-menu.component';
 import NavBarSectionGroup from './nav-bar-section-group/nav-bar-section-group.component';
-import { NavBarContainer, TitleLink } from './nav-bar.styles';
+import { NavBarContainer, Title, TitleLink } from './nav-bar.styles';
 
 const NavBar = () => {
   const { showNavBar } = useSelector(selectDisplayOptions);
 
+  if (!showNavBar) {
+    return null;
+  }
+
   return (
-    <NavBarContainer $show={showNavBar}>
-      <TitleLink to="/dashboard">
-        <BanknotesIcon style={{ width: '1.5rem', height: '1.5rem' }} />
-        <span>모두의 가계부</span>
+    <NavBarContainer
+      component="nav"
+      color="primary.contrastText"
+      bgcolor="primary.main"
+    >
+      <TitleLink
+        component={Link}
+        to="/dashboard"
+        color="primary.contrastText"
+        bgcolor="primary.light"
+        borderBottom={1}
+        borderColor="divider"
+        underline="none"
+      >
+        <Savings />
+        <Title>모두의 가계부</Title>
       </TitleLink>
       <NavBarMenu />
       <NavBarSectionGroup />

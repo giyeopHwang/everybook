@@ -3,7 +3,7 @@ import { WorksheetContainer } from './worksheet.styles';
 
 const Worksheet = () => {
   return (
-    <WorksheetContainer>
+    <WorksheetContainer component="article">
       <WorksheetHeader />
     </WorksheetContainer>
   );

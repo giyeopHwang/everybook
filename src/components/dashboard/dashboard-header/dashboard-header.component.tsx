@@ -67,7 +67,7 @@ const DashboardHeader = () => {
         <Button
           variant="outlined"
           size="small"
-          color={showAmount ? undefined : 'secondary'}
+          color={showAmount ? undefined : 'success'}
           endIcon={showAmount ? <ToggleOff /> : <ToggleOn />}
           onClick={handleHideAmountClick}
         >

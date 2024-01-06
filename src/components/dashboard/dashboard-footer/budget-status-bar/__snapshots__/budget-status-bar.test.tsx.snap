@@ -9,7 +9,7 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
         class="css-1mrw3dz MuiBox-root css-0"
       >
         <span
-          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
         >
           이달의예산
         </span>
@@ -31,12 +31,12 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
           3,000,000
         </span>
         <span
-          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
         >
           /
         </span>
         <span
-          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
         >
           5,000,000
         </span>
@@ -48,7 +48,7 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
       class="css-1mrw3dz MuiBox-root css-0"
     >
       <span
-        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
       >
         이달의예산
       </span>
@@ -70,12 +70,12 @@ exports[`BudgetStatusBar > renders BudgetStatusBar component 1`] = `
         3,000,000
       </span>
       <span
-        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
       >
         /
       </span>
       <span
-        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
       >
         5,000,000
       </span>
@@ -151,7 +151,7 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
         class="css-1mrw3dz MuiBox-root css-0"
       >
         <span
-          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
         >
           이달의예산
         </span>
@@ -173,12 +173,12 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
           *********
         </span>
         <span
-          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
         >
           /
         </span>
         <span
-          class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
         >
           *********
         </span>
@@ -190,7 +190,7 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
       class="css-1mrw3dz MuiBox-root css-0"
     >
       <span
-        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
       >
         이달의예산
       </span>
@@ -212,12 +212,12 @@ exports[`BudgetStatusBar > renders with hidden amount 1`] = `
         *********
       </span>
       <span
-        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
       >
         /
       </span>
       <span
-        class="MuiTypography-root MuiTypography-caption css-9o0qrs-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-caption css-1sn4lm3-MuiTypography-root"
       >
         *********
       </span>

@@ -6,216 +6,198 @@ exports[`NavBarMenu > renders NavBarMenu component 1`] = `
   "baseElement": <body>
     <div>
       <nav
-        class="css-1djzm1k"
+        class="css-a5gwss MuiBox-root css-8n1nqt"
       >
         <a
-          class="css-grrdwo"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
           href="/dashboard"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
-            style="width: 1rem; height: 1rem;"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+            data-testid="EditIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
             />
           </svg>
-          <span>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+          >
             가계부
-          </span>
+          </p>
         </a>
         <a
-          class="css-grrdwo"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
           href="/dashboard/report"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
-            style="width: 1rem; height: 1rem;"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+            data-testid="BarChartIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"
             />
           </svg>
-          <span>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+          >
             보고서
-          </span>
+          </p>
         </a>
         <a
-          class="css-grrdwo"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
           href="/dashboard/budget"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
-            style="width: 1rem; height: 1rem;"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+            data-testid="PieChartIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z"
             />
           </svg>
-          <span>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+          >
             예산 관리
-          </span>
+          </p>
         </a>
         <a
-          class="css-grrdwo"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
           href="/dashboard/account"
         >
           <svg
             aria-hidden="true"
-            data-slot="icon"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.5"
-            style="width: 1rem; height: 1rem;"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+            data-testid="CategoryIcon"
+            focusable="false"
             viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M21 12a2.25 2.25 0 0 0-2.25-2.25H15a3 3 0 1 1-6 0H5.25A2.25 2.25 0 0 0 3 12m18 0v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 9m18 0V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="m12 2-5.5 9h11z"
+            />
+            <circle
+              cx="17.5"
+              cy="17.5"
+              r="4.5"
+            />
+            <path
+              d="M3 13.5h8v8H3z"
             />
           </svg>
-          <span>
+          <p
+            class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+          >
             분류 관리
-          </span>
+          </p>
         </a>
       </nav>
     </div>
   </body>,
   "container": <div>
     <nav
-      class="css-1djzm1k"
+      class="css-a5gwss MuiBox-root css-8n1nqt"
     >
       <a
-        class="css-grrdwo"
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
         href="/dashboard"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          style="width: 1rem; height: 1rem;"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+          data-testid="EditIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
           />
         </svg>
-        <span>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+        >
           가계부
-        </span>
+        </p>
       </a>
       <a
-        class="css-grrdwo"
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
         href="/dashboard/report"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          style="width: 1rem; height: 1rem;"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+          data-testid="BarChartIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"
           />
         </svg>
-        <span>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+        >
           보고서
-        </span>
+        </p>
       </a>
       <a
-        class="css-grrdwo"
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
         href="/dashboard/budget"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          style="width: 1rem; height: 1rem;"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+          data-testid="PieChartIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z"
           />
         </svg>
-        <span>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+        >
           예산 관리
-        </span>
+        </p>
       </a>
       <a
-        class="css-grrdwo"
+        class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1svkyu9 css-etlun3-MuiTypography-root-MuiLink-root"
         href="/dashboard/account"
       >
         <svg
           aria-hidden="true"
-          data-slot="icon"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="1.5"
-          style="width: 1rem; height: 1rem;"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1l6op67-MuiSvgIcon-root"
+          data-testid="CategoryIcon"
+          focusable="false"
           viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M21 12a2.25 2.25 0 0 0-2.25-2.25H15a3 3 0 1 1-6 0H5.25A2.25 2.25 0 0 0 3 12m18 0v6a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 9m18 0V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="m12 2-5.5 9h11z"
+          />
+          <circle
+            cx="17.5"
+            cy="17.5"
+            r="4.5"
+          />
+          <path
+            d="M3 13.5h8v8H3z"
           />
         </svg>
-        <span>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+        >
           분류 관리
-        </span>
+        </p>
       </a>
     </nav>
   </div>,
