@@ -1,6 +1,10 @@
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
+import 'dayjs/locale/ko';
+
 import { RootState, setupStore } from '@/store/store';
 
 type StoreOptions = {
@@ -15,7 +19,9 @@ export const renderWithWrapper = (
   const Wrapper = ({ children }: { children: React.ReactElement }) => {
     return (
       <Provider store={store}>
-        <BrowserRouter>{children}</BrowserRouter>
+        <LocalizationProvider dateAdapter={AdapterDayjs} adapterLocale="ko">
+          <BrowserRouter>{children}</BrowserRouter>
+        </LocalizationProvider>
       </Provider>
     );
   };
