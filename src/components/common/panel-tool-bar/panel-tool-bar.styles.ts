@@ -1,7 +1,10 @@
 import styled from '@emotion/styled';
 import { FormGroup } from '@mui/material';
 
-export const TabToolItemsContainer = styled(FormGroup)`
+export const PanelToolBarContainer = styled(FormGroup)`
+  position: absolute;
+  top: -45px;
+  right: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;

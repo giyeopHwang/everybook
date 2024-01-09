@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { mockTabMenuItems, mockTabToolItems } from '@/test/test-mock';
+import { mockTabMenuItems } from '@/test/test-mock';
 import TabMenuBar from './tab-menu-bar.component';
 
 describe('TabMenuBar', () => {
@@ -18,7 +18,6 @@ describe('TabMenuBar', () => {
     const tabMenuBar = render(
       <TabMenuBar
         menuItems={mockTabMenuItems}
-        toolItems={mockTabToolItems}
         selectedTab={0}
         setSelectedTab={() => {}}
       />

@@ -1,11 +1,11 @@
+import { TPanelToolBarCheckboxItem } from '../panel-tool-bar.const';
 import { FormControlLabel, Checkbox } from '@mui/material';
-import { TTabToolCheckboxItem } from '../tab-tool-items.const';
 
-const TabToolCheckboxItem = ({
+const PanelToolBarCheckboxItem = ({
   label,
   checked,
   onChange,
-}: TTabToolCheckboxItem) => {
+}: TPanelToolBarCheckboxItem) => {
   return (
     <FormControlLabel
       control={
@@ -22,4 +22,4 @@ const TabToolCheckboxItem = ({
   );
 };
 
-export default TabToolCheckboxItem;
+export default PanelToolBarCheckboxItem;

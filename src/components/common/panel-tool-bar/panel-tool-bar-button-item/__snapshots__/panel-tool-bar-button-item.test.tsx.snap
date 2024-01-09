@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`TabToolButtonItem > renders TabToolItems component 1`] = `
+exports[`PanelToolBarButtonItem > renders PanelToolBarButtonItem component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

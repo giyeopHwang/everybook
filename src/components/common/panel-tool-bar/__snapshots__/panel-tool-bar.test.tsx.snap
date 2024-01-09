@@ -1,12 +1,12 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`TabToolItems > renders TabToolItems component with button items 1`] = `
+exports[`PanelToolBar > renders PanelToolBar component with button items 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+        class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
       >
         <div
           class="MuiButtonGroup-root MuiButtonGroup-outlined css-edsu1d-MuiButtonGroup-root"
@@ -38,7 +38,7 @@ exports[`TabToolItems > renders TabToolItems component with button items 1`] = `
   </body>,
   "container": <div>
     <div
-      class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+      class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
     >
       <div
         class="MuiButtonGroup-root MuiButtonGroup-outlined css-edsu1d-MuiButtonGroup-root"
@@ -121,13 +121,13 @@ exports[`TabToolItems > renders TabToolItems component with button items 1`] = `
 }
 `;
 
-exports[`TabToolItems > renders TabToolItems component with checkbox items 1`] = `
+exports[`PanelToolBar > renders PanelToolBar component with checkbox items 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+        class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
       >
         <label
           class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-9jcraj-MuiFormControlLabel-root"
@@ -199,7 +199,7 @@ exports[`TabToolItems > renders TabToolItems component with checkbox items 1`] =
   </body>,
   "container": <div>
     <div
-      class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+      class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
     >
       <label
         class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-9jcraj-MuiFormControlLabel-root"
@@ -322,13 +322,13 @@ exports[`TabToolItems > renders TabToolItems component with checkbox items 1`] =
 }
 `;
 
-exports[`TabToolItems > renders TabToolItems component with mixed items 1`] = `
+exports[`PanelToolBar > renders PanelToolBar component with mixed items 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+        class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
       >
         <label
           class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-9jcraj-MuiFormControlLabel-root"
@@ -425,7 +425,7 @@ exports[`TabToolItems > renders TabToolItems component with mixed items 1`] = `
   </body>,
   "container": <div>
     <div
-      class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+      class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
     >
       <label
         class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-9jcraj-MuiFormControlLabel-root"

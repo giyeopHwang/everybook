@@ -31,7 +31,7 @@ exports[`Worksheet > renders Worksheet component 1`] = `
                 class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1laqsz7-MuiInputAdornment-root"
               >
                 <button
-                  aria-label="Choose date, selected date is 2024년 1월 7일"
+                  aria-label="Choose date, selected date is 2024년 1월 1일"
                   class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root"
                   tabindex="0"
                   type="button"
@@ -72,7 +72,7 @@ exports[`Worksheet > renders Worksheet component 1`] = `
             class="MuiTypography-root MuiTypography-body2 css-18w6ola css-r40f8v-MuiTypography-root"
           >
             오늘의 날짜: 
-            2024년 1월 7일 (일)
+            2024년 1월 1일 (월)
           </p>
         </header>
         <div
@@ -120,8 +120,13 @@ exports[`Worksheet > renders Worksheet component 1`] = `
               />
             </div>
           </div>
+        </div>
+        <div
+          class="css-mg8ajq MuiBox-root css-8atqhb"
+          data-testid="worksheet-expense-panel"
+        >
           <div
-            class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+            class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
           >
             <label
               class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-9jcraj-MuiFormControlLabel-root"
@@ -182,6 +187,15 @@ exports[`Worksheet > renders Worksheet component 1`] = `
               </button>
             </div>
           </div>
+          <div
+            class="css-1mzsdlz MuiBox-root css-1k9ek97"
+          >
+            <canvas
+              height="150"
+              role="img"
+              width="300"
+            />
+          </div>
         </div>
       </article>
     </div>
@@ -213,7 +227,7 @@ exports[`Worksheet > renders Worksheet component 1`] = `
               class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1laqsz7-MuiInputAdornment-root"
             >
               <button
-                aria-label="Choose date, selected date is 2024년 1월 7일"
+                aria-label="Choose date, selected date is 2024년 1월 1일"
                 class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root"
                 tabindex="0"
                 type="button"
@@ -254,7 +268,7 @@ exports[`Worksheet > renders Worksheet component 1`] = `
           class="MuiTypography-root MuiTypography-body2 css-18w6ola css-r40f8v-MuiTypography-root"
         >
           오늘의 날짜: 
-          2024년 1월 7일 (일)
+          2024년 1월 1일 (월)
         </p>
       </header>
       <div
@@ -302,8 +316,13 @@ exports[`Worksheet > renders Worksheet component 1`] = `
             />
           </div>
         </div>
+      </div>
+      <div
+        class="css-mg8ajq MuiBox-root css-8atqhb"
+        data-testid="worksheet-expense-panel"
+      >
         <div
-          class="MuiFormGroup-root css-1b5clw6 css-dmmspl-MuiFormGroup-root"
+          class="MuiFormGroup-root css-1ganh0o css-dmmspl-MuiFormGroup-root"
         >
           <label
             class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-9jcraj-MuiFormControlLabel-root"
@@ -363,6 +382,15 @@ exports[`Worksheet > renders Worksheet component 1`] = `
               />
             </button>
           </div>
+        </div>
+        <div
+          class="css-1mzsdlz MuiBox-root css-1k9ek97"
+        >
+          <canvas
+            height="150"
+            role="img"
+            width="300"
+          />
         </div>
       </div>
     </article>

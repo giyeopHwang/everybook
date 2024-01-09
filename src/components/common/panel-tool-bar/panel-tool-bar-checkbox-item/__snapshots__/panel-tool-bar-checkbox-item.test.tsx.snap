@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`TabToolCheckboxItem > renders TabToolItems component 1`] = `
+exports[`PanelToolBarCheckboxItem > renders PanelToolBarCheckboxItem component 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

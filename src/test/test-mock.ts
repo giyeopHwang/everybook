@@ -6,10 +6,11 @@ import {
 } from '@/components/dashboard/nav-bar/nav-bar-card-group/nav-bar-card/nav-bar-card.const';
 import { TTabMenuItem } from '@/components/common/tab-menu-bar/tab-menu-items/tab-menu-items.const';
 import {
-  TTabToolCheckboxItem,
-  TTabToolItem,
-  TabToolItemTypes,
-} from '@/components/common/tab-menu-bar/tab-tool-items/tab-tool-items.const';
+  PanelToolBarItemTypes,
+  TPanelToolBarButtonItem,
+  TPanelToolBarCheckboxItem,
+  TPanelToolBarItem,
+} from '@/components/common/panel-tool-bar/panel-tool-bar.const';
 
 export const mockNet: NavBarNet = {
   title: 'NET',
@@ -42,35 +43,35 @@ export const mockTabMenuItems: TTabMenuItem[] = [
   { label: 'TAB_2' },
 ];
 
-export const mockTabToolButtonItems: TTabToolItem[] = [
+export const mockPanelToolBarButtonItems: TPanelToolBarButtonItem[] = [
   {
-    type: TabToolItemTypes.button,
+    type: PanelToolBarItemTypes.button,
     label: 'BUTTON_1',
     onClick: () => {},
   },
   {
-    type: TabToolItemTypes.button,
+    type: PanelToolBarItemTypes.button,
     label: 'BUTTON_2',
     onClick: () => {},
   },
 ];
 
-export const mockTabToolCheckboxItems: TTabToolCheckboxItem[] = [
+export const mockPanelToolBarCheckboxItems: TPanelToolBarCheckboxItem[] = [
   {
-    type: TabToolItemTypes.checkbox,
+    type: PanelToolBarItemTypes.checkbox,
     label: 'CHECK_1',
     checked: true,
     onChange: () => {},
   },
   {
-    type: TabToolItemTypes.checkbox,
+    type: PanelToolBarItemTypes.checkbox,
     label: 'CHECK_2',
     checked: false,
     onChange: () => {},
   },
 ];
 
-export const mockTabToolItems: TTabToolItem[] = [
-  ...mockTabToolButtonItems,
-  ...mockTabToolCheckboxItems,
+export const mockPanelToolBarItems: TPanelToolBarItem[] = [
+  ...mockPanelToolBarButtonItems,
+  ...mockPanelToolBarCheckboxItems,
 ];
