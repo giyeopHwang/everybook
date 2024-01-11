@@ -26,8 +26,8 @@ button {
   cursor:pointer;
 }
 
-input {
-  all: unset;
+.ag-theme-quartz {
+  --ag-active-color: var(--theme-light-success-main);
 }
 
 :root {
@@ -38,27 +38,8 @@ input {
   --theme-light-success-main: #02C75A;
   --theme-light-info-main: #608CEF;
   --theme-light-error-main: #FF5557;
+  --theme-light-background-default: #FFFFFF;
   --theme-light-background-paper: #F9F9F9;
   --theme-light-text-primary: #FFFFFF;
   --theme-light-divider: rgba(0, 0, 0, 0.12);
-
-  --theme-dark-background: #41444e;
-  --theme-dark-background-light: #575a67;
-  --theme-dark-background-dark: #31323a;
-  --theme-dark-text: #ffffff;
-  --theme-dark-text-highlight: #fff3ad;
-  --theme-dark-text-subsidary: #999999;
-  --theme-dark-text-positive: #bbffad;
-  --theme-dark-text-negative: #ffadad;
-  --theme-dark-border: #262b35;
-  --theme-light-background-dark: #c6c6c6;
-  --theme-light-text: #000000;
-  --theme-light-text-highlight: #03c75a;
-  --theme-light-text-subsidary: #797979;
-  --theme-light-text-button: #333333;
-  --theme-light-border: #c6c6c6;
-  --theme-light-border-highlight: #03c75a;
-  --theme-light-border-error: #c71703;
-  --theme-light-tag-default: #c6c6c6;
-  --theme-light-tag-highlight: #03c75a;
 }

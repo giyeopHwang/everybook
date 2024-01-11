@@ -6,7 +6,7 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-13svyc9 MuiBox-root css-0"
+        class="css-i0ii45 MuiBox-root css-0"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
@@ -72,7 +72,7 @@ exports[`DashboardHeader > renders DashboardHeader component 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-13svyc9 MuiBox-root css-0"
+      class="css-i0ii45 MuiBox-root css-0"
     >
       <button
         class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
@@ -202,7 +202,7 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-13svyc9 MuiBox-root css-0"
+        class="css-i0ii45 MuiBox-root css-0"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
@@ -268,7 +268,7 @@ exports[`DashboardHeader > renders with hidden amount 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-13svyc9 MuiBox-root css-0"
+      class="css-i0ii45 MuiBox-root css-0"
     >
       <button
         class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
@@ -398,7 +398,7 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-13svyc9 MuiBox-root css-0"
+        class="css-i0ii45 MuiBox-root css-0"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"
@@ -464,7 +464,7 @@ exports[`DashboardHeader > renders with hidden amount and hidden nav bar 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-13svyc9 MuiBox-root css-0"
+      class="css-i0ii45 MuiBox-root css-0"
     >
       <button
         class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"
@@ -594,7 +594,7 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-13svyc9 MuiBox-root css-0"
+        class="css-i0ii45 MuiBox-root css-0"
       >
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"
@@ -660,7 +660,7 @@ exports[`DashboardHeader > renders with hidden nav bar 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-13svyc9 MuiBox-root css-0"
+      class="css-i0ii45 MuiBox-root css-0"
     >
       <button
         class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-disableElevation css-5sstsn css-zddlty-MuiButtonBase-root-MuiButton-root"

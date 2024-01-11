@@ -7,7 +7,7 @@ export const DashboardHeaderContainer = styled(Box)`
   align-items: center;
   padding: 0 1.5rem;
   border-bottom: 1px solid var(--theme-light-border);
-  height: 50px;
+  min-height: 50px;
 `;
 
 export const TitleGroup = styled(Box)`

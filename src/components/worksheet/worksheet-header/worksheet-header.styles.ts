@@ -9,7 +9,7 @@ export const WorksheetHeaderContainer = styled(Box)`
   align-items: center;
   row-gap: 0.5rem;
   width: 100%;
-  height: 110px;
+  min-height: 110px;
 `;
 
 export const Today = styled(Typography)`

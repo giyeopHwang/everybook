@@ -6,7 +6,7 @@ exports[`WorksheetHeader > renders WorksheetHeader component 1`] = `
   "baseElement": <body>
     <div>
       <header
-        class="css-1xvf4iq MuiBox-root css-0"
+        class="css-1cqkea2 MuiBox-root css-0"
       >
         <div
           class="MuiFormControl-root MuiTextField-root css-z3c6am-MuiFormControl-root-MuiTextField-root"
@@ -76,7 +76,7 @@ exports[`WorksheetHeader > renders WorksheetHeader component 1`] = `
   </body>,
   "container": <div>
     <header
-      class="css-1xvf4iq MuiBox-root css-0"
+      class="css-1cqkea2 MuiBox-root css-0"
     >
       <div
         class="MuiFormControl-root MuiTextField-root css-z3c6am-MuiFormControl-root-MuiTextField-root"

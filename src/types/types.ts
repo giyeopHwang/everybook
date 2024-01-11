@@ -10,3 +10,17 @@ export type ExpenseCategories =
   | '세금/이자'
   | '용돈/기타'
   | '미분류';
+
+export type Expense = {
+  id: string;
+  isSelected?: boolean;
+  date: Date;
+  place: string;
+  item: string;
+  cash?: number;
+  card?: number;
+  cashAccount?: string | null;
+  cardAccount?: string | null;
+  category?: string;
+  isWaste?: boolean;
+};

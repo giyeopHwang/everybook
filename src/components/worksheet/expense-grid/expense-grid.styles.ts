@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
 import { Box } from '@mui/material';
 
-export const WorksheetContainer = styled(Box)`
-  display: flex;
+export const ExpenseGridContainer = styled(Box)`
   flex: 1;
-  flex-direction: column;
+  max-width: 100%;
 `;

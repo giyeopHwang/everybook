@@ -680,7 +680,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
             class="css-1rfq2pv MuiBox-root css-0"
           >
             <header
-              class="css-13svyc9 MuiBox-root css-0"
+              class="css-i0ii45 MuiBox-root css-0"
             >
               <button
                 class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"
@@ -1463,7 +1463,7 @@ exports[`DashboardLayout > renders DashboardLayout component 1`] = `
           class="css-1rfq2pv MuiBox-root css-0"
         >
           <header
-            class="css-13svyc9 MuiBox-root css-0"
+            class="css-i0ii45 MuiBox-root css-0"
           >
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation MuiButton-root MuiButton-contained MuiButton-containedInherit MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorInherit MuiButton-disableElevation css-b9q5jy css-1ddizub-MuiButtonBase-root-MuiButton-root"

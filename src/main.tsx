@@ -11,6 +11,8 @@ import { router } from './router';
 import { theme } from './theme';
 import { setupStore } from './store/store';
 
+import 'ag-grid-community/styles/ag-grid.css';
+import 'ag-grid-community/styles/ag-theme-quartz.css';
 import './index.scss';
 
 const store = setupStore();

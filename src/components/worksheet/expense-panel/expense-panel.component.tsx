@@ -6,6 +6,7 @@ import {
 
 import PanelToolBar from '@/components/common/panel-tool-bar/panel-tool-bar.component';
 import ExpenseChart from '../expense-chart/expense-chart.component';
+import ExpenseGrid from '../expense-grid/expense-grid.component';
 import { ExpensePanelContainer } from './expense-panel.styles';
 
 const ExpensePanel = () => {
@@ -32,6 +33,7 @@ const ExpensePanel = () => {
     <ExpensePanelContainer width="100%" data-testid="worksheet-expense-panel">
       <PanelToolBar items={toolBarItems} />
       {showChart && <ExpenseChart />}
+      <ExpenseGrid />
     </ExpensePanelContainer>
   );
 };
