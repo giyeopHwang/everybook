@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { mockTabMenuItems } from '@/test/test-mock';
+import { mockTabMenuItems } from '@/test/test.mock';
 import TabMenuBar from './tab-menu-bar.component';
 
 describe('TabMenuBar', () => {

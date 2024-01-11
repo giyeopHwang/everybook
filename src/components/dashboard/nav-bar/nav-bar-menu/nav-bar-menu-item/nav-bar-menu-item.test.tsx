@@ -1,4 +1,4 @@
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import NavBarMenuItem from './nav-bar-menu-item.component';
 
 describe('NavBarMenuItem', () => {

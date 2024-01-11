@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { mockPanelToolBarCheckboxItems } from '@/test/test-mock';
+import { mockPanelToolBarCheckboxItems } from '@/test/test.mock';
 import PanelToolBarCheckboxItem from './panel-tool-bar-checkbox-item.component';
 
 describe('PanelToolBarCheckboxItem', () => {

@@ -1,5 +1,5 @@
 import { screen } from '@testing-library/react';
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import NavBarMenu from './nav-bar-menu.component';
 
 describe('NavBarMenu', () => {

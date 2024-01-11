@@ -1,4 +1,4 @@
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import DashboardFooter from './dashboard-footer.components';
 
 describe('DashboardFooter', () => {

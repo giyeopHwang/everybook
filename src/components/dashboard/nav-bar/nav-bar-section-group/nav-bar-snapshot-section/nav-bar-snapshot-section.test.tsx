@@ -1,4 +1,4 @@
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import NavBarSnapshotSection from './nav-bar-snapshot-section.component';
 
 describe('NavBarSnapshotSection', () => {

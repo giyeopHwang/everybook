@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { mockPanelToolBarButtonItems } from '@/test/test-mock';
+import { mockPanelToolBarButtonItems } from '@/test/test.mock';
 import PanelToolBarButtonItem from './panel-tool-bar-button-item.component';
 
 describe('PanelToolBarButtonItem', () => {

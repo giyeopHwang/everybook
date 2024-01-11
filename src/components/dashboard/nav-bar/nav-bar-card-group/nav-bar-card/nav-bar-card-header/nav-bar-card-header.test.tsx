@@ -1,6 +1,6 @@
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import { RootState } from '@/store/store';
-import { mockNet, mockPlus, mockMinus } from '@/test/test-mock';
+import { mockNet, mockPlus, mockMinus } from '@/test/test.mock';
 import NavBarCardHeader from './nav-bar-card-header.component';
 
 describe('NavBarCardHeader', () => {

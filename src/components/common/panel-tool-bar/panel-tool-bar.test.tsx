@@ -3,7 +3,7 @@ import {
   mockPanelToolBarButtonItems,
   mockPanelToolBarCheckboxItems,
   mockPanelToolBarItems,
-} from '@/test/test-mock';
+} from '@/test/test.mock';
 import PanelToolBar from './panel-tool-bar.component';
 
 describe('PanelToolBar', () => {

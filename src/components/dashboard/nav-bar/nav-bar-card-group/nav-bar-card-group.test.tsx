@@ -1,5 +1,5 @@
-import { renderWithWrapper } from '@/test/test-utils';
-import { mockNet, mockPlus, mockMinus } from '@/test/test-mock';
+import { renderWithWrapper } from '@/test/test.utils';
+import { mockNet, mockPlus, mockMinus } from '@/test/test.mock';
 import NavBarCardGroup from './nav-bar-card-group.component';
 
 describe('NavBarCardGroup', () => {

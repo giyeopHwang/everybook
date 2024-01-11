@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react';
 import MockDate from 'mockdate';
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import WorksheetHeader from './worksheet-header.component';
 
 describe('WorksheetHeader', () => {

@@ -1,6 +1,6 @@
 import { fireEvent, screen } from '@testing-library/react';
 import MockDate from 'mockdate';
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import Worksheet from './worksheet.component';
 
 describe('Worksheet', () => {

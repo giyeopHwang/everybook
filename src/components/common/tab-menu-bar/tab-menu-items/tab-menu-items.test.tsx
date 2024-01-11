@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { mockTabMenuItems } from '@/test/test-mock';
+import { mockTabMenuItems } from '@/test/test.mock';
 import TabMenuItems from './tab-menu-items.component';
 
 describe('TabMenuItems', () => {

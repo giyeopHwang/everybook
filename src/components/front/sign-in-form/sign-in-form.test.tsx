@@ -1,4 +1,4 @@
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import SignInForm from './sign-in-form.component';
 
 describe('SignInForm', () => {

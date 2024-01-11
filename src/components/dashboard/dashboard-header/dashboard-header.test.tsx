@@ -1,5 +1,5 @@
 import { fireEvent, screen } from '@testing-library/react';
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import { RootState } from '@/store/store';
 import DashboardHeader from './dashboard-header.component';
 

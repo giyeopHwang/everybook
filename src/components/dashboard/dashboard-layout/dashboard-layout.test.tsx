@@ -1,4 +1,4 @@
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import DashboardLayout from './dashboard-layout.compoent';
 
 describe('DashboardLayout', () => {

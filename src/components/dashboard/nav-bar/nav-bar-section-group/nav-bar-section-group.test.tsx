@@ -1,4 +1,4 @@
-import { renderWithWrapper } from '@/test/test-utils';
+import { renderWithWrapper } from '@/test/test.utils';
 import NavBarSectionGroup from './nav-bar-section-group.component';
 
 describe('NavBarSectionGroup', () => {
