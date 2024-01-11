@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import dayjs from 'dayjs';
 import { AgGridReact } from 'ag-grid-react';
 import {
@@ -13,31 +13,35 @@ import { mockExpenseData } from '@/data/data.mock';
 
 import { ExpenseGridContainer } from './expense-grid.styles';
 
-const generateNewInputRow: () => Expense = () => ({
-  id: crypto.randomUUID(),
-  isSelected: false,
-  place: '',
-  item: '',
-  date: new Date(),
-  isWaste: false,
-});
-
-const suppressKeyboardEvent = (
-  params: SuppressKeyboardEventParams<Expense>
-) => {
-  const event = params.event;
-
-  // This would prevent double tabbing issue when the input is written in Korean.
-  if (event.key === 'Tab') {
-    if (event.isComposing) {
-      return true;
-    }
-  }
-
-  return false;
-};
-
 const ExpenseGrid = () => {
+  const generateNewInputRow: () => Expense = useCallback(
+    () => ({
+      id: crypto.randomUUID(),
+      isSelected: false,
+      place: '',
+      item: '',
+      date: new Date(),
+      isWaste: false,
+    }),
+    []
+  );
+
+  const suppressKeyboardEvent = useCallback(
+    (params: SuppressKeyboardEventParams<Expense>) => {
+      const event = params.event;
+
+      // This would prevent double tabbing issue when the input is written in Korean.
+      if (event.key === 'Tab') {
+        if (event.isComposing) {
+          return true;
+        }
+      }
+
+      return false;
+    },
+    []
+  );
+
   const [rowData, setRowData] = useState<Expense[]>([
     ...mockExpenseData,
     generateNewInputRow(),
