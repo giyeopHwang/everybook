@@ -1,3 +1,4 @@
+import { useSelector } from 'react-redux';
 import { useTheme } from '@mui/material';
 import {
   Chart as ChartJS,
@@ -9,9 +10,11 @@ import {
   ChartOptions,
   TooltipItem,
 } from 'chart.js';
+
 import { ExpenseCategories } from '@/types/types';
 import { ExpenseChartDatasets } from './expense-chart.const';
 import { formatTick } from '@/utils/utils';
+import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
 
 import { Bar } from 'react-chartjs-2';
 import { ExpenseChartContainer } from './expense-chart.styles';
@@ -19,6 +22,7 @@ import { ExpenseChartContainer } from './expense-chart.styles';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip);
 
 const ExpenseChart = () => {
+  const { showNavBar } = useSelector(selectDisplayOptions);
   const theme = useTheme();
 
   const labels: ExpenseCategories[] = [
@@ -137,7 +141,11 @@ const ExpenseChart = () => {
   };
 
   return (
-    <ExpenseChartContainer bgcolor="background.paper">
+    // NOTE: Chart should be resized whenever `showNavBar` value changes
+    <ExpenseChartContainer
+      key={showNavBar.toString()}
+      bgcolor="background.paper"
+    >
       <Bar data={data} options={options} />
     </ExpenseChartContainer>
   );

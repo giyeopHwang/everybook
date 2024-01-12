@@ -1,6 +1,4 @@
-import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
 
 import { Savings } from '@mui/icons-material';
 import NavBarMenu from './nav-bar-menu/nav-bar-menu.component';
@@ -8,12 +6,6 @@ import NavBarSectionGroup from './nav-bar-section-group/nav-bar-section-group.co
 import { NavBarContainer, Title, TitleLink } from './nav-bar.styles';
 
 const NavBar = () => {
-  const { showNavBar } = useSelector(selectDisplayOptions);
-
-  if (!showNavBar) {
-    return null;
-  }
-
   return (
     <NavBarContainer
       component="nav"

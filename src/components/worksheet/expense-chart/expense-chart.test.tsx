@@ -1,9 +1,9 @@
-import { render } from '@testing-library/react';
+import { renderWithWrapper } from '@/test/test.utils';
 import ExpenseChart from './expense-chart.component';
 
 describe('ExpenseChart', () => {
   it('renders ExpenseChart component', () => {
-    const expenseChart = render(<ExpenseChart />);
+    const expenseChart = renderWithWrapper(<ExpenseChart />);
     expect(expenseChart).toMatchSnapshot();
   });
 });

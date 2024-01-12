@@ -8,12 +8,16 @@ import {
   DashboardLayoutContainer,
   DashboardContentContainer,
 } from './dashboard-layout.styles';
+import { useSelector } from 'react-redux';
+import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
 
 const DashboardLayout = () => {
+  const { showNavBar } = useSelector(selectDisplayOptions);
+
   return (
     <Container disableGutters maxWidth={false}>
       <DashboardLayoutContainer>
-        <NavBar />
+        {showNavBar && <NavBar />}
         <DashboardContentContainer>
           <DashboardHeader />
           <Outlet />

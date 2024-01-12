@@ -1,14 +1,15 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import { fireEvent, screen } from '@testing-library/react';
+import { renderWithWrapper } from '@/test/test.utils';
 import ExpensePanel from './expense-panel.component';
 
 describe('ExpensePanel', () => {
   it('renders ExpensePanel component', () => {
-    const expensePanel = render(<ExpensePanel />);
+    const expensePanel = renderWithWrapper(<ExpensePanel />);
     expect(expensePanel).toMatchSnapshot();
   });
 
   it('hides ExpenseChart when graph checkbox unchecked', () => {
-    const { container } = render(<ExpensePanel />);
+    const { container } = renderWithWrapper(<ExpensePanel />);
     expect(container.querySelector('canvas')).not.toBeNull();
 
     const graphCheckbox = screen.getByText('그래프');
