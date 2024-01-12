@@ -13,7 +13,7 @@ import {
 
 import { ExpenseCategories } from '@/types/types';
 import { ExpenseChartDatasets } from './expense-chart.const';
-import { formatTick } from '@/utils/utils';
+import { formatTick } from './expense-chart.utils';
 import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
 
 import { Bar } from 'react-chartjs-2';

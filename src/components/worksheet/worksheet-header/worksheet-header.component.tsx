@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import { formatDate } from '@/utils/utils';
+import { formatDate } from './worksheet-header.utils';
 
 import { DatePicker } from '@mui/x-date-pickers';
 import { WorksheetHeaderContainer, Today } from './worksheet-header.styles';

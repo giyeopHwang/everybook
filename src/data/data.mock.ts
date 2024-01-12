@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 import { ColDef } from 'ag-grid-community';
 import { Expense } from '@/types/types';
-import { suppressKeyboardEvent } from '@/utils/utils';
+import { suppressKeyboardEvent } from '@/components/worksheet/expense-panel/expense-panel.utils';
 
 export const mockExpenseRowData: Expense[] = [
   {

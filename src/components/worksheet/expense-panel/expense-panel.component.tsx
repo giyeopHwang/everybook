@@ -5,7 +5,7 @@ import {
 } from '@/components/common/panel-tool-bar/panel-tool-bar.const';
 import { Expense } from '@/types/types';
 import { mockExpenseRowData, mockExpenseColDefs } from '@/data/data.mock';
-import { generateNewExpenseInputRow } from '@/utils/utils';
+import { generateNewExpenseInputRow } from './expense-panel.utils';
 
 import PanelToolBar from '@/components/common/panel-tool-bar/panel-tool-bar.component';
 import ExpenseChart from '../expense-chart/expense-chart.component';
