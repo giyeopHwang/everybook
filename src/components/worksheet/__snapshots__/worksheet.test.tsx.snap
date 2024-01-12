@@ -6,7 +6,7 @@ exports[`Worksheet > renders Worksheet component 1`] = `
   "baseElement": <body>
     <div>
       <article
-        class="css-1qxls6i MuiBox-root css-0"
+        class="css-il1s2i MuiBox-root css-0"
       >
         <header
           class="css-1cqkea2 MuiBox-root css-0"
@@ -4672,7 +4672,7 @@ exports[`Worksheet > renders Worksheet component 1`] = `
   </body>,
   "container": <div>
     <article
-      class="css-1qxls6i MuiBox-root css-0"
+      class="css-il1s2i MuiBox-root css-0"
     >
       <header
         class="css-1cqkea2 MuiBox-root css-0"

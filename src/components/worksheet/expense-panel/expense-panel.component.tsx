@@ -1,12 +1,15 @@
-import { ChangeEvent, useState } from 'react';
+import { useState, ChangeEvent } from 'react';
 import {
   PanelToolBarItemTypes,
   TPanelToolBarItem,
 } from '@/components/common/panel-tool-bar/panel-tool-bar.const';
+import { Expense } from '@/types/types';
+import { mockExpenseRowData, mockExpenseColDefs } from '@/data/data.mock';
+import { generateNewExpenseInputRow } from '@/utils/utils';
 
 import PanelToolBar from '@/components/common/panel-tool-bar/panel-tool-bar.component';
 import ExpenseChart from '../expense-chart/expense-chart.component';
-import ExpenseGrid from '../expense-grid/expense-grid.component';
+import ExpenseGrid from '../worksheet-grid/worksheet-grid.component';
 import {
   ButtonsContainer,
   ExpensePanelContainer,
@@ -18,6 +21,11 @@ import { Button, Divider, Typography } from '@mui/material';
 
 const ExpensePanel = () => {
   const [showChart, setShowChart] = useState(true);
+
+  const [expenseRowData, setExpenseRowData] = useState([
+    ...mockExpenseRowData,
+    generateNewExpenseInputRow(),
+  ]);
 
   const toolBarItems: TPanelToolBarItem[] = [
     {
@@ -40,11 +48,19 @@ const ExpensePanel = () => {
   const cardExpense = 400_000;
   const totalExpense = cashExpense + cardExpense;
 
+  const handleNewExpenseRowData = (expenseRow: Expense[]) => {
+    setExpenseRowData([...expenseRow, generateNewExpenseInputRow()]);
+  };
+
   return (
     <ExpensePanelContainer width="100%" data-testid="worksheet-expense-panel">
       <PanelToolBar items={toolBarItems} />
       {showChart && <ExpenseChart />}
-      <ExpenseGrid />
+      <ExpenseGrid
+        rowData={expenseRowData}
+        colDefs={mockExpenseColDefs}
+        onRowDataUpdate={handleNewExpenseRowData}
+      />
       <PanelFooter>
         <ButtonsContainer variant="outlined" size="small">
           <Button>선택삭제</Button>

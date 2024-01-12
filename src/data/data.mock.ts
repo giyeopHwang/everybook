@@ -1,6 +1,9 @@
+import dayjs from 'dayjs';
+import { ColDef } from 'ag-grid-community';
 import { Expense } from '@/types/types';
+import { suppressKeyboardEvent } from '@/utils/utils';
 
-export const mockExpenseData: Expense[] = [
+export const mockExpenseRowData: Expense[] = [
   {
     id: '1',
     isSelected: false,
@@ -195,5 +198,88 @@ export const mockExpenseData: Expense[] = [
     cardAccount: '',
     category: '세금/이자>이자',
     isWaste: false,
+  },
+];
+
+export const mockExpenseColDefs: ColDef<Expense>[] = [
+  { field: 'isSelected', headerName: '선택', editable: true, flex: 0.5 },
+  {
+    field: 'date',
+    headerName: '날짜',
+    editable: true,
+    valueFormatter: (params) => `${dayjs(params.value).format('YYYY.MM.DD')}`,
+    flex: 0.75,
+  },
+  {
+    field: 'place',
+    headerName: '사용처',
+    editable: true,
+    suppressKeyboardEvent,
+    flex: 1,
+  },
+  {
+    field: 'item',
+    headerName: '사용내역',
+    editable: true,
+    suppressKeyboardEvent,
+    flex: 1,
+  },
+  {
+    field: 'cash',
+    headerName: '현금',
+    editable: true,
+    valueFormatter: (params) =>
+      params.value && `₩${params.value.toLocaleString()}`,
+    flex: 1,
+  },
+  {
+    field: 'card',
+    headerName: '카드',
+    editable: true,
+    valueFormatter: (params) =>
+      params.value && `₩${params.value.toLocaleString()}`,
+    flex: 1,
+  },
+  {
+    field: 'cashAccount',
+    headerName: '출금통장',
+    editable: true,
+    cellEditor: 'agSelectCellEditor',
+    cellEditorParams: {
+      values: ['선택없음', '하나주거래통장', '네이버페이머니통장', 'PAYCO'],
+    },
+    valueSetter: (params) => {
+      params.data.cashAccount =
+        params.newValue === '선택없음' ? null : params.newValue;
+      return true;
+    },
+    flex: 1,
+  },
+  {
+    field: 'cardAccount',
+    headerName: '카드분류',
+    editable: true,
+    cellEditor: 'agSelectCellEditor',
+    cellEditorParams: {
+      values: [
+        '선택없음',
+        '네이버페이체크카드',
+        '톡톡 my point 카드',
+        '현대카드ZERO',
+      ],
+    },
+    valueSetter: (params) => {
+      params.data.cardAccount =
+        params.newValue === '선택없음' ? null : params.newValue;
+      return true;
+    },
+    flex: 1,
+  },
+  { field: 'category', headerName: '분류', editable: true, flex: 1 },
+  {
+    field: 'isWaste',
+    headerName: '낭비',
+    editable: true,
+    flex: 0.5,
   },
 ];

@@ -1,4 +1,6 @@
 import dayjs from 'dayjs';
+import { SuppressKeyboardEventParams } from 'ag-grid-community';
+import { Expense } from '@/types/types';
 
 export const displayAmount = (
   amount: number,
@@ -24,3 +26,25 @@ export const formatTick = (amount: number) => {
 
   return amount.toLocaleString();
 };
+
+export const suppressKeyboardEvent = (params: SuppressKeyboardEventParams) => {
+  const event = params.event;
+
+  // This would prevent double tabbing issue when the input is written in Korean.
+  if (event.key === 'Tab') {
+    if (event.isComposing) {
+      return true;
+    }
+  }
+
+  return false;
+};
+
+export const generateNewExpenseInputRow: () => Expense = () => ({
+  id: crypto.randomUUID(),
+  isSelected: false,
+  place: '',
+  item: '',
+  date: new Date(),
+  isWaste: false,
+});
