@@ -1,4 +1,12 @@
-import { displayAmount, formatDate, formatTick } from './utils';
+import MockDate from 'mockdate';
+import { SuppressKeyboardEventParams } from 'ag-grid-community';
+import {
+  displayAmount,
+  formatDate,
+  formatTick,
+  suppressKeyboardEvent,
+  generateNewExpenseInputRow,
+} from './utils';
 
 describe('utils', () => {
   describe('displayAmount()', () => {
@@ -37,6 +45,62 @@ describe('utils', () => {
 
       expect(formatTick(100_000_000_000)).toBe('1,000억');
       expect(formatTick(900_000_000_000)).toBe('9,000억');
+    });
+  });
+
+  describe('suppressKeyboardEvent()', () => {
+    it('suppresses when `Tab` key pressed while composing', () => {
+      const params = {
+        event: {
+          key: 'Tab',
+          isComposing: true,
+        } as KeyboardEvent,
+      } as SuppressKeyboardEventParams;
+
+      expect(suppressKeyboardEvent(params)).toBeTruthy();
+    });
+
+    it('does not suppress when non `Tab` key pressed', () => {
+      const params = {
+        event: {
+          key: 'Enter',
+          isComposing: true,
+        } as KeyboardEvent,
+      } as SuppressKeyboardEventParams;
+
+      expect(suppressKeyboardEvent(params)).toBeFalsy();
+    });
+
+    it('does not suppress when not composing', () => {
+      const params = {
+        event: {
+          key: 'Tab',
+          isComposing: false,
+        } as KeyboardEvent,
+      } as SuppressKeyboardEventParams;
+
+      expect(suppressKeyboardEvent(params)).toBeFalsy();
+    });
+  });
+
+  describe('generateNewExpenseInputRow()', () => {
+    beforeEach(() => {
+      MockDate.set('2024-01-01');
+    });
+
+    afterEach(() => {
+      MockDate.reset();
+    });
+
+    it('generates new expense input row with pre-defined vlaue', () => {
+      const { id, isSelected, place, item, date, isWaste } =
+        generateNewExpenseInputRow();
+      expect(id).toBeDefined();
+      expect(isSelected).toBeFalsy();
+      expect(place).toBe('');
+      expect(item).toBe('');
+      expect(date).toEqual(new Date('2024-01-01'));
+      expect(isWaste).toBeFalsy();
     });
   });
 });
