@@ -191,9 +191,10 @@ exports[`Worksheet > renders Worksheet component 1`] = `
             class="css-1mzsdlz MuiBox-root css-1k9ek97"
           >
             <canvas
-              height="150"
+              height="0"
               role="img"
-              width="300"
+              style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+              width="0"
             />
           </div>
           <div
@@ -4857,9 +4858,10 @@ exports[`Worksheet > renders Worksheet component 1`] = `
           class="css-1mzsdlz MuiBox-root css-1k9ek97"
         >
           <canvas
-            height="150"
+            height="0"
             role="img"
-            width="300"
+            style="display: block; box-sizing: border-box; height: 0px; width: 0px;"
+            width="0"
           />
         </div>
         <div
