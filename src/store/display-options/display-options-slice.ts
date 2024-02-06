@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { RootState } from '../store';
 import { DisplayOptionsState } from './display-options-slice.const';
 
 const initialState: DisplayOptionsState = {
@@ -18,10 +17,12 @@ const displayOptionsSlice = createSlice({
       state.showNavBar = payload;
     },
   },
+  selectors: {
+    selectDisplayOptions: (state) => state,
+  },
 });
 
 export default displayOptionsSlice.reducer;
 
 export const { setShowAmount, setShowNavBar } = displayOptionsSlice.actions;
-
-export const selectDisplayOptions = (state: RootState) => state.displayOptions;
+export const { selectDisplayOptions } = displayOptionsSlice.selectors;

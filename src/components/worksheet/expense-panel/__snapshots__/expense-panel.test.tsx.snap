@@ -2022,7 +2022,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              생활용품&gt;주방/욕실
+                              2
                             </div>
                             <div
                               aria-colindex="10"
@@ -2226,7 +2226,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              식비&gt;간식
+                              1
                             </div>
                             <div
                               aria-colindex="10"
@@ -2430,7 +2430,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              식비&gt;간식
+                              1
                             </div>
                             <div
                               aria-colindex="10"
@@ -2632,7 +2632,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              식비&gt;외식
+                              1
                             </div>
                             <div
                               aria-colindex="10"
@@ -2834,7 +2834,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              생활용품&gt;가구/가전
+                              2
                             </div>
                             <div
                               aria-colindex="10"
@@ -3036,7 +3036,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              건강/문화&gt;보장성보험
+                              4
                             </div>
                             <div
                               aria-colindex="10"
@@ -3238,7 +3238,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              용돈/기타&gt;용돈
+                              9
                             </div>
                             <div
                               aria-colindex="10"
@@ -3442,7 +3442,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              의복/미용&gt;헤어/뷰티
+                              3
                             </div>
                             <div
                               aria-colindex="10"
@@ -3646,7 +3646,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              식비&gt;간식
+                              1
                             </div>
                             <div
                               aria-colindex="10"
@@ -3848,7 +3848,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              식비&gt;주식
+                              1
                             </div>
                             <div
                               aria-colindex="10"
@@ -4050,7 +4050,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                               style="left: 1600px; width: 200px;"
                               tabindex="-1"
                             >
-                              식비&gt;간식
+                              1
                             </div>
                             <div
                               aria-colindex="10"
@@ -6572,7 +6572,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            생활용품&gt;주방/욕실
+                            2
                           </div>
                           <div
                             aria-colindex="10"
@@ -6776,7 +6776,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            식비&gt;간식
+                            1
                           </div>
                           <div
                             aria-colindex="10"
@@ -6980,7 +6980,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            식비&gt;간식
+                            1
                           </div>
                           <div
                             aria-colindex="10"
@@ -7182,7 +7182,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            식비&gt;외식
+                            1
                           </div>
                           <div
                             aria-colindex="10"
@@ -7384,7 +7384,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            생활용품&gt;가구/가전
+                            2
                           </div>
                           <div
                             aria-colindex="10"
@@ -7586,7 +7586,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            건강/문화&gt;보장성보험
+                            4
                           </div>
                           <div
                             aria-colindex="10"
@@ -7788,7 +7788,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            용돈/기타&gt;용돈
+                            9
                           </div>
                           <div
                             aria-colindex="10"
@@ -7992,7 +7992,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            의복/미용&gt;헤어/뷰티
+                            3
                           </div>
                           <div
                             aria-colindex="10"
@@ -8196,7 +8196,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            식비&gt;간식
+                            1
                           </div>
                           <div
                             aria-colindex="10"
@@ -8398,7 +8398,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            식비&gt;주식
+                            1
                           </div>
                           <div
                             aria-colindex="10"
@@ -8600,7 +8600,7 @@ exports[`ExpensePanel > renders ExpensePanel component 1`] = `
                             style="left: 1600px; width: 200px;"
                             tabindex="-1"
                           >
-                            식비&gt;간식
+                            1
                           </div>
                           <div
                             aria-colindex="10"

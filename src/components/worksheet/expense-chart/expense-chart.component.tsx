@@ -11,7 +11,6 @@ import {
   TooltipItem,
 } from 'chart.js';
 
-import { ExpenseCategories } from '@/types/types';
 import { ExpenseChartDatasets } from './expense-chart.const';
 import { formatTick } from './expense-chart.utils';
 import { selectDisplayOptions } from '@/store/display-options/display-options-slice';
@@ -25,7 +24,7 @@ const ExpenseChart = () => {
   const { showNavBar } = useSelector(selectDisplayOptions);
   const theme = useTheme();
 
-  const labels: ExpenseCategories[] = [
+  const labels: string[] = [
     '식비',
     '주거/통신',
     '생활용품',
@@ -36,6 +35,8 @@ const ExpenseChart = () => {
     '경조사/회비',
     '세금/이자',
     '용돈/기타',
+    '저축/보험',
+    '이체/대체',
     '미분류',
   ];
 

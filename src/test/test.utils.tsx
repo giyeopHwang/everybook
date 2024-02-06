@@ -28,3 +28,19 @@ export const renderWithWrapper = (
 
   return { store, ...render(component, { wrapper: Wrapper }) };
 };
+
+export const setupRootState = (preloadedState?: Partial<RootState>) => {
+  return {
+    categories: {
+      expenseCategories: [],
+    },
+    displayOptions: {
+      showAmount: true,
+      showNavBar: true,
+    },
+    expenses: {
+      expenses: [],
+    },
+    ...preloadedState,
+  };
+};

@@ -1,4 +1,5 @@
-import { RootState } from '../store';
+import { setupRootState } from '@/test/test.utils';
+
 import displayOptionsReducer, {
   setShowAmount,
   setShowNavBar,
@@ -46,12 +47,12 @@ describe('displayOptionsSlice', () => {
   describe('selectors', () => {
     describe('selectDisplayOptions', () => {
       it('selects displayOptions', () => {
-        const rootState: RootState = {
+        const rootState = setupRootState({
           displayOptions: {
             showAmount: true,
             showNavBar: true,
           },
-        };
+        });
 
         expect(selectDisplayOptions(rootState)).toEqual({
           showAmount: true,

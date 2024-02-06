@@ -14,7 +14,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: 'PAYCO',
     cardAccount: null,
-    category: '생활용품>주방/욕실',
+    category: '2',
     isWaste: false,
   },
   {
@@ -27,7 +27,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '네이버페이머니통장',
     cardAccount: '네이버페이체크카드',
-    category: '식비>간식',
+    category: '1',
     isWaste: false,
   },
   {
@@ -40,7 +40,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '네이버페이머니통장',
     cardAccount: '네이버페이체크카드',
-    category: '식비>간식',
+    category: '1',
     isWaste: false,
   },
   {
@@ -53,7 +53,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 7_800,
     cashAccount: null,
     cardAccount: '톡톡 my point 카드',
-    category: '식비>외식',
+    category: '1',
     isWaste: true,
   },
   {
@@ -66,7 +66,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 150_000,
     cashAccount: null,
     cardAccount: '톡톡 my point 카드',
-    category: '생활용품>가구/가전',
+    category: '2',
     isWaste: false,
   },
   {
@@ -79,7 +79,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '하나주거래통장',
     cardAccount: null,
-    category: '건강/문화>보장성보험',
+    category: '4',
     isWaste: false,
   },
   {
@@ -92,7 +92,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '하나주거래통장',
     cardAccount: null,
-    category: '용돈/기타>용돈',
+    category: '9',
     isWaste: false,
   },
   {
@@ -105,7 +105,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '네이버페이머니통장',
     cardAccount: '네이버페이체크카드',
-    category: '의복/미용>헤어/뷰티',
+    category: '3',
     isWaste: false,
   },
   {
@@ -118,7 +118,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '네이버페이머니통장',
     cardAccount: '네이버페이체크카드',
-    category: '식비>간식',
+    category: '1',
     isWaste: false,
   },
   {
@@ -131,7 +131,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 13_000,
     cashAccount: null,
     cardAccount: '현대카드ZERO',
-    category: '식비>주식',
+    category: '1',
     isWaste: false,
   },
   {
@@ -144,7 +144,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: 'PAYCO',
     cardAccount: null,
-    category: '식비>간식',
+    category: '1',
     isWaste: true,
   },
   {
@@ -157,7 +157,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 70_000,
     cashAccount: null,
     cardAccount: '톡톡 my point 카드',
-    category: '건강/문화>기타',
+    category: '4',
     isWaste: false,
   },
   {
@@ -170,7 +170,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: 'PAYCO',
     cardAccount: null,
-    category: '생활용품>주방/욕실',
+    category: '2',
     isWaste: true,
   },
   {
@@ -183,7 +183,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '네이버페이머니통장',
     cardAccount: '네이버페이체크카드',
-    category: '주거/통신>기타',
+    category: '1',
     isWaste: false,
   },
   {
@@ -196,7 +196,7 @@ export const mockExpenseRowData: Expense[] = [
     card: 0,
     cashAccount: '하나주거래통장',
     cardAccount: '',
-    category: '세금/이자>이자',
+    category: '8',
     isWaste: false,
   },
 ];
